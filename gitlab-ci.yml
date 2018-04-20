@@ -1,0 +1,11 @@
+image: python:3.5
+
+variables:
+  GIT_SUBMODULE_STRATEGY: normal
+
+before_script:
+  - pip install Sphinx
+
+test:
+  script: 
+  - sphinx-build -nW -b html -d docs/build/doctrees docs/source docs/build/html
