@@ -3,7 +3,7 @@
 <journal-id>
 ============
 
-Mandatory Atributes:
+Mandatory Attributes:
 
   1. ``@journal-id-type``
 
@@ -13,11 +13,9 @@ Mandatory Atributes:
 | :ref:`element-journal-meta` | One or more time   |
 +------------------------------+-------------------+
 
+Have the unique id of the journal indexed and published by a publishing house. Minimamente, o acrônimo do periódico deve ser identificado por meio do valor ``publisher-id``.
 
-
-Contém o identificador único do periódico indexado em uma base de dados ou instituição publicadora. Minimamente, o acrônimo do periódico deve ser identificado por meio do valor ``publisher-id``.
-
-É obrigatório ter ao menos uma ocorrência de ``<journal-id>`` com o valor ``publisher-id`` no atributo ``@journal-id-type``. Nesta ocorrência deve ser identificado o acrônimo do periódico.
+It is mandatory to have at least one element journal ``<journal-id>`` with the value ``publisher-id`` in the attribute ``@journal-id-type``. In this occurency the id should be the journal identifier at Érudit.
 
 The allowed values for ``@journal-id-type`` are:
 

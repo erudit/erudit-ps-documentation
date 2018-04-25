@@ -21,7 +21,7 @@ This guide describes how to use the Markup Style designed by *Érudit* for the s
 The :term:`Érudit Publishing Schema` (:term:`Érudit PS`) is compounded by the following specifications:
 
 * :term:`NISO JATS Journal Publishing DTD` (JATS version `1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`);
-* :term:`Érudit PS Style` containing specialized rules to address Érudit needs.
+* :term:`Érudit PS Style` containing specialized validations to address Érudit needs.
 
 The users of this guide must have mastered :term:`XML` and :term:`DTD`.
 
@@ -33,10 +33,10 @@ Some tooks are being maintained by *SciELO* and *Érudit* following :term:`open 
 
 
  `Packtools <https://github.com/scieloorg/packtools/>`_:
-     A :term:`Python` Library with tools to evaluate documents in XMLs format against rules specified by a Packtooks Catalog Plugin.
+     A :term:`Python` Library with tools to evaluate documents in XMLs format against validations specified by a Packtooks Catalog Plugin.
 
  `Érudit Packtools Catalog <https://gitlab.erudit.org/erudit/production/erudit-ps-packtools-plugin>`_:
-     A :term:`Packtools Catalog Plugin` developed to address the Érudit requirements in the validation of :term:'XML' documents. This plugin implements the rules specified by the :term:`Érudit PS`.
+     A :term:`Packtools Catalog Plugin` developed to address the Érudit requirements in the validation of :term:'XML' documents. This plugin implements the validations specified by the :term:`Érudit PS`.
 
 General Info
 ------------

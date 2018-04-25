@@ -3,7 +3,7 @@
 Attribution Tips for @id
 ========================
 
-Para compose an ``@id``, one must combine the prefix of the type of element with a whole number as shown below:
+To compose an ``@id``, one must combine the prefix of the type of element with a whole number as shown below:
 
 
 +------------------------+---------------------------+---------+---------------------+

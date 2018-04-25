@@ -1,9 +1,9 @@
 .. _xml-encoding:
 
-encoding
+Encoding
 ========
 
-Atribute to specify the character enconding used in the text of the document. For :term:`Érudit PS` all the XMLs must be encoded with :term:`UTF-8`.
+Attribute to specify the character enconding used in the text of the document. For :term:`Érudit PS` all the XMLs must be encoded with :term:`UTF-8`.
 
 The :term:`XML` standard specification (`2.8 Prolog and Document Type Declaration <http://www.w3.org/TR/2000/REC-xml-20001006#sec-prolog-dtd>`_) provides
 more information about the encoding characteristics required for this standard.

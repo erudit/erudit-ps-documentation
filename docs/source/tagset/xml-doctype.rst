@@ -15,7 +15,7 @@ Example *JATS version 1.1*:
 Floating Elements
 =================
 
-Flating elements can appear anywher ein the :term:`document`, be it in :ref:`elemento-article` :ref:`elemento-sub-article` or in :ref:`elemento-response` in the blocks: :ref:`elemento-article-meta` or :ref:`elemento-front-stub`, :ref:`elemento-body` and :ref:`elemento-back`.
+Floating elements can appear anywhere in the :term:`document`, be it in :ref:`element-article` :ref:`element-sub-article` or in :ref:`element-response` in the blocks: :ref:`element-article-meta` or :ref:`element-front-stub`, :ref:`element-body` and :ref:`element-back`.
 
 
 Examples:
