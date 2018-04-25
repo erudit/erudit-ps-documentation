@@ -10,10 +10,10 @@ Mandatory Attributes:
 +------------------------------+-------------------+
 | Contained at                 | Frequency         |
 +==============================+===================+
-| :ref:`element-journal-meta` | One or more time   |
+| :ref:`element-journal-meta`  | One or more time  |
 +------------------------------+-------------------+
 
-Have the unique id of the journal indexed and published by a publishing house. Minimamente, o acrônimo do periódico deve ser identificado por meio do valor ``publisher-id``.
+Have the unique id of the journal indexed and published by a publishing house.
 
 It is mandatory to have at least one element journal ``<journal-id>`` with the value ``publisher-id`` in the attribute ``@journal-id-type``. In this occurency the id should be the journal identifier at Érudit.
 
