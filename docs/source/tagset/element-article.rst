@@ -116,3 +116,5 @@ Example `JATS versão 1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`_:
            ...
 
    </article>
+
+.. {"reviewed_on": "20180426", "by": "fabio.batalha@erudit.org"}

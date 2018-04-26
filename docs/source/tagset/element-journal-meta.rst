@@ -48,3 +48,4 @@ Example:
    </journal-meta>
    ...
 
+.. {"reviewed_on": "201804626", "by": "fabio.batalha@erudit.org"}
