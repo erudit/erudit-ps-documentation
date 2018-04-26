@@ -1,4 +1,4 @@
-.. _elemento-article:
+.. _element-article:
 
 <article>
 =========
@@ -16,7 +16,7 @@ Mandatory  Attributes:
 
 +--------------+-------------+
 | Contained at | Frenquency  |
-+=============+==============+
++==============+=============+
 | ``/``        | Once        |
 +--------------+-------------+
 
@@ -107,7 +107,7 @@ The text language in ``@xml:lang`` is described by the standard :term:`ISO 639-1
 The attribute ``@specific-use`` identifies the :term:`Érudit Publishing Schema` version.
 
 
-Exemplo `JATS versão 1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`_:
+Example `JATS versão 1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`_:
 
 .. code-block:: xml
 
@@ -116,5 +116,3 @@ Exemplo `JATS versão 1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`_:
            ...
 
    </article>
-
-
