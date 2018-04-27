@@ -4,7 +4,7 @@
 ==============
 
 +------------------------+------------+
-| Contained at           | frequency  |
+| Appears in             | frequency  |
 +========================+============+
 | :ref:`element-article` | Once       |
 +------------------------+------------+
@@ -15,10 +15,10 @@ The metadata of the journal is identified at the element ``<journal-meta>``.
 .. note:: 
  * Check the `ISSN <https://portal.issn.org/>`_ portal for journals metadata.
 
-Usual elements found in ``<journal-meta>``:
+Elements found in ``<journal-meta>``:
 
 +----------------------------------------+
-| Tag                                    |
+| Tags                                   |
 +========================================+
 | :ref:`element-journal-id`              |
 +----------------------------------------+

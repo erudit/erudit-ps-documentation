@@ -15,7 +15,7 @@ Mandatory  Attributes:
 .. note:: In the attribute ``@specific-use`` the value **eps-0.1** is only a reference to the version of the *Érudit PS*. this value should be one of the active versions.
 
 +--------------+-------------+
-| Contained at | Frenquency  |
+| Appears in   | Frenquency  |
 +==============+=============+
 | ``/``        | Once        |
 +--------------+-------------+
@@ -115,6 +115,6 @@ Example `JATS versão 1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`_:
 
            ...
 
-   </article>
+    </article>
 
 .. {"reviewed_on": "20180426", "by": "fabio.batalha@erudit.org"}

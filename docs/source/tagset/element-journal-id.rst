@@ -8,7 +8,7 @@ Mandatory Attributes:
   1. ``@journal-id-type``
 
 +------------------------------+-------------------+
-| Contained at                 | Frequency         |
+| Appears in                   | Frequency         |
 +==============================+===================+
 | :ref:`element-journal-meta`  | One or more time  |
 +------------------------------+-------------------+

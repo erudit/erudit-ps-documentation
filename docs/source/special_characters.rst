@@ -1,7 +1,7 @@
 Special Charset Encoding
 ========================
 
-The :term:`Érudit PS` request that the :term:`XML` documents must be encoded as :term:`UTF-8`, and they must have it's enconding explicity identified at the :term:`XML Declaration`.
+The :term:`Érudit PS` requires that the :term:`XML` documents must be encoded as :term:`UTF-8`, and they must have it's enconding explicity identified at the :term:`XML Declaration`.
 
    ``<?xml version="1.0" encoding="utf-8"?>``
 
