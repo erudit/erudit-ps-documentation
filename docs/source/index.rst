@@ -29,7 +29,7 @@ The users of this guide must have mastered :term:`XML` and :term:`DTD`.
 Support Tooks
 -------------
 
-Some tooks are being maintained by *SciELO* and *Érudit* following :term:`open source` polices, to support the process of makup and evaluation of documents in the *XML* format.
+Some tooks are being maintained by *SciELO* and *Érudit* following :term:`open source` polices, to support the process of evaluation of documents in the *XML* format.
 
 
  `Packtools <https://github.com/scieloorg/packtools/>`_:
