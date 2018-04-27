@@ -11,14 +11,18 @@
 
 Contains the elements which identify the metadata related to the title of the journal.
 
-Usual elements found in ``<journal-title-group>``:
+Elements found in ``<journal-title-group>``:
 
 +------------------------------------------+
 | Tags                                     |
 +==========================================+
 | :ref:`element-journal-title`             |
 +------------------------------------------+
-| :ref:`element-journal-abbreviated-title` |
+| :ref:`element-journal-subtitle`          |
++------------------------------------------+
+| :ref:`element-trans-title`               |
++------------------------------------------+
+| :ref:`element-abbrev-journal-title`      |
 +------------------------------------------+
 
 Example:
@@ -30,7 +34,7 @@ Example:
         ...
         <journal-title-group>
             <journal-title>Revue de l'Université de Moncton</journal-title>
-            <journal-abbreviated-title>Rev Univ Mon</journal-abbreviated-title>
+            <abbrev-journal-title>Rev Univ Mon</abbrev-journal-title>
             ...
         </journal-title-group>
         ...
