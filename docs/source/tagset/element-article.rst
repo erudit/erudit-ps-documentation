@@ -22,15 +22,13 @@ Mandatory  Attributes:
 
 
 
-:ref:`element-article` is the root element  of the XML *XML* and should mandatory explicity the attributes  of the :term:`DTD` version, the type of the document, the original language of the text, the :term:`namespace` declaration and the version of the :term:`Érudit PS` being used.
+:ref:`element-article` is the root element  of the XML *XML* and should mandatory explicity the attributes of the :term:`DTD` version, the type of the document, the original language of the text, the :term:`namespace` declaration and the version of the :term:`Érudit PS` being used.
 
 The attribute ``@xmlns:mml="http://www.w3.org/1998/Math/MathML"`` is optional and should be used only when a formula is defined using :term:`MathML`.
 
-For the JATS ``@dtd-version`` it is necessary to define the version 1.1.
+For the JATS ``@dtd-version`` it is necessary to define the version 1.1 of :term:`JATS` :term:`DTD`.
 
 For the ``@article-type`` attribute the allowed values are:
-
-Commentary - A critique or explanatory article, written to discuss, support or debate a previous article or other publication. It can be an article, letter, editorial, etc. These publications can appear as a commentary, editorial comment, point of view, etc.
 
 +--------------------+----------------------------------------------------------+
 | Value              | Description                                              |
@@ -111,10 +109,10 @@ Example `JATS versão 1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`_:
 
 .. code-block:: xml
 
-     <article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1" specific-use="sps-1.8" article-type="research-article" xml:lang="pt">
+     <article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1" specific-use="eps-0.1" article-type="research-article" xml:lang="pt">
 
            ...
 
     </article>
 
-.. {"reviewed_on": "20180426", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20180430", "by": "fabio.batalha@erudit.org"}
