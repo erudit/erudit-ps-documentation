@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Érudit Publishing Schema Documentation'
-copyright = u'2018, Érudit'
-author = u'Érudit'
+project = u'Erudit Publishing Schema Documentation'
+copyright = u'2018, Erudit'
+author = u'Erudit'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -127,7 +127,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ruditPublishingSchemaDocumentation.tex', u'Érudit Publishing Schema Documentation Documentation',
+    (master_doc, 'ruditPublishingSchemaDocumentation.tex', u'Erudit Publishing Schema Documentation Documentation',
      'Érudit', 'manual'),
 ]
 
@@ -137,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'ruditpublishingschemadocumentation', u'Érudit Publishing Schema Documentation Documentation',
+    (master_doc, 'ruditpublishingschemadocumentation', u'Erudit Publishing Schema Documentation Documentation',
      [author], 1)
 ]
 
@@ -148,7 +148,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ruditPublishingSchemaDocumentation', u'Érudit Publishing Schema Documentation Documentation',
+    (master_doc, 'ruditPublishingSchemaDocumentation', u'Erudit Publishing Schema Documentation Documentation',
      author, 'ruditPublishingSchemaDocumentation', 'One line description of project.',
      'Miscellaneous'),
 ]
