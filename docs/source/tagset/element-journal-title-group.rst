@@ -20,7 +20,7 @@ Elements found in ``<journal-title-group>``:
 +------------------------------------------+
 | :ref:`element-journal-subtitle`          |
 +------------------------------------------+
-| :ref:`element-trans-title`               |
+| :ref:`element-trans-title-group`         |
 +------------------------------------------+
 | :ref:`element-abbrev-journal-title`      |
 +------------------------------------------+
