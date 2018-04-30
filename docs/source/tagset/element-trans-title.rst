@@ -10,7 +10,7 @@
 +-----------------------------------+------------+
 
 
-Identifies the translated title of the article or journal. The attribute ``@xml:lang`` should be explicity defined in the parent element :ref:element-trans-title-group, not in ``trans-title``.
+Identifies the translated title of the article or journal. The attribute ``@xml:lang`` should be explicity defined in the parent element :ref:`element-trans-title-group`, not in ``trans-title``.
 
 
 Examples:
