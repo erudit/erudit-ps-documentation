@@ -79,14 +79,13 @@ For the ``@article-type`` attribute the allowed values are:
 | rapid-communication| news.                                                    |
 |                    |                                                          |
 +--------------------+----------------------------------------------------------+
-|                    | Resposta (a carta ou comentário) - Geralmente é usado    |
-| reply              | pelo autor original e contém comentários adicionais a    |
-|                    | outros anteriormente escritos.                           |
+|                    | Reply (a letter or commentary) - Generally done by the   |
+| reply              | original author and contains additional comments to      |
+|                    | others previously written.                               |
 |                    |                                                          |
 +--------------------+----------------------------------------------------------+
-|                    | Reply (a letter or commentary) - Generally done by the   |
-| research-article   | original author and contains additional comments to      |
-|                    | others previously written.                               |
+|                    | Original article - It covers research, clinical and      |
+| research-article   | surgical experiments and/or other original works.        |
 |                    |                                                          | 
 +--------------------+----------------------------------------------------------+
 |                    | Retraction (of a scientific article) - A vehicle for     |
