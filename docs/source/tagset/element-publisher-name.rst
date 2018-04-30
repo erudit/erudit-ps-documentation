@@ -10,7 +10,7 @@
 +----------------------------------+--------------------+
 | :ref:`element-product`           | Zero or more times |
 +----------------------------------+--------------------+
-| :ref:`element-publisher`         | Zero or more times |
+| :ref:`element-publisher`         | One or more times  |
 +----------------------------------+--------------------+
 
 Represents the name of the publishing house or publisher.

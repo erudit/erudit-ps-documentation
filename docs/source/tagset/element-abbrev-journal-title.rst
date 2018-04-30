@@ -5,19 +5,18 @@
 
 Mandatory attributes:
 
-  1. ``@abbrev-type="publisher"``
+  1. ``@abbrev-type="erudit"``
 
-+-------------------------------------+------------+
-| Appears in                          | Frequency  |
-+=====================================+============+
-| :ref:`element-journal-title-group`  | Once       |
-+-------------------------------------+------------+
++-------------------------------------+-------------------------+
+| Appears in                          | Frequency               |
++=====================================+=========================+
+| :ref:`element-journal-title-group`  | Once or more times      |
++-------------------------------------+-------------------------+
 
 
-Specifies the abbreviated form of the journal title according to its :term:`ISSN` record.
+Specifies the abbreviated form of the journal title.
 
-.. note:: 
- * Check the `ISSN <https://portal.issn.org/>`_ website.
+Érudit requires that at least one element ``abbrev-journal-title`` containing the attribute ``@abbrev-type`` with the value **publisher** should be present at the XML. It's content should be the abbreviated journal title as it suggested by Érudit.
 
 Example:
 
@@ -25,8 +24,8 @@ Example:
 
     ...
     <journal-title-group>
-        <abbrev-journal-title abbrev-type="publisher">>Rev Univ de Moncton</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="erudit">Rev Univ de Moncton</abbrev-journal-title>
     </journal-title-group>
     ...
 
-.. {"reviewed_on": "20180427", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20180430", "by": "fabio.batalha@erudit.org"}
