@@ -26,7 +26,7 @@ The :term:`Érudit Publishing Schema` (:term:`Érudit PS`) is compounded by the 
 The users of this guide must have mastered :term:`XML` and :term:`DTD`.
 
 
-Support Tooks
+Support Tools
 -------------
 
 Some tooks are being maintained by *SciELO* and *Érudit* following :term:`open source` polices, to support the process of evaluation of documents in the *XML* format.
