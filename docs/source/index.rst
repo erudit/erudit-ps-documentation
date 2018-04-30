@@ -50,7 +50,7 @@ General Info
 Elements List
 -------------
 
-This list represents only the :term:`XML` elements of the :term:`Érudit PS`. The complete list of :term:`XML` elements of the JATS :term:`tag set` is available at `1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`_.
+This list represents only the :term:`XML` elements of the :term:`Érudit PS`. The complete list of :term:`XML` elements of the JATS :term:`tag set` is available at `JATA 1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`_.
 
 .. toctree::
    :maxdepth: 1
