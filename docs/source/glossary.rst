@@ -18,6 +18,8 @@ Glossary
    Article
       Common abbreviation for a scholarly article. It refers to a :term:`document` of an academic nature which disseminates information and advances in the various areas of knowledge, and results from studies, research, experiments, and practices and theories. An article in the classic sense has various identifying elements such as title, author, affiliation, keywords, abstract, introduction, main body, conclusions regarding the research or study undertaken, bibliographic references, and appendices. Scholarly articles are generally published in academic journals under quality criteria established by the journal publisher. They can also be published as conference proceedings, lectures, seminars and technical meetings.
 
+   Crossref
+      Crossref (formerly styled CrossRef) is an official Digital Object Identifier (DOI) Registration Agency of the International DOI Foundation. It is run by the Publishers International Linking Association Inc.   
 
    Creative Commons
       A US-based, not-for-profit organization with a global network of affiliates which develop cost-free, copyright licenses allowing for the legal sharing and reuse of creativity and knowledge. There are a variety of licenses, each one with differing conditions in relation to what is being licensed and its use. For more information, see `Creative Commons Corporation - About CC <https://creativecommons.org/faq/#what-is-creative-commons-and-what-do-you-do>`_.
