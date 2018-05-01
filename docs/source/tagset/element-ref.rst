@@ -5,7 +5,7 @@
 
 Mandatory attributes:
 
-  1. ``@id`` (ver :ref:`id-attribution-suggestion`)
+  1. ``@id`` (see :ref:`id-attribution-suggestion`)
 
 +--------------------------+-------------------+
 | Appears in               | Frequency         |
@@ -21,12 +21,12 @@ Exemplo:
 
     ...
         <ref-list>
-          <ref id="R1">
+          <ref id="B1">
             <element-citation publication-type="journal">
               ...
             </element-citation>
           </ref>
-          <ref id="R2">
+          <ref id="B2">
             <element-citation publication-type="book">
               ...
             </element-citation>
