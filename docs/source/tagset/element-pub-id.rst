@@ -34,7 +34,7 @@ Some examples of ``@pub-id-type`` are:
 | other  | Any other identifier                  |
 +--------+---------------------------------------+
 
-note::
+.. note::
 
     Even it is not mandatory, Érudit PS expects the presence of ``@pub-id-type=doi`` when the article has one DOI number.
 
