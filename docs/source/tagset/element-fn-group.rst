@@ -9,9 +9,6 @@
 | :ref:`element-back`  | Zero or more times |
 +----------------------+--------------------+
 
-
-``<fn-group>`` faz parte do elemento :ref:`elemento-back` e deve conter todo o grupo de notas de rodapé mencionadas no :term:`documento`, que estão relacionadas com o documento como um todo, não confundir com notas de rodapé relacionadas ao autor. Este elemento pode apresentar um único título identificado com ``<title>`` e uma ou mais notas :ref:`elemento-fn`.
-
 ``<fn-group>`` is part of the element :ref:`element-back` and must contain the entire group of footnotes mentioned in the :term:`document` which are related to the document as a whole. Do not confuse this with footnotes related to the author. This element could have a single title identified with ``<title>`` and must have one or more notes :ref:`element-fn`.
 
 Example:
