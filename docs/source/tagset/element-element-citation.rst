@@ -16,7 +16,7 @@ Mandatory attributes:
 
 
 
-``<element-citation>`` is used to provide a detailed identification of each bibliographic reference, and should only appear as a child of :ref:`elemento-ref`. In addition, it should have the attribute ``@publication-type`` which indicates the type of the publication of the reference.
+``<element-citation>`` is used to provide a detailed identification of each bibliographic reference, and should only appear as a child of :ref:`element-ref`. In addition, it should have the attribute ``@publication-type`` which indicates the type of the publication of the reference.
 
 The possible values for the ``@publication-type`` attribute are:
 
