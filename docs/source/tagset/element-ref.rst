@@ -13,7 +13,7 @@ Mandatory attributes:
 | :ref:`element-ref-list`  | One or more times |
 +--------------------------+-------------------+
 
-This element is used solely to identify references in any format, and describes books, journals, conferences, etc.
+This element is used solely to identify references in any format, and describes books, journals, conferences, etc. This element must have one :ref:`element-element-citation`.
 
 Exemplo:
 
