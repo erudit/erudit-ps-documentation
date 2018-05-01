@@ -22,12 +22,6 @@ This is the final part of the :term:`document` which is made up of:
 +--------------------------+
 | :ref:`element-ack`       |
 +--------------------------+
-| ``app-group``            |
-+--------------------------+
-| ``app-group``            |
-+--------------------------+
-| ``app-group``            |
-+--------------------------+
 | :ref:`element-glossary`  |
 +--------------------------+
 
