@@ -15,14 +15,16 @@ Mandatory Attributes:
 
 Have the unique id of the journal indexed and published by a publishing house.
 
-It is mandatory to have at least one element journal ``<journal-id>`` with the value ``publisher-id`` in the attribute ``@journal-id-type``. In this occurency the id should be the journal identifier at Érudit.
+It is mandatory to have at least one element journal ``<journal-id>`` with the value ``erudit`` in the attribute ``@journal-id-type``. In this occurency the id should be the journal identifier at Érudit.
 
 The allowed values for ``@journal-id-type`` are:
 
 +---------------+-----------------------------------------+
 | Value         | Description                             |
 +===============+=========================================+
-| publisher-id  | Journal id at Érudit database           |
+| erudit        | Journal id at Érudit database           |
++---------------+-----------------------------------------+
+| publisher     | Journal id at publisher                 |
 +---------------+-----------------------------------------+
 
 Example:
@@ -32,7 +34,7 @@ Example:
     ...
     <journal-meta>
         ...
-        <journal-id journal-id-type="publisher-id">rum</journal-id>
+        <journal-id journal-id-type="erudit">rum</journal-id>
         ...
     </journal-meta>
     ...
