@@ -26,7 +26,7 @@ The allowed values for ``@journal-id-type`` are:
 +---------------+-----------------------------------------+
 | publisher     | Journal id at publisher                 |
 +---------------+-----------------------------------------+
-| doi           | Journal id at :ref:`Crossref`           |
+| doi           | Journal id at :term:`Crossref`          |
 +---------------+-----------------------------------------+
 
 Example:
