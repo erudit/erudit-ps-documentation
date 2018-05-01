@@ -36,7 +36,7 @@ Some examples of ``@pub-id-type`` are:
 
 .. note::
 
-    Even it is not mandatory, Érudit PS expects the presence of ``@pub-id-type=doi`` when the article has one DOI number.
+    Even it is not mandatory, Érudit PS expects the presence of ``@pub-id-type=doi`` when the article has a DOI number.
 
 Example:
 
