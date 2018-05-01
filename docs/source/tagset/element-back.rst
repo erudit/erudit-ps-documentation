@@ -4,9 +4,9 @@
 ======
 
 +-----------------------------+------------------+
-| Appears in                  | Ocorre           |
+| Appears in                  | Frequency        |
 +=============================+==================+
-| :ref:`element-article`      | Zero ou one time |
+| :ref:`element-article`      | Zero or one time |
 +-----------------------------+------------------+
 
 
