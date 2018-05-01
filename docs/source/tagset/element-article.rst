@@ -3,7 +3,7 @@
 <article>
 =========
 
-Mandatory  Attributes:
+Mandatory attributes:
 
   1. ``@dtd-version``
   2. ``@article-type``

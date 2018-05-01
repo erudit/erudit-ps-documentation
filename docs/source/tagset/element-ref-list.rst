@@ -36,3 +36,4 @@ Example of a simple ``<ref-list>``:
     ...
 
 
+.. {"reviewed_on": "20180501", "by": "fabio.batalha@erudit.org"}
