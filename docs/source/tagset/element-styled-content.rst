@@ -1,7 +1,7 @@
-.. _element-pub-id:
+.. _element-styled-content:
 
-<pub-id>
-========
+<styled-content>
+================
 
 
 Mandatory attributes:
