@@ -26,6 +26,8 @@ The allowed values for ``@journal-id-type`` are:
 +---------------+-----------------------------------------+
 | publisher     | Journal id at publisher                 |
 +---------------+-----------------------------------------+
+| doi           | Journal id at crossref                  |
++---------------+-----------------------------------------+
 
 Example:
 
@@ -40,4 +42,4 @@ Example:
     ...
 
 
-.. {"reviewed_on": "20180422", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20180501", "by": "fabio.batalha@erudit.org"}
