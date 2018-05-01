@@ -92,8 +92,8 @@ Examples:
 
 .. _element-element-citation-example-2:
 
-2. Capítulo de livro
---------------------
+2. Book Chapter
+---------------
 
 .. code-block:: xml
 
@@ -114,8 +114,8 @@ Examples:
 
 .. _element-element-citation-example-3:
 
-3. Livro
---------
+3. Book
+-------
 
 .. code-block:: xml
 
