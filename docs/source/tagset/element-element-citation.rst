@@ -10,7 +10,7 @@ Mandatory attributes:
 +---------------------+------------+
 | Appears in          | Frequency  |
 +=====================+============+
-| :ref:`element-ref`  | Uma vez    |
+| :ref:`element-ref`  | Once       |
 +---------------------+------------+
 
 
