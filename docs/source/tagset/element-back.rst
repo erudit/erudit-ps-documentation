@@ -16,19 +16,19 @@ This is the final part of the :term:`document` which is made up of:
 +--------------------------+
 | Elements                 |
 +==========================+
-| :ref:`elemento-ref-list` |
+| :ref:`element-ref-list`  |
 +--------------------------+
-| :ref:`elemento-fn-group` |
+| :ref:`element-fn-group`  |
 +--------------------------+
-| :ref:`elemento-ack`      |
-+--------------------------+
-| ``app-group``            |
+| :ref:`element-ack`       |
 +--------------------------+
 | ``app-group``            |
 +--------------------------+
 | ``app-group``            |
 +--------------------------+
-| :ref:`elemento-glossary` |
+| ``app-group``            |
++--------------------------+
+| :ref:`element-glossary`  |
 +--------------------------+
 
 
