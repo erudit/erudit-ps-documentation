@@ -59,6 +59,10 @@ The possible values for the ``@publication-type`` attribute are:
 | newspaper | Identifies newspapers articles.                                  |
 +-----------+------------------------------------------------------------------+
 
+.. note::
+
+    For compatibility with ``Érudit Article`` see :ref:`correlation-tables` section.
+
 Examples:
 
   * :ref:`element-element-citation-example-1`

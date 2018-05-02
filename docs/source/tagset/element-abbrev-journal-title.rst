@@ -16,7 +16,7 @@ Mandatory attributes:
 
 Specifies the abbreviated form of the journal title.
 
-Érudit requires that at least one element ``abbrev-journal-title`` containing the attribute ``@abbrev-type`` with the value **publisher** should be present at the XML. It's content should be the abbreviated journal title as it suggested by Érudit.
+Érudit requires that at least one element ``abbrev-journal-title`` containing the attribute ``@abbrev-type`` with the value **erudit** should be present at the XML. It's content should be the abbreviated journal title as it suggested by Érudit.
 
 Example:
 

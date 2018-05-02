@@ -58,6 +58,7 @@ This list represents only the :term:`XML` elements of the :term:`Érudit PS`. Th
    tagset/xml-encoding
    tagset/xml-doctype
    tagset/id-attribution-tips
+   tagset/correlation-tables
 
 
 .. toctree::
