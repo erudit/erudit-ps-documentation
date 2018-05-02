@@ -1,6 +1,5 @@
 .. _compatibility-reference:
 
-
 Compatibility Reference
 =======================
 
