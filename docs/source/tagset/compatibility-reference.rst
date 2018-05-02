@@ -4,7 +4,7 @@
 Compatibility Reference
 =======================
 
-This section have some tables for compatibility reference between Érudit Article and :term:`Érudit PS`. 
+This section have some tables for compatibility reference between :term:`Érudit Article` and :term:`Érudit PS`. 
 
 
 @publication-type in :ref:`element-element-citation`
@@ -51,26 +51,26 @@ This section have some tables for compatibility reference between Érudit Articl
 
 Values without correlation in Érudit PS:
 
-    * art     Œuvre d'art
-    * audience    Audience
-    * audiovisuel     Documentation audiovisuelle
-    * autre   Autre type de référence bibliographique
-    * brevet  Brevet d'invention
-    * carte   Carte ou plan
-    * classique   Œuvre classique
-    * collectif   Ouvrage collectif
-    * comm    Communication
-    * commperso   Communication personnelle de l’auteur
-    * equation    Équation
-    * figure  Figure
-    * film    Film ou émission radiophonique ou télévisuelle
-    * gouv    Publication gouvernementale
-    * jurisprudence   Jurisprudence
-    * legislation     Législation
-    * manuscrit   Manuscrit
-    * nonpub  Ouvrage non publié
-    * partielivre     Partie d’un livre
-    * prepub  Prépublication
-    * projetloi   Projet de loi
-    * reglementation  Règlementation
-    * tableau     Diagramme ou tableau
+    * art (Œuvre d'art)
+    * audience (Audience)
+    * audiovisuel (Documentation audiovisuelle)
+    * autre (Autre type de référence bibliographique)
+    * brevet (Brevet d'invention)
+    * carte (Carte ou plan)
+    * classique (Œuvre classique)
+    * collectif (Ouvrage collectif)
+    * comm (Communication)
+    * commperso (Communication personnelle de l’auteur)
+    * equation (Équation)
+    * figure (Figure)
+    * film (Film ou émission radiophonique ou télévisuelle)
+    * gouv (Publication gouvernementale)
+    * jurisprudence (Jurisprudence)
+    * legislation (Législation)
+    * manuscrit (Manuscrit)
+    * nonpub (Ouvrage non publié)
+    * partielivre (Partie d’un livre)
+    * prepub (Prépublication)
+    * projetloi (Projet de loi)
+    * reglementation (Règlementation)
+    * tableau (Diagramme ou tableau)

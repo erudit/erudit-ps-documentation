@@ -49,6 +49,10 @@ Glossary
       An :term:`XML` element higher up in the hierarchy to the element in question.
 
 
+   Érudit Article
+
+      `Érudit Schema <http://retro.erudit.org/xsd/article/3.0.0/doc/>`_ used in the production chain and publication process of Érudit collection. 
+
    Érudit PS Style
       Set of rules from the :term:`JATS Publishing` specifications with some adaptations.
 
