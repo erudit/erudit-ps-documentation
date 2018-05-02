@@ -37,7 +37,7 @@ This section have some tables for compatibility reference between :term:`Érudit
 | report    | rapport         |  Identifies a unique technical report, normally authored by an    |
 |           |                 |  institution.                                                     |
 +-----------+-----------------+-------------------------------------------------------------------+
-| software  | logiciel        |  Refers to a software distributed on CDs, DVDs, online media, USB |
+| software  | logiciel,       |  Refers to a software distributed on CDs, DVDs, online media, USB |
 |           | multimedia      |  devices, etc.                                                    |
 +-----------+-----------------+-------------------------------------------------------------------+
 | thesis    | these           |  Characterized by monographs, dissertations or theses to attain an|
