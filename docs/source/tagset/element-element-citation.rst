@@ -61,7 +61,7 @@ The possible values for the ``@publication-type`` attribute are:
 
 .. note::
 
-    For compatibility with ``Érudit Article`` see :ref:`correlation-tables` section.
+    For compatibility with ``Érudit Article`` see :ref:`compatibility-reference` section.
 
 Examples:
 
