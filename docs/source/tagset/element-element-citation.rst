@@ -3,20 +3,17 @@
 <element-citation>
 ==================
 
-Mandatory attributes:
-
-  1. ``@publication-type``
-
 +---------------------+------------+
 | Appears in          | Frequency  |
 +=====================+============+
 | :ref:`element-ref`  | Once       |
 +---------------------+------------+
 
+``<element-citation>`` is used to provide a detailed identification of each bibliographic reference, and should only appear as a child of :ref:`element-ref`. In addition, it could have the attribute ``@publication-type`` which indicates the type of the publication of the reference.
 
+.. note:
 
-
-``<element-citation>`` is used to provide a detailed identification of each bibliographic reference, and should only appear as a child of :ref:`element-ref`. In addition, it should have the attribute ``@publication-type`` which indicates the type of the publication of the reference.
+    For the current version of :term:`Érudit PS`, it is not mandatory to identify the ``@publication-type`` in ``element-citation``, but have in mind in the future this attribute should became mandatory.
 
 The possible values for the ``@publication-type`` attribute are:
 
