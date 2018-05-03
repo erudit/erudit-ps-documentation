@@ -9,22 +9,29 @@
 | :ref:`element-article`      | Zero or one time |
 +-----------------------------+------------------+
 
-
 This is the final part of the :term:`document` which is made up of:
-
 
 +--------------------------+
 | Elements                 |
 +==========================+
-| :ref:`element-ref-list`  |
+| :ref:`element-ack`       |
++--------------------------+
+| :ref:`element-app-group` |
++--------------------------+
+| :ref:`element-bio`       |
 +--------------------------+
 | :ref:`element-fn-group`  |
 +--------------------------+
-| :ref:`element-ack`       |
-+--------------------------+
 | :ref:`element-glossary`  |
 +--------------------------+
+| :ref:`element-ref-list`  |
++--------------------------+
+| :ref:`notes`             |
++--------------------------+
 
+.. note::
+
+  In the context of :term:`Érudit PS` it is not recommended to use the element :ref:`sec` inside the element ``<back>``
 
 Example:
 

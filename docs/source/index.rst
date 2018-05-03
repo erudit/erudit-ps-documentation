@@ -13,8 +13,8 @@ Version 0.1 (Beta) - March 2018.
    :caption: Contents:
 
 
-Introductions
--------------
+Introduction
+------------
 
 This guide describes how to use the Markup Style designed by *Érudit* for the submission of documents in :term:`XML` format.
 
