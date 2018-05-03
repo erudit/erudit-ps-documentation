@@ -13,7 +13,7 @@
 Represents the group of bibliographic references in an article, and must contain the
 element :ref:`element-ref` which, in turn, contains the element :ref:`element-element-citation`.
 
-In ``<ref-list>``, a label should could inserted using the element ``<title>`` identifying the section of the text.
+In ``<ref-list>``, a title could be inserted using the element ``<title>``.
 
 .. _element-ref-list-example-1:
 
