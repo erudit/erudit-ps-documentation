@@ -20,7 +20,7 @@ Specifies the abbreviated form of the journal title.
 
 .. note::
 
-    The Érudit Journal ID should be defined at the :ref:`element-journal-id`, not in the ``abbrev-journal-title``. 
+    The Érudit Journal ID should be defined in the element :ref:`element-journal-id`, not in the ``abbrev-journal-title``. 
 
 Example:
 
