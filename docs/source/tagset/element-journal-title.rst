@@ -3,6 +3,10 @@
 <journal-title>
 ===============
 
+Mandatory attributes:
+
+  * ``@xml:lang``
+
 +-------------------------------------+------------+
 | Appears in                          | Frequency  |
 +=====================================+============+
@@ -15,16 +19,16 @@ Example:
 
 .. code-block:: xml
 
+  ...
+  <journal-meta>
     ...
-    <journal-meta>
-        ...
-        <journal-title-group>
-            <journal-title>Revue de l'Université de Moncton</journal-title>
-            ...
-        </journal-title-group>
-        ...
-    </journal-meta>
+    <journal-title-group>
+      <journal-title>Revue de l'Université de Moncton</journal-title>
+      ...
+    </journal-title-group>
     ...
+  </journal-meta>
+  ...
 
 
 .. {"reviewed_on": "20180427", "by": "fabio.batalha@erudit.org"}
