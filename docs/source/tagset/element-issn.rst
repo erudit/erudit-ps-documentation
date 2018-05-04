@@ -33,7 +33,7 @@ The allowed values for  ``@pub-type`` are:
 
 If available, both ISSN’s should be identified.
 
-Exemplos:
+Examples:
 
  * :ref:`element-issn-example-1`
  * :ref:`element-issn-example-2`

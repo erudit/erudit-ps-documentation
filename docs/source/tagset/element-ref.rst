@@ -15,7 +15,7 @@ Mandatory attributes:
 
 This element is used solely to identify references in any format, and describes books, journals, conferences, etc. This element must have one element :ref:`element-element-citation`.
 
-Exemplo:
+Example:
 
 .. code-block:: xml
 
