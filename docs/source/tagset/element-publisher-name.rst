@@ -17,11 +17,11 @@ Represents the name of the publishing house or publisher.
 
 Examples:
 
-  * :ref:`element-pub-name-exemplo-1`
-  * :ref:`element-pub-name-exemplo-2`
+  * :ref:`element-pub-name-example-1`
+  * :ref:`element-pub-name-example-2`
 
 
-.. _element-pub-name-exemplo-1:
+.. _element-pub-name-example-1:
 
 Example of ``<publisher-name>`` in ``<journal-meta>``:
 ------------------------------------------------------
@@ -34,7 +34,7 @@ Example of ``<publisher-name>`` in ``<journal-meta>``:
     </publisher>
     ...
 
-.. _element-pub-name-exemplo-2:
+.. _element-pub-name-example-2:
 
 Example of ``<publisher-name>`` in ``<element-citation>``:
 ----------------------------------------------------------
