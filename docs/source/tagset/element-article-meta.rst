@@ -9,7 +9,7 @@
 | :ref:`element -front` | Once       |
 +-----------------------+------------+
 
-Have de :term:`Document` metadata, which basic elements are:
+Have the :term:`Document` metadata, which basic elements are:
 
 +------------------------------------------------------------------------------+
 | Tag                                                                          |
