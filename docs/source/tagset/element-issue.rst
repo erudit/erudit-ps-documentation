@@ -28,10 +28,10 @@ Examples:
 
 .. _element-issue-example-1:
 
-Exemplo de número em um fascíulo:
----------------------------------
+Example of a issue number:
+--------------------------
 
-Refere-se ao fascículo: volume 56, número 4 (v56n4)
+Refers to the issue: volume 56, número 4
 
 
 .. code-block:: xml
@@ -51,12 +51,12 @@ Refere-se ao fascículo: volume 56, número 4 (v56n4)
 
 
 
-.. _elemento-issue-exemplo-2:
+.. _element-issue-example-2:
 
-Exemplo 1:  suplemento de número:
----------------------------------
+Example of supplement of number:
+--------------------------------
 
-Refere-se ao fascículo: volume 10, número 4, suplemento (v10n4s0)
+Refers to: volume 10, número 4, supplement
 
 
 .. code-block:: xml
@@ -76,11 +76,12 @@ Refere-se ao fascículo: volume 10, número 4, suplemento (v10n4s0)
 
 
 
-.. _elemento-issue-exemplo-3:
+.. _element-issue-example-3:
 
-Exemplo 2: suplemento de número:
---------------------------------
-Refere-se ao fascículo: volume 10, número 4, suplemento 2 (v10n4s2)
+Example of supplent of number:
+------------------------------
+
+Refers to the issue: volume 10, número 4, supplement 2
 
 
 .. code-block:: xml
@@ -100,12 +101,12 @@ Refere-se ao fascículo: volume 10, número 4, suplemento 2 (v10n4s2)
 
 
 
-.. _elemento-issue-exemplo-4:
+.. _element-issue-example-4:
 
-Exemplo 1: suplemento de volume:
+Example of supplement of volume:
 --------------------------------
 
-Refere-se ao fascículo: volume 54, suplemento (v54s0)
+Refers to the issue: volume 54, supplement
 
 .. code-block:: xml
 
@@ -123,12 +124,12 @@ Refere-se ao fascículo: volume 54, suplemento (v54s0)
     ...
 
 
-.. _elemento-issue-exemplo-5:
+.. _element-issue-example-5:
 
-Exemplo 2: suplemento de volume:
+Example of supplement of volume:
 --------------------------------
 
-Refere-se ao fascículo: volume 54, suplemento 1 (v54s1)
+Refers to the issue: volume 54, supplement 1
 
 .. code-block:: xml
 
@@ -145,12 +146,12 @@ Refere-se ao fascículo: volume 54, suplemento 1 (v54s1)
     </front>
     ...
 
-.. _elemento-issue-exemplo-6:
+.. _element-issue-example-6:
 
-Exemplo 1: número especial
----------------------------
+Example of special number
+-------------------------
 
-Refere-se ao fascículo: volume 25, número especial (v25nspe)
+Refers to the issue: volume 25, número especial
 
 .. code-block:: xml
 
@@ -168,12 +169,12 @@ Refere-se ao fascículo: volume 25, número especial (v25nspe)
     ...
 
 
-.. _elemento-issue-exemplo-7:
+.. _element-issue-example-7:
 
-Exemplo 2: número especial
----------------------------
+Example of special number
+-------------------------
 
-Refere-se ao fascículo: volume 25, número especial 2 (v25nspe2)
+Refers to the issue: volume 25, número especial 2
 
 .. code-block:: xml
 
@@ -191,10 +192,10 @@ Refere-se ao fascículo: volume 25, número especial 2 (v25nspe2)
     ...
 
 
-.. _elemento-issue-exemplo-8:
+.. _element-issue-example-8:
 
-Exemplo de número em <element-citation>:
-----------------------------------------
+Example of issue in :ter:`element-citation`:
+---------------------------------------
 
 Refere-se a um número em uma referência
 
@@ -204,12 +205,9 @@ Refere-se a um número em uma referência
     ...
     <ref id="B01">
         ...
-        <source>SciELO Journal</source>
+        <source>Journal Title</source>
         <volume>16</volume>
         <issue>3</issue>
         ...
     </ref>
     ...
-
-
-.. note:: Se o periódico publicar mais de um suplemento ou número especial por ano, recomenda-se publicar informando a numeração do suplemento ou número especial (exemplos 2). Se apenas publicar um ao ano, não informe numeração no suplemento ou número especial (exemplos 1).
