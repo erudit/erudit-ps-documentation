@@ -18,7 +18,7 @@ Represents the volume of a publication.
 
 .. note:
 
-  Do not use this element to identify a supplement.
+  Do not use this element to identify a supplement. See :ref:`element-issue` for supplement numbers.
 
 Examples:
 
