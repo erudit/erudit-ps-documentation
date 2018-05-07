@@ -5,7 +5,7 @@
 
 Mandatory attributes:
 
-  1. ``@id`` (See :ref:`id-attribution-suggestion`)
+  1. ``@id`` (See :ref:`id-attribution-tips`)
 
 +-----------------+--------------------+
 | Appears in      | Frenquency         |
