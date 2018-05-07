@@ -13,9 +13,11 @@ Mandatory attributes:
 | ``<app-group>`` | Zero or more times |
 +-----------------+--------------------+
 
-Utilizado para indicar um apêndice ao documento. Exige o elemento :ref:`elemento-label` como título do apêndice. O elemento ``<app-group>`` deve sempre ser usado como agrupador do elemento ``<app>`` mesmo se houver somente uma ocorrência deste último.
+Used to indicate an appendix to the document. The element :ref:`label` or :ref:`title` could be present to describe the title of the appendix. The element :ref:`app-group` must always be used to group the ``<app>`` element even if there is only one occurrence of it.
 
-Used to indicate an appendix to the document. The element :ref:`label` could be present to describe the title of the appendix. The element :ref:`app-group` must always be used to group the ``<app>`` element even if there is only one occurrence of it.
+.. note::
+
+  According to JATS rules, one of :ref:`label` or :ref:`title` should be available in ``<app>``
 
 Examples:
 
@@ -121,7 +123,7 @@ Example of an appendix with a table
     ...
 
 
-.. _elemento-app-exemplo-5:
+.. _element-app-example-5:
 
 Example of an appendix with mixed content (figure and table)
 ------------------------------------------------------------
