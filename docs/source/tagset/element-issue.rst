@@ -194,8 +194,8 @@ Refers to the issue: volume 25, número especial 2
 
 .. _element-issue-example-8:
 
-Example of issue in :ter:`element-citation`:
----------------------------------------
+Example of issue in :ref:`element-citation`:
+--------------------------------------------
 
 Refers to an issue in a reference
 
