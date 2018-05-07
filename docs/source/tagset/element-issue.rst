@@ -197,7 +197,7 @@ Refers to the issue: volume 25, número especial 2
 Example of issue in :ter:`element-citation`:
 ---------------------------------------
 
-Refere-se a um número em uma referência
+Refers to an issue in a reference
 
 .. code-block:: xml
 
