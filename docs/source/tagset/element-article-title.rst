@@ -13,8 +13,8 @@
 
 Used in :ref:`element-title-group` to identify the title of the article, or to specify the title of a document appearing in the references in :ref:`element-element-citation`.
 
-* In :ref:`element-title-group`, the attribute @xml:lang should be used. Even it is not mandatory, it is :term:`Érudit PS` recomendation.
-* In :ref:`element-element-citation` the attribute @xml:lang should not be used.
+* In :ref:`element-title-group`, the attribute ``@xml:lang`` should be used. Even it is not mandatory, it is an :term:`Érudit PS` recomendation.
+* In :ref:`element-element-citation` the attribute ``@xml:lang`` should not be used.
 
 .. note::
 
