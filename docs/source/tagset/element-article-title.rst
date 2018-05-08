@@ -31,6 +31,7 @@ Example of ``<article-title>`` in :ref:`element-article-meta`:
 --------------------------------------------------------------
 
 .. code-block:: xml
+
     ...
     <article-meta>
       ...
@@ -48,10 +49,12 @@ Example of ``<article-title>`` in :ref:`element-element-citation`:
 
 .. code-block:: xml
 
+    ...
     <element-citation publication-type="journal">
          ...
        <article-title>La langue française dans sa diversité.</article-title>
          ...
     </element-citation>
+    ...
 
 .. {"reviewed_on": "20180508", "by": "fabio.batalha@erudit.org"}
