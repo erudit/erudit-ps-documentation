@@ -10,7 +10,7 @@ Mandatory attributes:
 +-------------------------------+--------------------+
 | Appears in                    | Frenquency         |
 +===============================+====================+
-| :ref:`elemento-article-meta`  | Zero or more times |
+| :ref:`element-article-meta`   | Zero or more times |
 +-------------------------------+--------------------+
 
 
