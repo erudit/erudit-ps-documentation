@@ -48,14 +48,17 @@ Example of title in the main language and translated titles:
 .. code-block:: xml
 
     ...
-    <title-group>
-        <article-title xml:lang="es">Conocimientos de los pediatras sobre la laringomalacia: ¿siempre es un proceso banal?</article-title>
-        <trans-title-group xml:lang="en">
-            <trans-title>Pediatrician knowledge about laryngomalacia: is it always a banal process?</trans-title>
-        </trans-title-group>
-    </title-group>
+    <article-meta>
+      ...
+      <title-group>
+          <article-title xml:lang="es">Conocimientos de los pediatras sobre la laringomalacia: ¿siempre es un proceso banal?</article-title>
+          <trans-title-group xml:lang="en">
+              <trans-title>Pediatrician knowledge about laryngomalacia: is it always a banal process?</trans-title>
+          </trans-title-group>
+      </title-group>
+      ...
+    </article-meta>
     ...
-    
 
 
 .. {"reviewed_on": "20180508", "by": "fabio.batalha@erudit.org"}
