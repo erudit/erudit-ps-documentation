@@ -54,3 +54,4 @@ Example of ``<article-title>`` in :ref:`element-element-citation`:
          ...
     </element-citation>
 
+.. {"reviewed_on": "20180508", "by": "fabio.batalha@erudit.org"}
