@@ -12,8 +12,6 @@ Mandatory attribute:
 +==============================+====================+
 | :ref:`element-article-meta`  | Zero or more times |
 +------------------------------+--------------------+
-| :ref:`element-front-stub`    | Zero or more times |
-+------------------------------+--------------------+
 
 Identifies the group of article keywords by language. It must contain the attribute ``@xml:lang``. ``<kwd-group>``, it must have a title identifying the group by
 means of the <title> element, and it must have at least one element :ref:`kwd` inside ``<kwd-group>``.
