@@ -29,7 +29,7 @@ Examples:
 Example of structured ``<trans-abstract>``:
 -------------------------------------------
 
-The **Structured format** has groups of text arranged in sections identified with a title (For example: Introduction, Objectives, Methodology and Results).
+The **Structured** format has groups of text arranged in sections identified with a title (For example: Introduction, Objectives, Methodology and Results).
 
 Example:
 
