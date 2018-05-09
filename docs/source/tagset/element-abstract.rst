@@ -24,7 +24,7 @@ Examples:
 
 .. _element-abstract-example-1:
 
-Example fo simple ``<abstract>``:
+Example of simple ``<abstract>``:
 ---------------------------------
 
 The **simple** format presents a brief summary of the main points of the article without division into sections.
