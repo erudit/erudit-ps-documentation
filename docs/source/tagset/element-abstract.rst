@@ -52,7 +52,7 @@ Example:
     ...
 
 
-.. _element-transabstract-example-2:
+.. _element-abstract-example-2:
 
 Example fo simple ``<trans-abstract>``:
 ---------------------------------------
@@ -62,7 +62,7 @@ The **simple** format presents a brief summary of the main points of the article
 Example:
 
   .. code-block:: xml
-  
+
     ...
     <article-meta>
       ...
