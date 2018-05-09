@@ -36,11 +36,8 @@ Some examples of ``@pub-id-type`` are:
 
 .. note::
 
-    Even it is not mandatory, Érudit PS expects the presence of ``@pub-id-type=doi`` when the article has a DOI number.
-
-.. note::
-
-    :term:`Érudit PS` expects to receive the DOI numbers in its raw form. It means will not be accepted any content like http://dx.doi.org/10.7202/1031001ar, but only  10.7202/1031001ar
+    * Even it is not mandatory, Érudit PS expects the presence of ``@pub-id-type=doi`` when the article has a DOI number.
+    * :term:`Érudit PS` expects to receive the DOI numbers in its raw form. It means will not be accepted any content like http://dx.doi.org/10.7202/1031001ar, but only  10.7202/1031001ar
 
 Example:
 
