@@ -24,6 +24,27 @@ Examples:
 
 .. _element-transabstract-example-1:
 
+Example of simple ``<trans-abstract>``:
+---------------------------------------
+
+The **simple** format presents a brief summary of the main points of the article without division into sections.
+
+Example:
+
+.. code-block:: xml
+
+    ...
+    <article-meta>
+      ...
+      <trans-abstract xml:lang="en">
+        <p>This article analyses the language ideological debate surrounding the relationship between the future of the Canadian Francophonie, the quality of the language, and the duty of young people to preserve it. The idea that young people in particular are responsible for the deterioration of a language is part of an old and recurring discourse. We examine its resurgence between the fall of 2012 and the spring of 2013 in Acadie, as seen in media texts that share strong argumentative similarities. Through a critical approach, we show that the positions staked out in this debate draw their legitimacy and authority from the ideological foundations of modern political nationalism, which construe language as the central feature of identity and language proficiency as a skill that is accessible to all.</p>
+      </trans-abstract>
+      ...
+    </article-meta>
+    ...
+
+.. _element-transabstract-example-2:
+
 Example of structured ``<trans-abstract>``:
 -------------------------------------------
 
@@ -48,28 +69,6 @@ Example:
             </sec>
         </trans-abstract>
         ...
-    </article-meta>
-    ...
-
-
-.. _element-transabstract-example-2:
-
-Example fo simple ``<trans-abstract>``:
----------------------------------------
-
-The **simple** format presents a brief summary of the main points of the article without division into sections.
-
-Example:
-
-.. code-block:: xml
-
-    ...
-    <article-meta>
-      ...
-      <trans-abstract xml:lang="en">
-        <p>This article analyses the language ideological debate surrounding the relationship between the future of the Canadian Francophonie, the quality of the language, and the duty of young people to preserve it. The idea that young people in particular are responsible for the deterioration of a language is part of an old and recurring discourse. We examine its resurgence between the fall of 2012 and the spring of 2013 in Acadie, as seen in media texts that share strong argumentative similarities. Through a critical approach, we show that the positions staked out in this debate draw their legitimacy and authority from the ideological foundations of modern political nationalism, which construe language as the central feature of identity and language proficiency as a skill that is accessible to all.</p>
-      </trans-abstract>
-      ...
     </article-meta>
     ...
 

@@ -24,6 +24,28 @@ Examples:
 
 .. _element-abstract-example-1:
 
+Example fo simple ``<abstract>``:
+---------------------------------
+
+The **simple** format presents a brief summary of the main points of the article without division into sections.
+
+Example:
+
+  .. code-block:: xml
+
+    ...
+    <article-meta>
+      ...
+      <abstract xml:lang="fr">
+        <title>Résumé</title>
+        <p>Cet article a pour objectif d’analyser un débat linguistique idéologique centré sur le rapport établi entre l’avenir de la francophonie canadienne, la qualité de la langue et le devoir de la jeunesse en la matière. L’idée que la jeunesse serait particulièrement responsable de la dégradation de la langue fait l’objet d’un discours ancien et sans cesse redéployé. Nous proposons une approche critique de son actualisation récente en Acadie, telle qu’elle s’est manifestée dans des publications médiatiques aux parentés argumentatives fortes, entre l’automne 2012 et le printemps 2013. Afin d’objectiver les prises de position, nous montrons qu’elles puisent légitimité et autorité dans les fondements idéologiques du nationalisme politique moderne, qui font de la langue le ciment de l’identité collective et de sa « bonne maîtrise » une compétence accessible sur base démocratique.</p>
+      </abstract>
+      ...
+    </article-meta>
+    ...
+
+.. _element-abstract-example-2:
+
 Example of structured ``<abstract>``:
 -------------------------------------
 
@@ -46,29 +68,6 @@ Example:
           <title>Métodos</title>
           <p>Durante quatro meses foram selecionados, consecutivamente, indivíduos com indicação para broncoscopia. Todos efetuaram avaliação clínica, preenchimento de escala de dispneia, curva de fluxo-volume e broncoscopia num intervalo de uma semana. Quatro revisores classificaram a morfologia da curva sem conhecimento dos dados quantitativos, clínicos e broncoscopicos. Um quinto revisor averiguou os critérios morfológicos e quantitativos.</p>
         </sec>
-      </abstract>
-      ...
-    </article-meta>
-    ...
-
-
-.. _element-abstract-example-2:
-
-Example fo simple ``<abstract>``:
----------------------------------
-
-The **simple** format presents a brief summary of the main points of the article without division into sections.
-
-Example:
-
-  .. code-block:: xml
-
-    ...
-    <article-meta>
-      ...
-      <abstract xml:lang="fr">
-        <title>Résumé</title>
-        <p>Cet article a pour objectif d’analyser un débat linguistique idéologique centré sur le rapport établi entre l’avenir de la francophonie canadienne, la qualité de la langue et le devoir de la jeunesse en la matière. L’idée que la jeunesse serait particulièrement responsable de la dégradation de la langue fait l’objet d’un discours ancien et sans cesse redéployé. Nous proposons une approche critique de son actualisation récente en Acadie, telle qu’elle s’est manifestée dans des publications médiatiques aux parentés argumentatives fortes, entre l’automne 2012 et le printemps 2013. Afin d’objectiver les prises de position, nous montrons qu’elles puisent légitimité et autorité dans les fondements idéologiques du nationalisme politique moderne, qui font de la langue le ciment de l’identité collective et de sa « bonne maîtrise » une compétence accessible sur base démocratique.</p>
       </abstract>
       ...
     </article-meta>
