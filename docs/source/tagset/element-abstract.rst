@@ -24,8 +24,8 @@ Examples:
 
 .. _element-abstract-example-1:
 
-Example of structured ``<trans-abstract>``:
--------------------------------------------
+Example of structured ``<abstract>``:
+-------------------------------------
 
 The **Structured format** has groups of text arranged in sections identified with a title (For example: Introduction, Objectives, Methodology and Results).
 
@@ -54,8 +54,8 @@ Example:
 
 .. _element-abstract-example-2:
 
-Example fo simple ``<trans-abstract>``:
----------------------------------------
+Example fo simple ``<abstract>``:
+---------------------------------
 
 The **simple** format presents a brief summary of the main points of the article without division into sections.
 
