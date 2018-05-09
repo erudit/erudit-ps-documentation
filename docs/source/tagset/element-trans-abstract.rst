@@ -12,8 +12,6 @@ Mandatory attributes:
 +==============================+====================+
 | :ref:`element-article-meta`  | Zero or more times |
 +------------------------------+--------------------+
-| :ref:`element-front-stub`    | Zero or more times |
-+------------------------------+--------------------+
 
 Contains the article translated abstract, if it exists, and displays simple or structured formats in the same way as element :ref:`element-abstract`. It should be inserted immediately after :ref:`element-abstract` and must have the attribute @xml:lang.
 
