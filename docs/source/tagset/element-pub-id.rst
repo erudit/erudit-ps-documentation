@@ -48,9 +48,7 @@ Example:
       <styled-content specific-use="display">
         Blommaert, J. (1999). Language Ideological Debates. Berlin : Mouton de Gruyter.
       </styled-content>
-      <pub-id pub-id-type="doi">
-        https://doi.org/10.1515/9783110808049
-      </pub-id>           
+      <pub-id pub-id-type="doi">10.1515/9783110808049</pub-id>
     </element-citation>
     ...
 

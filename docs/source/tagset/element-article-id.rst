@@ -30,6 +30,19 @@ As best practice :term:`Érudit PS` requests the use of at least one of the foll
 | publisher-id       | Érudit Article ID.                                    |
 +--------------------+-------------------------------------------------------+
 
+Example:
+
+.. code-block:: xml
+
+    ...
+    <article-meta>
+        ...
+        <article-id pub-id-type="publisher-id">1031001ar</article-id>
+        <article-id pub-id-type="doi">10.7202/1031001ar</article-id>
+        ...
+    </article-meta>
+    ...
+
 .. note::
 
     :term:`Érudit PS` expects to receive the DOI numbers in its raw form. It means will not be accepted any content like http://dx.doi.org/10.7202/1031001ar, but only  10.7202/1031001ar
