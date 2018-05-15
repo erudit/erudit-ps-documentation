@@ -6,7 +6,7 @@
 +-----------------------------+--------------------+
 | Appears in                  | Frequency          |
 +=============================+====================+
-| :ref:`elemento-permissions` | Zero or more times |
+| :ref:`element-permissions`  | Zero or more times |
 +-----------------------------+--------------------+
 
 Describes the person or institution holding the copyright, and is normally used in conjunction with the symbol © and year.

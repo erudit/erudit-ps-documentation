@@ -6,7 +6,7 @@
 +-----------------------------+--------------------+
 | Appears in                  | Frequency          |
 +=============================+====================+
-| :ref:`elemento-permissions` | Zero or more times |
+| :ref:`element-permissions`  | Zero or more times |
 +-----------------------------+--------------------+
 
 Identifies the year of copyright as four digits without spaces.
