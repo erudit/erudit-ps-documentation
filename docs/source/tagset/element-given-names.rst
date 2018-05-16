@@ -21,5 +21,4 @@ Identifies the author’s first name, in other words, all the names except for s
   </name>
   ...
 
-
 .. {"reviewed_on": "20180516", "by": "fabio.batalha@erudit.org"}
