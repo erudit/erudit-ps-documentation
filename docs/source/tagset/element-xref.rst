@@ -90,14 +90,14 @@ Example of ``<xref>`` in ``<article-meta>``:
             <contrib contrib-type="author">
                 <name>
                     <surname>Lacerda</surname>
-                    <given-names>Marcus VG</given-names>
+                    <given-names>Marcus Vale</given-names>
                 </name>
                 <xref ref-type="aff" rid="aff1">1</xref>
             </contrib>
             <aff id="aff1">
                 <label>1</label>
                 <institution content-type="orgname">Universidade do Estado do Amazonas</institution>
-                <country country="BR">Brasil</country>
+                <country country="BR">Brazil</country>
                 <institution content-type="original">Universidade do Estado do Amazonas, Manaus, AM, Brasil</institution>
             </aff>
             ...
@@ -130,13 +130,14 @@ Example of ``<xref>`` related to a figure in the text:
 
 .. code-block:: xml
 
-    <p>Check in <xref ref-type="fig" rid="f01">Figure</xref>:</p>
+    <p>Check in <xref ref-type="fig" rid="f01">Figure 1</xref></p>
+    ...
     <p>
         <fig id="f01">
             <caption>
                 <title>Environmental <italic>in situ</italic> conditions during the study period.</title>
             </caption>
-            <graphic xlink:href="0074-0276-mioc-0074-0276140068-gf01"/>
+            <graphic xlink:href="image.tif"/>
         </fig>
     </p>
 
@@ -162,7 +163,7 @@ Example ``<xref>`` without content:
       </contrib>
     </contrib-group>
     <aff id="aff1">
-      <institution content-type="orgname">Fundação Getúlio Vargas</institution>
+      <institution>Fundação Getúlio Vargas</institution>
       <institution content-type="orgdiv1">EAESP</institution>
       <country country="BR">Brazil</country>
       <institution content-type="original">Fundação Getúlio Vargas - FGV-EAESP, Av. 9 de Julho, 2029, Bela Vista, 01313-902, São Paulo, SP, Brazil.</institution>
