@@ -26,14 +26,18 @@ Example of ``<name>`` in ``<contrib>``:
 
 .. code-block:: xml
 
-   ...
-   <contrib contrib-type="author">
-        <name>
-             <surname>Amon</surname>
-             <given-names>Joseph J.</given-names>
-        </name>
-   </contrib>
-   ...
+  ...
+  <contrib-group contrib-type="author">
+    ...
+    <contrib contrib-type="person">
+      <name>
+        <surname>Amon</surname>
+        <given-names>Joseph J.</given-names>
+      </name>
+    </contrib>
+    ...
+  </contrib-group>
+  ...
 
 
 .. _element-name-example-2:
@@ -43,14 +47,17 @@ Example of ``<name>`` in ``<person-group>``:
 
 .. code-block:: xml
 
-   ...
-   <person-group person-group-type="author">
-        <name>
-             <surname>Silva</surname>
-             <given-names>Jaqueline Figueiredo da</given-names>
-        </name>
-   </person-group>
-   ...
-
+ ...
+  <contrib-group contrib-type="author">
+    ...
+    <person-group person-group-type="person">
+      <name>
+        <surname>Silva</surname>
+        <given-names>Jaqueline Figueiredo da</given-names>
+      </name>
+    </person-group>
+    ...
+  </contrib-group>
+  ...
 
 .. {"reviewed_on": "20180516", "by": "fabio.batalha@erudit.org"}
