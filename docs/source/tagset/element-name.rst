@@ -13,6 +13,10 @@
 
 The element ``<name>`` is used to specify the personal name of a contributing author. The possible elements in ``<name>`` are: :ref:`element-surname`, :ref:`element-given-names`, :ref:`element-prefix`, :ref:`element-suffix`, and must be used in this same sequence.
 
+.. note::
+
+  Érudit PS requests that the authors name must be filled without any kind of abbreviation.
+
 Examples:
 
   * :ref:`element-name-example-1`

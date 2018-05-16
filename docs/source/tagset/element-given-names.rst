@@ -11,6 +11,10 @@
 
 Identifies the author’s first name, in other words, all the names except for surname.
 
+.. note::
+
+  Érudit PS requests that the authors name must be filled without any kind of abbreviation.
+
 .. code-block:: xml
 
   ...
