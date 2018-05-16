@@ -40,7 +40,8 @@ Example:
     <contrib-group content-type="author">
       <contrib contrib-type="person">
         <name>
-          <surname>Church</surname><given-names>Deanna M.</given-names>
+          <surname>Church</surname>
+          <given-names>Deanna Mary</given-names>
         </name>
         <xref ref-type="aff" rid="aff1"/>
       </contrib>
@@ -50,12 +51,14 @@ Example:
           <contrib-group>
             <contrib>
               <name>
-                <surname>Kelly</surname><given-names>Laura A.</given-names>
+                <surname>Kelly</surname>
+                <given-names>Laura Ane</given-names>
               </name>
             </contrib>
             <contrib>
               <name>
-                <surname>Randall</surname><given-names>Daniel Lee</given-names>
+                <surname>Randall</surname>
+                <given-names>Daniel Lee</given-names>
                 <suffix>Jr.</suffix>
               </name>
             </contrib>

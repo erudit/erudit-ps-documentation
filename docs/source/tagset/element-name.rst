@@ -31,8 +31,8 @@ Example of ``<name>`` in ``<contrib>``:
     ...
     <contrib contrib-type="person">
       <name>
-        <surname>Amon</surname>
-        <given-names>Joseph J.</given-names>
+        <surname>Randall</surname>
+        <given-names>Daniel Lee</given-names>
       </name>
     </contrib>
     ...
@@ -52,8 +52,8 @@ Example of ``<name>`` in ``<person-group>``:
     ...
     <person-group person-group-type="person">
       <name>
-        <surname>Silva</surname>
-        <given-names>Jaqueline Figueiredo da</given-names>
+        <surname>Randall</surname>
+        <given-names>Daniel Lee</given-names>
       </name>
     </person-group>
     ...
