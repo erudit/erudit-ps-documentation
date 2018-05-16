@@ -11,7 +11,7 @@
 | :ref:`element-person-group`  | Zero or more times |
 +------------------------------+--------------------+
 
-The element ``<name>`` is used to specify the personal name of a contributing author. The possible elements in ``<name>`` are: :ref:`element-surname`,:ref:`element-given-names`, :ref:`element-prefix`, :ref:`element-suffix`, and must be used in this same sequence.
+The element ``<name>`` is used to specify the personal name of a contributing author. The possible elements in ``<name>`` are: :ref:`element-surname`, :ref:`element-given-names`, :ref:`element-prefix`, :ref:`element-suffix`, and must be used in this same sequence.
 
 Examples:
 
