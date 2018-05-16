@@ -28,7 +28,7 @@ The attribute ``@contrib-type`` defines the type of contribution and can have th
 
 .. note::
 
-  When a contrib is defined as **group** it must have an :ref:`element-collab` element inside specifing the name or context of the group. To identify the group it could be made using the element :ref:::`element-named-content` with the attribute ``@content-type`` equal **name**.
+  When a contrib is defined as **group** it must have an :ref:`element-collab` element inside specifing the name or context of the group. To identify the group it could be made using the element :ref:`element-named-content` with the attribute ``@content-type`` equal **name**.
 
 .. note::
 
