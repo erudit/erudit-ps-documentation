@@ -11,6 +11,20 @@
 
 Contains the group of elements related to the contributions in the drafting of the article. The most frequent contributors are personal authors, institutions and research groups.
 
+The attribute type is not mandatory, but once used the allowed values are:
+
++----------+
+| Value    |
++----------+
+| author   |
++----------+
+| editor   |
++----------+
+
+.. note::
+
+  Some of the refered rules are based on `JATS4M specifications <https://github.com/substance/dar/blob/master/DarArticle.md#contrib-group>`_.
+
 Example:
 
 .. code-block:: xml
@@ -18,15 +32,15 @@ Example:
     ...
     <article-meta>
       ...
-      <contrib-group>
-        <contrib>
+      <contrib-group content-type="author">
+        <contrib contrib-type="person">
           <name>
             <surname>Arrighi</surname>
             <given-names>Laurence</given-names>
           </name>
           <xref ref-type="aff" rid="aff1"/>
         </contrib>
-        <contrib>
+        <contrib contrib-type="person">
           <name>
             <surname>Violette</surname>
             <given-names>Isabelle</given-names>
@@ -37,3 +51,5 @@ Example:
       ...
     </article-meta>
     ...
+
+.. {"reviewed_on": "20180516", "by": "fabio.batalha@erudit.org"}
