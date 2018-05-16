@@ -11,11 +11,11 @@
 
 Contains the group of elements related to the contributions in the drafting of the article. The most frequent contributors are personal authors, institutions and research groups.
 
-The attribute type is not mandatory, but once used the allowed values are:
+The attribute ``@content-type`` is not mandatory, but once used the allowed values are:
 
 +----------+
 | Value    |
-+----------+
++==========+
 | author   |
 +----------+
 | editor   |

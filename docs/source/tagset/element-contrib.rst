@@ -3,19 +3,15 @@
 <contrib>
 =========
 
-Atributos obrigatórios:
-
-  1. ``@contrib-type``
-
 +-------------------------------+-------------------+
 | Appears in                    | Frequency         |
 +===============================+===================+
 | :ref:`element-contrib-group`  | One or more times |
 +-------------------------------+-------------------+
 
-Identifies individual, institutional or group data of the contributors to the article, who may even be anonymous. :ref:`name`, :ref:`collab`, :ref:`on-behalf-of`, :ref:`xref`, :ref:`role` and ``<anonymous>`` can be in this element.
+Identifies individual, institutional or group data of the contributors to the article, who may even be anonymous. :ref:`element-name`, :ref:`element-collab`, :ref:`element-on-behalf-of`, :ref:`element-xref`, :ref:`element-role` and ``<anonymous>`` can be in this element.
 
-The attribute ``@contrib-type`` defines the type of contribution and can have the values outlined below:
+The attribute ``@contrib-type`` is not mandatory, it defines the type of contribution and can have the values outlined below:
 
 +------------+----------------------------------------------------------------+
 | Value      | Description                                                    |
