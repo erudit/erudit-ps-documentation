@@ -44,7 +44,7 @@ Example of ``<collab>`` in ``<front>``:
   ...
 
 
-.. _elemento-collab-exemplo-2:
+.. _element-collab-example-2:
 
 Example of ``<collab>`` in ``<back>``:
 --------------------------------------
