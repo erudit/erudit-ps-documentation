@@ -23,6 +23,10 @@ The attribute ``@content-type`` is not mandatory, but once used the allowed valu
 
 .. note::
 
+  The elements :ref:`element-aff` and :ref:`element-aff-alternatives` are not allowed in ``<contrib-group>``
+
+.. note::
+
   Some of the refered rules are based on `JATS4M specifications <https://github.com/substance/dar/blob/master/DarArticle.md#contrib-group>`_.
 
 Example:
