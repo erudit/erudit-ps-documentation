@@ -53,7 +53,7 @@ Example:
   ...
 
 
-Example of ``cotent-type='original'``:
+Example of ``content-type='original'``:
 
 .. code-block:: xml
 
