@@ -7,14 +7,14 @@ Mandatory attributes:
 
   1. ``@id`` (ver :ref:`id-attribution-tips`)
 
+Mandatory elements:
+ 
+  1. ``institution[@content-type="orgname"]``
+
 +-------------------------------+--------------------+
 | Appears in                    | Frequency          |
 +===============================+====================+
 | :ref:`element-article-meta`   | Zero or more times |
-+-------------------------------+--------------------+
-| :ref:`element-contrib-group`  | Zero or more times |
-+-------------------------------+--------------------+
-| :ref:`element-front-stub`     | Zero or more times |
 +-------------------------------+--------------------+
 
 Used for the article contributors’ institutional affiliation or attachment at the time the article was written, stated either by their degree in process, for example, Masters, Doctorate or Postdoc, etc, or as persons directly affiliated with the institution, for example, Professor at University X, Doctor at institution Y, and Nurse at Hospital Z.
