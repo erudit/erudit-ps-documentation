@@ -23,13 +23,13 @@ The publication date of an article and it's issue uses the element ``<pub-date>`
     * it is a Continuous Publication;
     * it is Ahead of Print;
 
-``@date-type`` can be all the `valid types <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/attribute/date-type.html>`_ specified in :term:`JATS` including the value **issue** recognized by the :term:`Érudit PS`.
+``@date-type`` can be **issue** or **pub** where pub represents the article publication date, and issue the represents the issue publication date.
+
+For Érudit PS will be mandatory to have two ``<pub-date>`` elements inside :ref:`<article-meta>`. One to identify the article publication date expressed by ``@date-type=pub``, and another to specify the issue publication date expressed by ``@date-type=issue``. The article and issue publishing dates may differs for many reasons.
 
 .. note::
 
     The use of the attribute ``@pub-type`` is deprecated in JATS 1.1, and consequently it is not accepted in :term:`Érudit PS`.
-
-For Érudit PS will be mandatory to have 2 ``<pub-date>`` elements inside :ref:`<article-meta>`. One to identify the article publication date, and another to specify the issue publication date, that may differs for many reasons.
 
 Examples:
 
@@ -97,6 +97,9 @@ Example of ``<pub-date>`` of a document available only in electronic version:
             <day>17</day>
             <month>03</month>
             <year>2014</year>
+        </pub-date>
+        <pub-date date-type="issue">
+            <year>2015</year>
         </pub-date>
         ...
     </article-meta>
