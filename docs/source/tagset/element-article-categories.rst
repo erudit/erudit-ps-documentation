@@ -17,7 +17,7 @@ Examples:
     * :ref:`element-article-categories-example-2`
     * :ref:`element-article-categories-example-3`
 
-..note::
+.. note::
 
   There are no restrictions to create sub categories, but it is a best practice to not exceed 3 levels while defining the categories of the article in an issue.
 
