@@ -79,7 +79,7 @@ Tree levels categorie:
         <subj-group>
           <subject>Level 2</subject>
           <subj-group>
-            <subject>Level 2</subject>
+            <subject>Level 3</subject>
           </subj-group>
         </subj-group>
       </subj-group>
