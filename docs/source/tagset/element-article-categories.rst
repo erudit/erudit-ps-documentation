@@ -19,7 +19,7 @@ Examples:
 
 ..note::
 
-  There are no restrictions to create sub categories, but it is a best practice to not exceed 3 levels while defining the category of an article in an issue.
+  There are no restrictions to create sub categories, but it is a best practice to not exceed 3 levels while defining the categories of the article in an issue.
 
 .. _element-article-categorie-example-1:
 
