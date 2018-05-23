@@ -13,15 +13,15 @@ Identifies the classification of the article according to the section in which i
 
 Examples:
 
-    * :ref:`element-article-categorie-example-1`
-    * :ref:`element-article-categorie-example-2`
-    * :ref:`element-article-categorie-example-3`
+    * :ref:`element-article-categories-example-1`
+    * :ref:`element-article-categories-example-2`
+    * :ref:`element-article-categories-example-3`
 
 ..note::
 
   There are no restrictions to create sub categories, but it is a best practice to not exceed 3 levels while defining the categories of the article in an issue.
 
-.. _element-article-categorie-example-1:
+.. _element-article-categories-example-1:
 
 One level categorie:
 --------------------
@@ -40,7 +40,7 @@ One level categorie:
   </article-meta>
   ...
 
-.. _element-article-categorie-example-2:
+.. _element-article-categories-example-2:
 
 Two levels categorie:
 ---------------------
@@ -63,7 +63,7 @@ Two levels categorie:
   ...
 
 
-.. _element-article-categorie-example-2:
+.. _element-article-categories-example-3:
 
 Tree levels categorie:
 ----------------------
