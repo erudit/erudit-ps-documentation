@@ -42,8 +42,8 @@ Example of one ``<funding-source>`` for one ``<award-id>`` :
 
 .. _element-fundingsource-example-2:
 
-Example of two ``<funding-source>`` for 1 ``<award-id>`` :
-----------------------------------------------------------
+Example of two ``<funding-source>`` for one ``<award-id>`` :
+------------------------------------------------------------
 
 .. code-block:: xml
 
