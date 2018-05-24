@@ -40,7 +40,7 @@ Example:
 
   ...
   <article-meta>
-    ...
+    ...z
     <aff id="aff1">
       <institution content-type="orgname">German Primate Center GmbH</institution>
       <institution content-type="orgdiv1">Neurobiology Laboratory</institution>
@@ -69,3 +69,5 @@ Example of ``content-type='original'``:
     ...
   </article-meta>
   ...
+
+.. {"reviewed_on": "20180524", "by": "fabio.batalha@erudit.org"}
