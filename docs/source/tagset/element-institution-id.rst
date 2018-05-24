@@ -9,7 +9,7 @@
 | ``<institution-wrap>``  | Zero or more times |
 +-------------------------+--------------------+
 
-This element associate an indetifier to an institution declared in the element :tref:`element-aff`.
+This element associate an indetifier to an institution declared in the element :ref:`element-aff`.
 
 Exemplo:
 
