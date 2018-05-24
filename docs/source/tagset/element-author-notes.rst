@@ -8,8 +8,6 @@
 +==============================+====================+
 | :ref:`element-article-meta`  | Zero or more times |
 +------------------------------+--------------------+
-| :ref:`element-front-stub`    | Zero or more times |
-+------------------------------+--------------------+
 
 Identifies notes related to the author such as correspondence, equal contribution, etc.
 
