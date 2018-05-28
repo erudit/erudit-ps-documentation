@@ -28,7 +28,7 @@ The attribute ``@id`` allows for cross-referencing within the document (link ass
 
 .. note::
 
-  The attribure @xml:lang is not mandatory in ``<fig>``, the absence of this attribute means the content inside ``<fig>`` is the same language of the document.
+  The attribure ``@xml:lang`` is not mandatory in ``<fig>``, the absence of this attribute means the content inside ``<fig>`` is the same language of the document.
 
 Examples:
 
