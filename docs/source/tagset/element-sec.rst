@@ -23,7 +23,7 @@ First level sections headings which match the list of values below should have a
 
 .. note::
 
-  The element ``<title>`` is no mandatory but it is recommended that all sections have an element ``<title>`` inside.
+  The element ``<title>`` is not mandatory but it is recommended that all sections have an element ``<title>`` inside.
 
 +------------------------+------------------------------------------------+
 | Value                  | Description                                    |
