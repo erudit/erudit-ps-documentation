@@ -8,23 +8,25 @@ Mandatory attributes:
 
   1. ``@id`` (see :ref:`id-attribution-tips`)
 
-+-------------------------------------------+--------------------+
-| Appears in                                | Frequency          |
-+===========================================+====================+
-| :ref:`element-app`                        | Zero or more times |
-+-------------------------------------------+--------------------+
-| :ref:`element-body`                       | Zero or more times |
-+-------------------------------------------+--------------------+
-| ``<fig-group>``                           | Zero or more times |
-+-------------------------------------------+--------------------+
-| :ref:`element-glossary`                   | Zero or more times |
-+-------------------------------------------+--------------------+
-| :ref:`element-p`                          | Zero or more times |
-+-------------------------------------------+--------------------+
-| :ref:`element-supplementary-material`     | Zero or more times |
-+-------------------------------------------+--------------------+
-| other elements see JATS Spec for details  | Zero or more times |
-+-------------------------------------------+--------------------+
++--------------------------------------------+--------------------+
+| Appears in                                 | Frequency          |
++============================================+====================+
+| :ref:`element-app`                         | Zero or more times |
++--------------------------------------------+--------------------+
+| :ref:`element-body`                        | Zero or more times |
++--------------------------------------------+--------------------+
+| ``<fig-group>``                            | Zero or more times |
++--------------------------------------------+--------------------+
+| :ref:`element-glossary`                    | Zero or more times |
++--------------------------------------------+--------------------+
+| :ref:`element-p`                           | Zero or more times |
++--------------------------------------------+--------------------+
+| :ref:`element-supplementary-material`      | Zero or more times |
++--------------------------------------------+--------------------+
+| other elements see JATS Spec* for details  | Zero or more times |
++--------------------------------------------+--------------------+
+
+* `JATS Specifications <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/element/fig.html>`_ for ``<fig>``
 
 Identifies the figures in an article. In this element you must specify the element :ref:`element-label`, you can also specify the elements :ref:`element-caption`, ``<graphic>`` e :ref:`permissions`. ``<fig>`` can still have the following attributes: ``@fig-type`` and ``@xml:lang``.
 
