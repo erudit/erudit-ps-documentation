@@ -26,6 +26,10 @@ The ``<graphic>`` element is used to identify some file types and has attribute 
 
 The attribute ``@id`` allows for cross-referencing within the document (link associated with an “rid”) provided that the attribute has a unique value within the file.
 
+.. note::
+
+  The attribure @xml:lang is not mandatory in ``<fig>``, the absence of this attribute means the content inside ``<fig>`` is the same language of the document.
+
 Examples:
 
     * :ref:`element-fig-example-1`
