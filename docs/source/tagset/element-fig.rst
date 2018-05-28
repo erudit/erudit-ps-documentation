@@ -20,7 +20,7 @@ Mandatory attributes:
 | For other elements see `JATS Specifications <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/element/fig.html>`_ for details  | Zero or more times |
 +-------------------------------------------------------------------------------------------------------------------------------------+--------------------+
 
-Identifies the figures in an article. In this element you must specify the element :ref:`element-label`, you can also specify the elements :ref:`element-caption`, ``<graphic>`` e :ref:`permissions`. ``<fig>`` can still have the following attributes: ``@fig-type`` and ``@xml:lang``.
+Identifies the figures in an article. In this element you must specify the element :ref:`element-label`, you can also specify the elements :ref:`element-caption`, ``<graphic>`` and :ref:`element-permissions`. ``<fig>`` can still have the following attributes: ``@fig-type`` and ``@xml:lang``.
 
 The ``<graphic>`` element is used to identify some file types and has attribute ``@xlink:href`` which is used to specify the complete name of the referenced image.
 
