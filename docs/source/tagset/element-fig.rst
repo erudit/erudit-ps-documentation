@@ -129,7 +129,7 @@ Example of figure with permissions or source information:
   ...
 
 
-.. _elemento-fig-exemplo-5:
+.. _element-fig-example-5:
 
 Example of figure with translated caption:
 ------------------------------------------
