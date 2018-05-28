@@ -6,7 +6,7 @@
 +-----------------------------+-----------+
 | Appears in                  | Fequency  |
 +=============================+===========+
-| :ref:`elemento-article`     | Uma vez   |
+| :ref:`element-article`      | Uma vez   |
 +-----------------------------+-----------+
 
 It includes all the formal content of a scientific article, that is: text, images, tables, figures, graphics, equations, formulas, etc.
