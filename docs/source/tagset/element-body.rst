@@ -17,7 +17,7 @@ It includes all the formal content of a scientific article, that is: text, image
 
 .. note:: 
 
-  Abstracts could not be included in the ``<body>``.
+  Abstracts could not be inserted in the ``<body>``.
 
 Example:
 
