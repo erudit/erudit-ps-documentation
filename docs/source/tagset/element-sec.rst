@@ -17,7 +17,7 @@
 | :ref:`element-boxed-text`      | Zero or more times |
 +--------------------------------+--------------------+
 
-The body of an article usually consists of sections. Each one has a ``<lable>`` element followed by one or more paragraphs (:ref:`element-p`).
+The body of an article usually consists of sections. Each one has a ``<label>`` element followed by one or more paragraphs (:ref:`element-p`).
 
 First level sections headings which match the list of values below should have attribute ``@sec-type``. This attribute should not be inserted if the first-level section has a name different from those which appear in the table below.
 
@@ -63,7 +63,7 @@ Example a simple ``<sec>``:
   <body>
     ...
     <sec sec-type="intro">
-      <lable>1<lable>
+      <label>1<label>
       <title>Introduction</title>
       <p>Central airway obstruction (CAO) is a pathological process that leads to airflow limitation at the level of the glottis, subglottis, trachea, and main bronchi. Correct diagnosis and treatment of CAO is an area of interest and concern for health professionals,given that this disease has the potential to cause significant morbidity and mortality.</p>
       ...
@@ -86,7 +86,7 @@ In the case of combined sections, in other words, when the section heading is ma
   <body>
     ...
     <sec sec-type="materials|methods">
-      <lable>1<lable>
+      <label>1<label>
       <title>Materials and Methods</title>
       <p>Between November of 2009 and April of 2010, we conducted a prospective, observational, cross-sectional study. The target population consisted of patients for whom bronchoscopy was clinically indicated. The patients were consecutively selected for the sample on the...</p>
       ...
@@ -108,10 +108,10 @@ Sections may have one or more subsections. In such cases, each subsection should
   <body>
     ...
     <sec sec-type="methods">
-      <lable>1<lable>
+      <label>1<label>
       <title>Methodology</title>
       <sec>
-        <lable>1.1<lable>
+        <label>1.1<label>
         <title>Methodology in Science</title>
         <p>Each patient underwent a brief physical examination, and the degree of dyspnea was determined by the Medical Research Council (MRC) 5-point scale.</p>
         ...
@@ -134,7 +134,7 @@ Sections with a non-standard name can be declared without the attribute ``@sec-t
   <body>
     ...
     <sec>
-      <lable>1<lable>
+      <label>1<label>
       <title>Biologia Marinha</title>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra lacinia orci at adipiscing.</p>
       ...
