@@ -13,8 +13,11 @@ Mandatory attribute:
 | :ref:`element-article-meta`  | Zero or more times |
 +------------------------------+--------------------+
 
-Identifies the group of article keywords by language. It must contain the attribute ``@xml:lang``. ``<kwd-group>``, it must have a title identifying the group by
-means of the <title> element, and it must have at least one element :ref:`element-kwd` inside ``<kwd-group>``.
+Identifies the group of article keywords by language. It must contain the attribute ``@xml:lang``. ``<kwd-group>``, and it must have at least one element :ref:`element-kwd` inside ``<kwd-group>``.
+
+.. note::
+
+    The element ``<title>`` is not mandatory, but as best practice, the :term:`Érudit PS` suggests it should be available.
 
 .. note::
 
@@ -39,4 +42,4 @@ means of the <title> element, and it must have at least one element :ref:`elemen
 
 
 
-.. {"reviewed_on": "20180509", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20180530", "by": "fabio.batalha@erudit.org"}
