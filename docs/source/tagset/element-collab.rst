@@ -59,7 +59,6 @@ Example of ``<collab>`` for groups:
       </name>
       <xref ref-type="aff" rid="aff1"/>
     </contrib>
-    <!-- NOTE: Group authors are not yet supported by Texture! -->
     <contrib contrib-type="group" equal-contrib="yes">
       <collab>
         <named-content content-type="name">The Mouse Genome Sequencing Consortium</named-content>
