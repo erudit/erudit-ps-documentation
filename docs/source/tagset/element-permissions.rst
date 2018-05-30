@@ -64,11 +64,13 @@ Examples:
   * :ref:`element-permissions-example-2`
   * :ref:`element-permissions-example-3`
   * :ref:`element-permissions-example-4`
+  * :ref:`element-permissions-example-5`
+  * :ref:`element-permissions-example-6`
 
 .. _element-permissions-example-1:
 
-1. Article use license ``<article-meta>``
------------------------------------------
+1. License with graphic
+-----------------------
 
 .. code-block:: xml
 
@@ -79,8 +81,33 @@ Examples:
         <copyright-statement>Tous droits réservés © Revue de l’Université de Moncton</copyright-statement>
         <copyright-year>2015</copyright-year>
         <copyright-holder>Revue de l’Université de Moncton</copyright-holder>
-        <license>
-          <license-p>Tous droits réservés © Revue de l’Université de Moncton, 2015</license-p>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-sa/4.0/" xml:lang="en">
+          <license-p>
+            <graphic xlink:href="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+          </license-p>
+        </license>
+      </permissions>
+      ...
+    </article-meta>
+    ...
+
+.. _element-permissions-example-2:
+
+1. Creative Commons License
+---------------------------
+
+.. code-block:: xml
+
+    ...
+    <article-meta>
+      ...
+      <permissions>
+        <copyright-statement>Tous droits réservés © Revue de l’Université de Moncton</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <copyright-holder>Revue de l’Université de Moncton</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc-sa/4.0/" xml:lang="en">
+          <license-p>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+          </license-p>
         </license>
       </permissions>
       ...
@@ -88,7 +115,7 @@ Examples:
     ...
 
 
-.. _element-permissions-example-2:
+.. _element-permissions-example-3:
 
 2. Credits of a figure ``<fig>``
 --------------------------------
@@ -111,7 +138,7 @@ Examples:
     ...
 
 
-.. _element-permissions-example-3:
+.. _element-permissions-example-4:
 
 3. Credits in ``<table-wrap>``
 ------------------------------
@@ -156,7 +183,7 @@ Examples:
     </permissions>
    </table-wrap>
 
-.. _element-permissions-example-4:
+.. _element-permissions-example-5:
 
 4. Refers to a table as image in ``<table-wrap>``
 -------------------------------------------------
@@ -180,4 +207,26 @@ Examples:
     </permissions>
  </table-wrap>
 
-.. {"reviewed_on": "20180515", "by": "fabio.batalha@erudit.org"}
+.. _element-permissions-example-6:
+
+1. Article use license ``<article-meta>``
+-----------------------------------------
+
+.. code-block:: xml
+
+    ...
+    <article-meta>
+      ...
+      <permissions>
+        <copyright-statement>Tous droits réservés © Revue de l’Université de Moncton</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <copyright-holder>Revue de l’Université de Moncton</copyright-holder>
+        <license>
+          <license-p>Tous droits réservés © Revue de l’Université de Moncton, 2015</license-p>
+        </license>
+      </permissions>
+      ...
+    </article-meta>
+    ...
+
+.. {"reviewed_on": "20180530", "by": "fabio.batalha@erudit.org"}
