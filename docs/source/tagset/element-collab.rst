@@ -44,7 +44,7 @@ Example of ``<collab>`` in ``<front>``:
   </contrib-group>
   ...
 
-.. _element-collab-example-1:
+.. _element-collab-example-2:
 
 Example of ``<collab>`` for groups:
 -----------------------------------
