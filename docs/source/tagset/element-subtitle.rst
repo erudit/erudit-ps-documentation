@@ -21,8 +21,8 @@ Example:
     <article-meta>
       ...
       <title-group>
-          <article-title xml:lang="en">De la préservation linguistique et nationale</article-title>
-          <sub-title xml:lang="en">la qualité de la langue de la jeunesse acadienne, un débat linguistique idéologique</sub-title>
+          <article-title xml:lang="fr">De la préservation linguistique et nationale</article-title>
+          <sub-title xml:lang="fr">la qualité de la langue de la jeunesse acadienne, un débat linguistique idéologique</sub-title>
       </title-group>
       ...
     </article-meta>
