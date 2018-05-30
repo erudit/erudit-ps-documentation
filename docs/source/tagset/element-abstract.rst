@@ -15,7 +15,7 @@ Mandatory attributes:
 
 Element that identifies the abstract of an article. It must contain the attribute ``@xml:lang`` and one of the elements :ref:`element-p` or :ref:`element-sec`. It is allowed to specify the ``@abstract-type``. The list of allowed values for ``@abstract-type`` follows the `JATS Specification <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/attribute/abstract-type.html>`_.
 
-List of allowed values for `@abstract-type`:
+List of allowed values for ``@abstract-type``:
 
 +-------------------+-------------------------------------------------------------------+
 | Érudit Article    |  Description                                                      |
