@@ -16,10 +16,6 @@ Used in :ref:`element-title-group` to identify the title of the article, or to s
 * In :ref:`element-title-group`, the attribute ``@xml:lang`` should be used. Even it is not mandatory, it is an :term:`Érudit PS` recomendation.
 * In :ref:`element-element-citation` the attribute ``@xml:lang`` should not be used.
 
-.. note::
-
-  If the title of an article or of a reference has a subtitle, it should be marked together with the title under ``<article-title>``. Titles or subtitles should never be marked separately in other tags. The same applies to ``<trans-title>``.
-
 Examples:
 
   * :ref:`element-article-title-example-1`
@@ -36,7 +32,8 @@ Example of ``<article-title>`` in :ref:`element-article-meta`:
     <article-meta>
       ...
       <title-group>
-          <article-title xml:lang="en">De la préservation linguistique et nationale: la qualité de la langue de la jeunesse acadienne, un débat linguistique idéologique</article-title>
+          <article-title xml:lang="en">De la préservation linguistique et nationale</article-title>
+          <sub-title>la qualité de la langue de la jeunesse acadienne, un débat linguistique idéologique</sub-title>
       </title-group>
       ...
     </article-meta>
