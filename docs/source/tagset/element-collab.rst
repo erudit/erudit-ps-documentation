@@ -17,6 +17,7 @@ Examples:
 
   * :ref:`element-collab-example-1`
   * :ref:`element-collab-example-2`
+  * :ref:`element-collab-example-3`
 
 
 .. _element-collab-example-1:
@@ -43,8 +44,45 @@ Example of ``<collab>`` in ``<front>``:
   </contrib-group>
   ...
 
+.. _element-collab-example-1:
 
-.. _element-collab-example-2:
+Example of ``<collab>`` for groups:
+-----------------------------------
+
+.. code-block:: xml
+
+  ...
+  <contrib-group content-type="author">
+    <contrib contrib-type="person" equal-contrib="yes">
+      <name>
+        <surname>Church</surname><given-names>Deanna M.</given-names>
+      </name>
+      <xref ref-type="aff" rid="aff1"/>
+    </contrib>
+    <!-- NOTE: Group authors are not yet supported by Texture! -->
+    <contrib contrib-type="group" equal-contrib="yes">
+      <collab>
+        <named-content content-type="name">The Mouse Genome Sequencing Consortium</named-content>
+        <uri content-type="entity">organisation-25</uri>
+        <contrib-group>
+          <contrib>
+            <name>
+              <surname>Kelly</surname><given-names>Laura A.</given-names>
+            </name>
+          </contrib>
+          <contrib>
+            <name>
+              <surname>Randall</surname><given-names>Daniel Lee</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+          </contrib>
+        </contrib-group>
+      </collab>
+    </contrib>
+  </contrib-group>
+  ...
+
+.. _element-collab-example-3:
 
 Example of ``<collab>`` in ``<back>``:
 --------------------------------------
