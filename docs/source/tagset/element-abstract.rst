@@ -74,7 +74,7 @@ List of allowed values for ``@abstract-type``:
 
 .. note::
 
-  The attribute ``@abstract-type`` is not mandatory. The absense of this attribute means the abstract will be intrepreted as a **summary**. See the :ref:`compatibility-reference` documentation for more information.
+  The attribute ``@abstract-type`` is not mandatory. The absense of this attribute means the abstract will be intrepreted as a **summary**. See the :ref:`compatibility-reference` documentation for more information about compatibility between :term:`Érudit Article` and :term:`Érudit PS`.
 
 .. note::
 
