@@ -9,7 +9,7 @@
 | :ref:`element-contrib-group`  | One or more times |
 +-------------------------------+-------------------+
 
-Identifies individual, institutional or group data of the contributors to the article, who may even be anonymous. The elements :ref:`element-name`, :ref:`element-collab`, :ref:`element-on-behalf-of`, :ref:`element-xref`, :ref:`element-role`, :ref:`element-email` and ``<anonymous>`` can be in this element.
+Identifies individual, institutional or group data of the contributors to the article, who may even be anonymous. The elements :ref:`element-name`, :ref:`element-collab`, :ref:`element-on-behalf-of`, :ref:`element-xref`, :ref:`element-role`, :ref:`element-email`, :ref:`names-alternatives` and ``<anonymous>`` can be in this element.
 
 The attribute ``@contrib-type`` is not mandatory, it defines the type of contribution and can have the values outlined below:
 

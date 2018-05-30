@@ -13,9 +13,72 @@ Mandatory attributes:
 | :ref:`element-article-meta`  | Zero or more times |
 +------------------------------+--------------------+
 
-Element that identifies the abstract of an article. It must contain the attribute ``@xml:lang`` and one of the elements :ref:`element-p` or :ref:`element-sec`.
+Element that identifies the abstract of an article. It must contain the attribute ``@xml:lang`` and one of the elements :ref:`element-p` or :ref:`element-sec`. It is allowed to specify the ``@abstract-type``. The list of allowed values for ``@abstract-type`` follows the `JATS Specification <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/attribute/abstract-type.html>`_.
 
-The abstracts could be presented in two different formats (structured and simple).
+List of allowed values for `@abstract-type`:
+
++-------------------+-------------------------------------------------------------------+
+| Érudit Article    |  Description                                                      |
++===================+===================================================================+
+| ASCII             |  A “plain text” abstract, i.e., without special characters or     |
+|                   |  equations, so the abstract can be sent in email or displayed on  |
+|                   |  primitive browsersRefers to books. It can also represent only a  |
+|                   |  part or chapter of                                               |
++-------------------+-------------------------------------------------------------------+
+| executive-summary |  A non-technical summation of the major findings of the article   |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+| graphical         |  A pictorial representation such as a picture or a video          |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+| editor            |  An abstract written by an editor, not an author                  |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+| key-points        |  An abstract which lists the key points made by the article       |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+| objetives         |  An abstract used for Learning Objectives or article objectives   |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+| section           |  An abstract containing the titles of an article’s sections;      |
+|                   |  following each title, that section is summarized.                |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+| stereochemical    |  An abstract containing only the details of a chemical compound,  |
+|                   |  for example, one major publisher’s “stereochem” abstract         |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+| teaser            |  A short abstract specifically written to create interest in the  |
+|                   |  reader                                                           |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+| web-summary       |  Short summary intended for distribution on a website             |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+| other             |  Refers to books. It can also represent only a part or chapter of |
+|                   |  a book.                                                          |
++-------------------+-------------------------------------------------------------------+
+| toc               |  A very short abstract, usually only a line or two long, that is  |
+|                   |  displayed in a Table of Contents                                 |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+| short             |  An abbreviated form of the abstract, for example, for use inside |
+|                   |  a generated Table of Contents, or to be returned in addition to  |
+|                   |  the article title during a search                                |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+| summary           |  Summation of the article, typically used in conjunction with     |
+|                   |  other types of abstracts                                         |
+|                   |                                                                   |
++-------------------+-------------------------------------------------------------------+
+
+.. note::
+
+  The attribute ``@abstract-type`` is not mandatory. The absense of this attribute means the abstract will be intrepreted as a **summary**. See the :ref:`compatibility-reference` documentation for more information.
+
+.. note::
+
+  The abstracts could be presented in two different formats (structured and simple).
 
 Examples:
 
@@ -73,4 +136,4 @@ Example:
     </article-meta>
     ...
 
-.. {"reviewed_on": "20180509", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20180530", "by": "fabio.batalha@erudit.org"}
