@@ -26,7 +26,7 @@ List of known seasons:
 +---------------+
 | summer        |
 +---------------+
-| outumn        |
+| autumn        |
 +---------------+
 | winter        |
 +---------------+
@@ -60,7 +60,7 @@ List of known seasons:
 +---------------+
 | 2nd quarter   |
 +---------------+
-| 3th quarter   |
+| 3rd quarter   |
 +---------------+
 | 4th quarter   |
 +---------------+
