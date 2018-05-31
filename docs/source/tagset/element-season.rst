@@ -146,8 +146,4 @@ Example ``<season>`` as a season range:
     </front>
     ...
 
-.. note:: 
-
-  Always use the following three letter English abbreviations for months, separated by a hyphen in the case of a month range: Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec.
-
 .. {"reviewed_on": "20180507", "by": "fabio.batalha@erudit.org"}
