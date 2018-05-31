@@ -41,3 +41,4 @@ Example to code σˆ2* using *MathML*:
     Nulla quis leo sed turpis congue finibus feugiat ut dui. Donec id tincidunt tellus. Nunc fermentum dolor et congue convallis. <p/>
     ...
 
+.. {"reviewed_on": "20180531", "by": "fabio.batalha@erudit.org"}
