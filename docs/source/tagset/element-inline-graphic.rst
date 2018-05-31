@@ -6,8 +6,6 @@
 +-------------------------+--------------------+
 | Appears in              | Frequency          |
 +=========================+====================+
-| :ref:`element-product`  | Zero or more times |
-+-------------------------+--------------------+
 | :ref:`element-p`        | Zero or more times |
 +-------------------------+--------------------+
 | :ref:`element-sec`      | Zero or more times |
