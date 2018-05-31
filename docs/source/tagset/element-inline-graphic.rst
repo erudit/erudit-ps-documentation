@@ -21,15 +21,16 @@ Used to identify items inserted as inline images anchored in a paragraph. It cou
 
 .. note:: 
 
-    Para maiores informações verificar `Codificação e caracteres especiais <http://docs.scielo.org/projects/scielo-publishing-schema/pt_BR/latest/narr/caracteres.html>`_.
+  For formulas written in mathml see the element :ref:`element-inline-formula`
+
 
 Example:
 
 .. code-block:: xml
 
-    ...
-    <p>We also used an enrichment factor for surface waters (EF<sub>w</sub>) based on the equation:<inline-graphic xlink:href="image.tif"/>. The EF<sub>s</sub> and EF<sub>w</sub> quantified the concentration of the element of interest (C<sub>i</sub>) in the sample, in relation to the (natural) geochemical background.</p>
-    ...
-    
+  ...
+  <p>We also used an enrichment factor for surface waters (EF<sub>w</sub>) based on the equation:<inline-graphic xlink:href="image.tif"/>. The EF<sub>s</sub> and EF<sub>w</sub> quantified the concentration of the element of interest (C<sub>i</sub>) in the sample, in relation to the (natural) geochemical background.</p>
+  ...
+
 
 .. {"reviewed_on": "20180531", "by": "fabio.batalha@erudit.org"}
