@@ -17,8 +17,6 @@
 
 Used to identify equations encoded inline with the text. In such cases, the encoding may be in the :term:`W3C MathML` encoding standard where the base element is ``<mml:math>``, or in other encoding standards such as ASCII, TeX or LaTeX.
 
-Identifica equações e fórmulas exibidas em um parágrafo. A codificação pode ser escrita de acordo com :term:`W3C` em linguagem :term:`MathML` (http://www.w3.org/TR/MathML3/), sendo o elemento base ``<mml:math>`` ou com codificação TeX ou LaTeX.
-
 Example to code σˆ2* using *MathML*:
 
 .. code-block:: xml
