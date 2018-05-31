@@ -15,7 +15,7 @@
 
 This element can occur in :ref:`pub-date` to identify a month range (see Note below), and in :ref:`element-citation` and :ref:`product` to identify the season in a bibliographic reference.
 
-As a pattern Érudit PS have a list of valid values for seasons. These values are not mandatory in this version of Érudit PS, but have in mind to follow these best practives to be under conformit with the next versions of Érudit PS.
+As a pattern Érudit PS have a list of valid values for seasons. These values are not mandatory in this version of Érudit PS, but have in mind to follow these best practices to be under conformit with the next versions of Érudit PS.
 
 List of known seasons:
 
