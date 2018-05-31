@@ -16,8 +16,6 @@ Mandatory attributes:
 +------------------------------+--------------------+
 | :ref:`element-p`             | Zero or more times |
 +------------------------------+--------------------+
-| :ref:`element-app`           | Zero or more times |
-+------------------------------+--------------------+
 
 The element ``<inline-supplementary-material>`` is used to include information in a paragraph of the document, supplying a link to multimedia files, tables or aditional figures, lists, raw data in spreadsheets, etc.
 
