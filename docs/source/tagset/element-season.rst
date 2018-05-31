@@ -104,7 +104,7 @@ Example of ``<season>`` as a season:
 
 .. _element-season-example-2:
 
-Example ``<season>`` as a month range:
+Example of ``<season>`` as a month range:
 --------------------------------------
 
 .. code-block:: xml
@@ -126,7 +126,7 @@ Example ``<season>`` as a month range:
 
 .. _element-season-example-3:
 
-Example ``<season>`` as a season range:
+Example of ``<season>`` as a season range:
 ---------------------------------------
 
 .. code-block:: xml
