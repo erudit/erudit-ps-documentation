@@ -15,6 +15,65 @@
 
 This element can occur in :ref:`pub-date` to identify a month range (see Note below), and in :ref:`element-citation` and :ref:`product` to identify the season in a bibliographic reference.
 
+As a pattern Érudit PS have a list of valid values for seasons. These values are not mandatory in this version of Érudit PS, but have in mind to follow these best practives to be under conformit with the next versions of Érudit PS.
+
+List of known seasons:
+
++---------------+
+| value         |
++===============+
+| spring        |
++---------------+
+| summer        |
++---------------+
+| outumn        |
++---------------+
+| winter        |
++---------------+
+| January       |
++---------------+
+| Februrary     |
++---------------+
+| March         |
++---------------+
+| April         |
++---------------+
+| May           |
++---------------+
+| June          |
++---------------+
+| July          |
++---------------+
+| August        |
++---------------+
+| September     |
++---------------+
+| October       |
++---------------+
+| November      |
++---------------+
+| December      |
++---------------+
+| Christmas     |
++---------------+
+| 1st quarter   |
++---------------+
+| 2nd quarter   |
++---------------+
+| 3th quarter   |
++---------------+
+| 4th quarter   |
++---------------+
+| 1st semester  |
++---------------+
+| 2nd semester  |
++---------------+
+
+.. note::
+
+    An hipen must be used to combine more then one season, ex: may-june, spring-summer, etc.
+
+
 Examples:
 
     * :ref:`element-season-example-1`
