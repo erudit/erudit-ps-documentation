@@ -19,6 +19,7 @@ Examples:
 
     * :ref:`element-season-example-1`
     * :ref:`element-season-example-2`
+    * :ref:`element-season-example-3`
 
 
 .. _element-season-example-1:
@@ -64,6 +65,27 @@ Example ``<season>`` as a month range:
     </front>
     ...
 
+.. _element-season-example-3:
+
+Example ``<season>`` as a season range:
+---------------------------------------
+
+.. code-block:: xml
+
+    ...
+    <front>
+        ...
+        <article-meta>
+            ...
+            <pub-date pub-type="epub">
+                <season>spring-summer</season>
+                <year>2013</year>
+            </pub-date>
+            ...
+        </article-meta>
+        ...
+    </front>
+    ...
 
 .. note:: 
 
