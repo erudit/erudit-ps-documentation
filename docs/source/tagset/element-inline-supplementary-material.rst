@@ -31,8 +31,8 @@ The mandatory attributes are:
 
 Examples:
 
-  * :ref:`element-inlinesm-exemplo-1`
-  * :ref:`element-inlinesm-exemplo-2`
+  * :ref:`element-inlinesm-example-1`
+  * :ref:`element-inlinesm-example-2`
 
 .. _element-inlinesm-example-1:
 
