@@ -41,7 +41,7 @@ Example of <inline-supplementary-material> wrapping a text:
 
 .. code-block:: xml
 
-    <p>Text of supplementary material... <inline-supplementary-material xlink:href="0103-507X-rbti-26-02-0130-suppl1.pdf" mimetype="application" mime-subtype="pdf">Supplementary Material Suplementar</inline-supplementary-material></p>
+    <p>Text of supplementary material... <inline-supplementary-material xlink:href="document.pdf" mimetype="application" mime-subtype="pdf">Supplementary Material Suplementar</inline-supplementary-material></p>
     
 
 .. _element-inlinesm-example-2:
@@ -51,4 +51,4 @@ Example of <inline-supplementary-material> without a text:
 
 .. code-block:: xml
 
-    <p>Nunc faucibus orci ut bibendum mollis. Nunc rutrum ullamcorper neque sit amet venenatis. Praesent mattis <inline-supplementary-material xlink:href="0103-507X-rbti-26-02-0130-suppl1.pdf" mimetype="video" mime-subtype="avi"/> elit id augue tincidunt, sit amet ornare nibh laoreet. Morbi et odio a libero facilisis dapibus id vitae orci.</p>
+    <p>Nunc faucibus orci ut bibendum mollis. Nunc rutrum ullamcorper neque sit amet venenatis. Praesent mattis <inline-supplementary-material xlink:href="document.pdf" mimetype="video" mime-subtype="avi"/> elit id augue tincidunt, sit amet ornare nibh laoreet. Morbi et odio a libero facilisis dapibus id vitae orci.</p>
