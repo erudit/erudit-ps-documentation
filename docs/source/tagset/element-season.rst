@@ -71,7 +71,7 @@ List of known seasons:
 
 .. note::
 
-    An hipen must be used to combine more then one season, ex: may-june, spring-summer, etc.
+    An hyphen must be used to combine more then one season, ex: may-june, spring-summer, etc.
 
 
 Examples:
