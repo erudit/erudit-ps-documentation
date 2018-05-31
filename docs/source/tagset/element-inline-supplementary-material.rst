@@ -26,9 +26,10 @@ The mandatory attributes are:
 * ``@xlink:href``: Contains the complete name of the media file, for example file.pdf”, file.mp4”, “file.mp3” etc.
 
 .. note:: 
- * See the address http://www.iana.org/assignments/media-types/media-types.xhtml for detailed information about the values for the attributes ``@mimetype`` and ``@mime-subtype``.
 
- Examples:
+  * See the address http://www.iana.org/assignments/media-types/media-types.xhtml for detailed information about the values for the attributes ``@mimetype`` and ``@mime-subtype``.
+
+Examples:
 
   * :ref:`element-inlinesm-exemplo-1`
   * :ref:`element-inlinesm-exemplo-2`
