@@ -54,8 +54,6 @@ List of known seasons:
 +---------------+
 | December      |
 +---------------+
-| Christmas     |
-+---------------+
 | 1st quarter   |
 +---------------+
 | 2nd quarter   |
