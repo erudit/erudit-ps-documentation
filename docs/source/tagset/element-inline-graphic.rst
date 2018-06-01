@@ -1,10 +1,10 @@
-.. _element-inline-graphic:
+ .. _element-inline-graphic:
 
 <inline-graphic>
 ================
 
 +-------------------------+--------------------+
-| Appears in              | Frequency          |
+| Appears commonly in     | Frequency          |
 +=========================+====================+
 | :ref:`element-p`        | Zero or more times |
 +-------------------------+--------------------+
@@ -14,6 +14,10 @@
 +-------------------------+--------------------+
 | ``td``                  | Zero or more times |
 +-------------------------+--------------------+
+| ``td``                  | Zero or more times |
++-------------------------+--------------------+
+
+See the `JATS Specification <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/element/inline-graphic.html>`_ for a full list of the elements that supports ``<inline-graphic>``.
 
 Used to identify items inserted as inline images anchored in a paragraph. It could b used to represent some special character as image or a small formula that fits in text line as image.
 
