@@ -35,7 +35,7 @@ Example in figure:
       <caption>
         <title>Produtividade das variantes lexicais para a questão 132 do QSL segundo a região administrativa</title>
       </caption>
-      <graphic xlink:href="0103-507X-rbti-26-02-0130-g02.tif"/>
+      <graphic xlink:href="figure.tiff"/>
       <attrib>Fonte: Banco de dados do ALiB (2013).</attrib>
   </fig>
   ...
