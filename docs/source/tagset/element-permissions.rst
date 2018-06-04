@@ -93,7 +93,7 @@ Examples:
 
 .. _element-permissions-example-2:
 
-1. Creative Commons License
+2. Creative Commons License
 ---------------------------
 
 .. code-block:: xml
@@ -117,7 +117,7 @@ Examples:
 
 .. _element-permissions-example-3:
 
-2. Credits of a figure ``<fig>``
+3. Credits of a figure ``<fig>``
 --------------------------------
 
 .. code-block:: xml
@@ -140,7 +140,7 @@ Examples:
 
 .. _element-permissions-example-4:
 
-3. Credits in ``<table-wrap>``
+4. Credits in ``<table-wrap>``
 ------------------------------
 
 .. code-block:: xml
@@ -185,7 +185,7 @@ Examples:
 
 .. _element-permissions-example-5:
 
-4. Refers to a table as image in ``<table-wrap>``
+5. Refers to a table as image in ``<table-wrap>``
 -------------------------------------------------
 
 .. code-block:: xml
@@ -209,7 +209,7 @@ Examples:
 
 .. _element-permissions-example-6:
 
-1. Article use license ``<article-meta>``
+6. Article use license ``<article-meta>``
 -----------------------------------------
 
 .. code-block:: xml
@@ -220,6 +220,26 @@ Examples:
       <permissions>
         <copyright-statement>Tous droits réservés © Revue de l’Université de Moncton</copyright-statement>
         <copyright-year>2015</copyright-year>
+        <copyright-holder>Revue de l’Université de Moncton</copyright-holder>
+        <license>
+          <license-p>Tous droits réservés © Revue de l’Université de Moncton, 2015</license-p>
+        </license>
+      </permissions>
+      ...
+    </article-meta>
+    ...
+
+.. _element-permissions-example-7:
+
+7. Simple use license for any elements
+--------------------------------------
+
+.. code-block:: xml
+
+    ...
+    <article-meta>
+      ...
+      <permissions>
         <copyright-holder>Revue de l’Université de Moncton</copyright-holder>
         <license>
           <license-p>Tous droits réservés © Revue de l’Université de Moncton, 2015</license-p>
