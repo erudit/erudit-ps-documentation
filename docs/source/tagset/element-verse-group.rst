@@ -27,7 +27,7 @@
 | :ref:`element-verse-group`             | Zero or more times |
 +----------------------------------------+--------------------+
 
-This element is used to display poems, verses or music. The element :ref:`attrib` can also be inserted to identify the author, and :ref:`element-label` to identify the title of the poem, verse, etc.
+This element is used to display poems, verses or music. The element :ref:`element-attrib` can also be inserted to identify the author, and :ref:`element-label` to identify the title of the poem, verse, etc.
 
 Example:
 
