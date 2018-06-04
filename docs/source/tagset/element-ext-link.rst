@@ -5,8 +5,7 @@
 
 Madatory attributes:
 
-  1. ``@ext-link-type``
-  2. ``@xlink:href``
+  1. ``@xlink:href``
 
 +----------------------------------+--------------------+
 | Appears in                       | Frequency          |
@@ -20,17 +19,10 @@ Madatory attributes:
 | :ref:`elemento-product`          | Zero or more times |
 +----------------------------------+--------------------+
 
+Specifies references to web resources on the Internet. The only restrictions on the use of this element are:
 
-Especifica referências a recursos disponíveis na internet. As únicas restrições quanto à sua utilização são:
-
-* O *scheme* deve ser explícito, ou seja, deve começar com ``http://``, ``ftp://``,   ``urn:`` etc;
-* Referências locais, por meio do *scheme* ``file://`` não são permitidas.
-
-Os valores possíveis para o ``@ext-link-type`` são:
-
-* uri
-* clinical-trial
-
+* The scheme must be explicit, in other words, it must begin with http://, ftp://, urn:, etc;
+* Local references via the scheme file:// are not allowed.
 
 Example URL:
 
