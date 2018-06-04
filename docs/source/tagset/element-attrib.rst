@@ -49,15 +49,13 @@ Example in verses:
 
 .. code-block:: xml
 
-  ...
   <verse-group>
-    <label>Porque é que um sono agita</label>
-    <verse-line>E, num fiel regresso</verse-line>
-    <verse-line>Ao que já era bruma,</verse-line>
-    <verse-line>Sonolento me apresso</verse-line>
-    <verse-line>Para coisa nenhuma.</verse-line>
-    <attrib>Fernando Pessoa</attrib>
+    <label>A verse sample</label>
+    <verse-line>Sampling a verse</verse-line>
+    <verse-line>Sampling what?</verse-line>
+    <verse-line>A simple verse</verse-line>
+    <verse-line>A unmeaning verse.</verse-line>
+    <attrib>Anonymous</attrib>
   </verse-group>
-  ...
 
 .. {"reviewed_on": "20180603", "by": "fabio.batalha@erudit.org"}
