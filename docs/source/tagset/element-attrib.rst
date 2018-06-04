@@ -6,21 +6,21 @@
 +----------------------------------------+--------------------+
 | Appears in                             | Frequency          |
 +========================================+====================+
-| :ref:`elemento-boxed-text`             | Zero or more times |
+| :ref:`element-boxed-text`              | Zero or more times |
 +----------------------------------------+--------------------+
-| :ref:`elemento-fig`                    | Zero or more times |
+| :ref:`element-fig`                     | Zero or more times |
 +----------------------------------------+--------------------+
 | ``<graphic>``                          | Zero or more times |
 +----------------------------------------+--------------------+
-| :ref:`elemento-media`                  | Zero or more times |
+| :ref:`element-media`                   | Zero or more times |
 +----------------------------------------+--------------------+
-| :ref:`elemento-supplementary-material` | Zero or more times |
+| :ref:`element-supplementary-material`  | Zero or more times |
 +----------------------------------------+--------------------+
-| :ref:`elemento-table-wrap`             | Zero or more times |
+| :ref:`element-table-wrap`              | Zero or more times |
 +----------------------------------------+--------------------+
-| :ref:`elemento-verse-group`            | Zero or more times |
+| :ref:`element-verse-group`             | Zero or more times |
 +----------------------------------------+--------------------+
-| :ref:`elemento-table-wrap-foot`        | Zero or more times |
+| :ref:`element-table-wrap-foot`         | Zero or more times |
 +----------------------------------------+--------------------+
 
 Used to credit the author or licensor of the assets or content which require such attribution.
