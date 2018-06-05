@@ -25,7 +25,7 @@ Madatory attributes:
 
 .. note::
 
-    See `JATS Specifications <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/element/attrib.html>`_ to see all the elements the `<ext-link>` could be inserted.
+    See `JATS Specifications <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/element/attrib.html>`_ to see all the elements the ``<ext-link>`` could be inserted.
 
 Specifies references to web resources on the Internet. The only restrictions on the use of this element are:
 
