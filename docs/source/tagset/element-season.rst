@@ -67,7 +67,7 @@ List of known seasons:
 | 2nd semester  |
 +---------------+
 
-.. note::
+.. note::   
 
     An hyphen must be used to combine more than one season, ex: may-june, spring-summer, etc.
 
