@@ -8,16 +8,24 @@ Madatory attributes:
   1. ``@xlink:href``
 
 +----------------------------------+--------------------+
-| Appears in                       | Frequency          |
+| Appears commonly in              | Frequency          |
 +==================================+====================+
-| :ref:`elemento-comment`          | Zero or more times |
+| :ref:`element-comment`           | Zero or more times |
 +----------------------------------+--------------------+
-| :ref:`elemento-element-citation` | Zero or more times |
+| :ref:`element-element-citation`  | Zero or more times |
 +----------------------------------+--------------------+
-| :ref:`elemento-p`                | Zero or more times |
+| :ref:`element-p`                 | Zero or more times |
 +----------------------------------+--------------------+
-| :ref:`elemento-product`          | Zero or more times |
+| :ref:`element-product`           | Zero or more times |
 +----------------------------------+--------------------+
+| :ref:`element-table-wrap`        | Zero or more times |
++----------------------------------+--------------------+
+| :ref:`element-fig-group`         | Zero or more times |
++----------------------------------+--------------------+
+
+.. note::
+
+    See `JATS Specifications <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/element/attrib.html>`_ to see all the elements the `<ext-link>` could be inserted.
 
 Specifies references to web resources on the Internet. The only restrictions on the use of this element are:
 
