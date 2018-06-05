@@ -10,13 +10,9 @@ Madatory attributes:
 +----------------------------------+--------------------+
 | Appears commonly in              | Frequency          |
 +==================================+====================+
-| :ref:`element-comment`           | Zero or more times |
-+----------------------------------+--------------------+
 | :ref:`element-element-citation`  | Zero or more times |
 +----------------------------------+--------------------+
 | :ref:`element-p`                 | Zero or more times |
-+----------------------------------+--------------------+
-| :ref:`element-product`           | Zero or more times |
 +----------------------------------+--------------------+
 | :ref:`element-table-wrap`        | Zero or more times |
 +----------------------------------+--------------------+
