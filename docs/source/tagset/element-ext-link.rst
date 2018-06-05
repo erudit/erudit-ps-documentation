@@ -20,7 +20,7 @@ Madatory attributes:
 +----------------------------------+--------------------+
 | :ref:`element-table-wrap`        | Zero or more times |
 +----------------------------------+--------------------+
-| :ref:`element-fig-group`         | Zero or more times |
+| :ref:`element-fig`               | Zero or more times |
 +----------------------------------+--------------------+
 
 .. note::
