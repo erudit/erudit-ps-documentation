@@ -27,6 +27,10 @@
 
 Used to credit the author or licensor of the assets or content which require such attribution.
 
+.. note::
+
+  In :term:`JATS`, a variety of elements could be used inside ``<attrib>``. In the scope of the :term:`Érudit PS`, only the elements :ref:`element-email`, :ref:`element-title`, :ref:`element-uri` and a plain text ``text()`` will be recognized.
+
 Example in figure:
 
 .. code-block:: xml
