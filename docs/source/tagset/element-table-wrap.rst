@@ -31,6 +31,10 @@ Specifies all the parts of a single table, including :ref:`element-label`, :ref:
 
   The element :ref:`label` is mandatory in Érudit Article.
 
+.. note::
+
+  One of the elements (:ref:`element-table` or :ref:`element-graphic`) is expected in ``<table-wrap>``.
+
 Example:
 
 .. code-block:: xml
