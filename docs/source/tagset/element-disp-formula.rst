@@ -23,7 +23,7 @@ Mandatory attributes:
 | :ref:`element-supplementary-material`  | Zero or more times |
 +----------------------------------------+--------------------+
 
-Identifies equations and formulas displayed as blocks, outsite of a paragraph. The coding could be written according to :term:`W3C` using :term:`MathML` (http://www.w3.org/TR/MathML3/), or coded in Tex, LaTeX or even as an image using the element :ref:`graphic` as displayed in the examples.
+Identifies equations and formulas displayed as blocks, it could be outside of a paragraph. The coding could be written according to :term:`W3C` using :term:`MathML` (http://www.w3.org/TR/MathML3/), or coded in Tex, LaTeX or even as an image using the element :ref:`graphic` as displayed in the examples.
  
 Examples:
 
