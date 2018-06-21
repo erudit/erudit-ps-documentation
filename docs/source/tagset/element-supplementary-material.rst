@@ -42,7 +42,7 @@ Supplementary material is used to include information to an article, as example:
 .. note:: 
 
  * At :ref:`element-front`, this element must be inserted after the paging information or before the element :ref:`element-history`.
- * At http://www.iana.org/assignments/media-types/media-types.xhtml, there is detailed information about the values for the attributes ``@mimetype`` e ``@mime-subtype``.
+ * At http://www.iana.org/assignments/media-types/media-types.xhtml, there is detailed information about the values for the attributes ``@mimetype`` and ``@mime-subtype``.
 
 Examples:
 
