@@ -51,7 +51,7 @@ Examples:
  * :ref:`element-supplementary-material-example-3`
  * :ref:`element-supplementary-material-example-4`
 
-.. _elemento-supplementary-material-exemplo-1:
+.. _element-supplementary-material-example-1:
 
 Example of ``<supplementary-material>`` in ``<front>``
 ------------------------------------------------------
@@ -113,7 +113,7 @@ Example of ``<supplementary-material>`` in ``<p>`` inside ``<body>``
     </body>
     ...
 
-.. _elemento-supplementary-material-exemplo-4:
+.. _element-supplementary-material-example-4:
 
 Example of ``<supplementary-material>`` in ``<back>``
 -----------------------------------------------------
