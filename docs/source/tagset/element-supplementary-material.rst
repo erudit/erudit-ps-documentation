@@ -23,13 +23,7 @@ Mandatory attributes:
 +-------------------------------+--------------------+
 | :ref:`element-disp-quote`     | Zero or more times |
 +-------------------------------+--------------------+
-| :ref:`element-front-stub`     | Zero or more times |
-+-------------------------------+--------------------+
-| :ref:`element-glossary`       | Zero or more times |
-+-------------------------------+--------------------+
 | ``license-p``                 | Zero or more times |
-+-------------------------------+--------------------+
-| :ref:`element-named-content`  | Zero or more times |
 +-------------------------------+--------------------+
 | :ref:`element-p`              | Zero or more times |
 +-------------------------------+--------------------+
