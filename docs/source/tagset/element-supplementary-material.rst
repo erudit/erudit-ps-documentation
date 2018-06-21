@@ -98,8 +98,8 @@ Example of ``<supplementary-material>`` wrapping an object in ``<body>``
 
 .. _element-supplementary-material-example-3:
 
-Example of ``<supplementary-material>`` in ``<p>`` inside ``<body>``
----------------------------------------------------------------------
+Example of ``<supplementary-material>`` in ``<body><p/></body>``
+----------------------------------------------------------------
 
 .. code-block:: xml
     
