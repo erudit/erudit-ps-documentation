@@ -28,7 +28,7 @@ The allowed values for ``@journal-id-type`` are:
 +---------------+-----------------------------------------+
 | doi           | Journal id at :term:`Crossref`          |
 +---------------+-----------------------------------------+
-| OJS           | Journal id in OJS System when used      |
+| ojs           | Journal id in OJS System when used      |
 +---------------+-----------------------------------------+
 
 Example:
