@@ -28,6 +28,8 @@ The allowed values for ``@journal-id-type`` are:
 +---------------+-----------------------------------------+
 | doi           | Journal id at :term:`Crossref`          |
 +---------------+-----------------------------------------+
+| OJS           | Journal id in OJS System when used      |
++---------------+-----------------------------------------+
 
 Example:
 
@@ -42,4 +44,4 @@ Example:
     ...
 
 
-.. {"reviewed_on": "20180501", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20181009", "by": "fabio.batalha@erudit.org"}
