@@ -11,14 +11,7 @@
 
 Identifies an alternative name for the author.
 
-Examples:
-
-  * :ref:`element-string-name-example-1`
-
-.. _element-string-name-example-1:
-
-Example of ``<string-name>`` in ``<contrib>``:
-----------------------------------------------
+Example:
 
 .. code-block:: xml
 

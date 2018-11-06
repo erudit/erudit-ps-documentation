@@ -11,14 +11,7 @@
 
 Author biography.
 
-Examples:
-
-  * :ref:`element-bio-example-1`
-
-.. _element-bio-example-1:
-
-Example of ``<bio>`` in ``<contrib>``:
---------------------------------------
+Example:
 
 .. code-block:: xml
 
