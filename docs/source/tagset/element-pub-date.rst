@@ -26,7 +26,7 @@ The publication date of an article and it's issue uses the element ``<pub-date>`
 
 .. note::
 
-    It is not necessary to have the attribute ``@publication-format`` when the attribute ``@pub-type`` has the value **collection**. See the exemples bellow.
+    It is not necessary to have the attribute ``@publication-format`` when the attribute ``@pub-type`` has the value **collection**. See the examples bellow.
 
 For Érudit PS will be mandatory to have at least one ``<pub-date>`` element inside :ref:`<article-meta>` with the publication date defined by the journal periodicity and expressed by the attribute ``@date-type=collection``. The article and journal publishing dates may differs for many reasons. 
 
