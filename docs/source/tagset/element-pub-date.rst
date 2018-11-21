@@ -26,6 +26,7 @@ The publication date of an article and it's issue uses the element ``<pub-date>`
             Only complete dates are accepted wich means the pub-date element must have the elements :ref:`element-day`, :ref:`element-month` and :ref:`element-year`. The element :ref:`element-season` it not accepted here.
 
     * **collection** represents the publication date defined by the journal periodicity.
+
         .. note::
 
             It is not necessary to have the attribute ``@publication-format`` when the attribute ``@date-type`` has the value **collection**. See the examples bellow.
