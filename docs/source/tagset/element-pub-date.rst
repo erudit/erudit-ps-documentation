@@ -17,15 +17,14 @@ Mandatory attributes:
 
 The publication date of an article and it's issue uses the element ``<pub-date>`` which may contain the elements :ref:`day`, :ref:`month`, :ref:`season` and must contain :term:`year`. ``<pub-date>`` must be accompanied by the attribute ``@publication-format`` and ``@date-type`` where:
 
-``@publication-format`` can be **epub-ppub** if there is a print version for the article, or only **epub** when:
+``@publication-format`` can be **ppub** if there is a publication date of print version for the article, and **epub** to identify the electronic publication date. The electronic publication date will be filled with the publication date in the Érudit platform.
 
-    * there is only an online version;
-    * it is a Continuous Publication;
-    * it is Ahead of Print;
+``@date-type`` can be **collection** or **pub** where:
 
-``@date-type`` can be **issue** or **pub** where pub represents the article publication date, and issue the represents the issue publication date.
+    * **pub** represents the article publication date
+    * **collection** represents the publication date defined by the journal periodicity
 
-For Érudit PS will be mandatory to have two ``<pub-date>`` elements inside :ref:`<article-meta>`. One to identify the article publication date expressed by ``@date-type=pub``, and another to specify the issue publication date expressed by ``@date-type=issue``. The article and issue publishing dates may differs for many reasons.
+For Érudit PS will be mandatory to have at least one ``<pub-date>`` element inside :ref:`<article-meta>` with the publication date defined by the journal periodicity and expressed by the attribute ``@date-type=collection``. The article and journal publishing dates may differs for many reasons. 
 
 .. note::
 
@@ -49,11 +48,16 @@ Example of ``<pub-date>`` of a document in a print and electronic version with `
     ...
     <article-meta>
         ...
-        <pub-date publication-format="epub-ppub" date-type="pub">
+        <pub-date publication-format="epub" date-type="pub">
             <season>Jan-Feb</season>
             <year>2014</year>
         </pub-date>
-        <pub-date date-type="issue">
+        <pub-date publication-format="ppub" date-type="pub">
+            <season>Jan-Feb</season>
+            <year>2014</year>
+        </pub-date>
+        <pub-date date-type="collection">
+            <season>Jan-Feb</season>
             <year>2014</year>
         </pub-date>
         ...
@@ -70,13 +74,19 @@ Example of ``<pub-date>`` of a document in a print and electronic version with `
     ...
     <article-meta>
         ...
-        <pub-date publication-format="epub-ppub" date-type="pub">
+        <pub-date publication-format="epub" date-type="pub">
+            <day>10</day>
+            <month>01</month>
+            <year>2014</year>
+        </pub-date>
+        <pub-date publication-format="ppub" date-type="pub">
             <day>21</day>
             <month>02</month>
-            <year>2018</year>
+            <year>2014</year>
         </pub-date>
-        <pub-date date-type="issue">
-            <year>2017</year>
+        <pub-date date-type="collection">
+            <season>Jan-Feb</season>
+            <year>2014</year>
         </pub-date>
         ...
     </article-meta>
@@ -98,7 +108,7 @@ Example of ``<pub-date>`` of a document available only in electronic version:
             <month>03</month>
             <year>2014</year>
         </pub-date>
-        <pub-date date-type="issue">
+        <pub-date date-type="collection">
             <year>2015</year>
         </pub-date>
         ...
