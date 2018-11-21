@@ -21,16 +21,16 @@ The publication date of an article and it's issue uses the element ``<pub-date>`
 ``@date-type`` can be **collection** or **pub** where:
 
     * **pub** represents the article publication date in it's print and/or electronic versions, 
-    
+
         .. note::
-            Only complete dates are accepted wich means the pub-date element must have the elements :ref:``<day>``, :ref:``<month>`` and :ref:``<year>``. The element :ref:``<season>`` it not accepted here.
+            Only complete dates are accepted wich means the pub-date element must have the elements :ref:`day`, :ref:`month` and :ref:`year`. The element :ref:`season` it not accepted here.
 
     * **collection** represents the publication date defined by the journal periodicity.
         .. note::
 
             It is not necessary to have the attribute ``@publication-format`` when the attribute ``@date-type`` has the value **collection**. See the examples bellow.
 
-For Érudit PS will be mandatory to have at least one ``<pub-date>`` element inside :ref:`<article-meta>` with the publication date defined by the journal periodicity and expressed by the attribute ``@date-type=collection``. The article and journal publishing dates may differs for many reasons. 
+For Érudit PS will be mandatory to have at least one ``<pub-date>`` element inside :ref:`article-meta` with the publication date defined by the journal periodicity and expressed by the attribute ``@date-type=collection``. The article and journal publishing dates may differs for many reasons. 
 
 .. note::
 
