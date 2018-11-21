@@ -6,7 +6,6 @@
 Mandatory attributes:
 
   1. ``@date-type``
-  2. ``@publication-format``
 
 +------------------------------+------------+
 | Appears in                   | Frequency  |
@@ -15,14 +14,14 @@ Mandatory attributes:
 +------------------------------+------------+
 
 
-The publication date of an article and it's issue uses the element ``<pub-date>`` which may contain the elements :ref:`day`, :ref:`month`, :ref:`season` and must contain :term:`year`. ``<pub-date>`` must be accompanied by the attribute ``@publication-format`` and ``@date-type`` where:
+The publication date of an article and it's issue uses the element ``<pub-date>`` which may contain the elements :ref:`day`, :ref:`month`, :ref:`season` and must contain :term:`year`. ``<pub-date>`` may be accompanied by the attribute ``@publication-format`` and ``@date-type`` where:
 
 ``@publication-format`` can be **ppub** if there is a publication date for a print version of the article, and **epub** to identify the electronic publication date.
 
 ``@date-type`` can be **collection** or **pub** where:
 
-    * **pub** represents the article publication date
-    * **collection** represents the publication date defined by the journal periodicity
+    * **pub** represents the article publication date in it's print and/or electronic versions.
+    * **collection** represents the publication date defined by the journal periodicity.
 
 .. note::
 
