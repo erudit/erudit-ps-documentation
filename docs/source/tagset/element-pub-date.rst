@@ -17,12 +17,16 @@ Mandatory attributes:
 
 The publication date of an article and it's issue uses the element ``<pub-date>`` which may contain the elements :ref:`day`, :ref:`month`, :ref:`season` and must contain :term:`year`. ``<pub-date>`` must be accompanied by the attribute ``@publication-format`` and ``@date-type`` where:
 
-``@publication-format`` can be **ppub** if there is a publication date of print version for the article, and **epub** to identify the electronic publication date. The electronic publication date will be filled with the publication date in the Érudit platform.
+``@publication-format`` can be **ppub** if there is a publication date for a print version of the article, and **epub** to identify the electronic publication date.
 
 ``@date-type`` can be **collection** or **pub** where:
 
     * **pub** represents the article publication date
     * **collection** represents the publication date defined by the journal periodicity
+
+.. note::
+
+    It is not necessary to have the attribute ``@publication-format`` when the attribute ``@pub-type`` has the value **collection**. See the exemples bellow.
 
 For Érudit PS will be mandatory to have at least one ``<pub-date>`` element inside :ref:`<article-meta>` with the publication date defined by the journal periodicity and expressed by the attribute ``@date-type=collection``. The article and journal publishing dates may differs for many reasons. 
 
