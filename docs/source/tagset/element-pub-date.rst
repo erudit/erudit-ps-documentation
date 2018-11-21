@@ -7,11 +7,11 @@ Mandatory attributes:
 
   1. ``@date-type``
 
-+------------------------------+------------+
-| Appears in                   | Frequency  |
-+==============================+============+
-| :ref:`element-article-meta`  | Two times  |
-+------------------------------+------------+
++------------------------------+--------------------+
+| Appears in                   | Frequency          |
++==============================+====================+
+| :ref:`element-article-meta`  | one or more times  |
++------------------------------+--------------------+
 
 
 The publication date of an article and it's issue uses the element ``<pub-date>`` which may contain the elements :ref:`day`, :ref:`month`, :ref:`season` and must contain :term:`year`. ``<pub-date>`` may be accompanied by the attribute ``@publication-format`` and ``@date-type`` where:
