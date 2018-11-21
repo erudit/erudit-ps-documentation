@@ -20,12 +20,15 @@ The publication date of an article and it's issue uses the element ``<pub-date>`
 
 ``@date-type`` can be **collection** or **pub** where:
 
-    * **pub** represents the article publication date in it's print and/or electronic versions.
+    * **pub** represents the article publication date in it's print and/or electronic versions, 
+    
+        .. note::
+            Only complete dates are accepted wich means the pub-date element must have the elements :ref:``<day>``, :ref:``<month>`` and :ref:``<year>``. The element :ref:``<season>`` it not accepted here.
+
     * **collection** represents the publication date defined by the journal periodicity.
+        .. note::
 
-.. note::
-
-    It is not necessary to have the attribute ``@publication-format`` when the attribute ``@date-type`` has the value **collection**. See the examples bellow.
+            It is not necessary to have the attribute ``@publication-format`` when the attribute ``@date-type`` has the value **collection**. See the examples bellow.
 
 For Érudit PS will be mandatory to have at least one ``<pub-date>`` element inside :ref:`<article-meta>` with the publication date defined by the journal periodicity and expressed by the attribute ``@date-type=collection``. The article and journal publishing dates may differs for many reasons. 
 
@@ -37,40 +40,12 @@ Examples:
 
     * :ref:`element-pubdate-example-1`
     * :ref:`element-pubdate-example-2`
-    * :ref:`element-pubdate-example-3`
 
-    
 
 .. _element-pubdate-example-1: 
 
-Example of ``<pub-date>`` of a document in a print and electronic version with ``<season>``:
---------------------------------------------------------------------------------------------
-
-.. code-block:: xml
-
-    ...
-    <article-meta>
-        ...
-        <pub-date publication-format="epub" date-type="pub">
-            <season>Jan-Feb</season>
-            <year>2014</year>
-        </pub-date>
-        <pub-date publication-format="ppub" date-type="pub">
-            <season>Jan-Feb</season>
-            <year>2014</year>
-        </pub-date>
-        <pub-date date-type="collection">
-            <season>Jan-Feb</season>
-            <year>2014</year>
-        </pub-date>
-        ...
-    </article-meta>
-    ...
-
-.. _element-pubdate-example-2: 
-
-Example of ``<pub-date>`` of a document in a print and electronic version with ``<month>`` e ``<day>``:
--------------------------------------------------------------------------------------------------------
+Example of ``<pub-date>`` of a document in a print and electronic versions:
+---------------------------------------------------------------------------
 
 .. code-block:: xml
 
@@ -96,7 +71,7 @@ Example of ``<pub-date>`` of a document in a print and electronic version with `
     ...
 
 
-.. _element-pubdate-example-3:
+.. _element-pubdate-example-2:
 
 Example of ``<pub-date>`` of a document available only in electronic version:
 -----------------------------------------------------------------------------
