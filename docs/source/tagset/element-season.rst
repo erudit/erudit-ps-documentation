@@ -8,12 +8,10 @@
 +==================================+=================+
 | :ref:`element-element-citation` | Zero or one time |
 +----------------------------------+-----------------+
-| :ref:`element-product`          | Zero or one time |
-+----------------------------------+-----------------+
 | :ref:`element-pub-date`         | Zero or one time |
 +----------------------------------+-----------------+
 
-This element can occur in :ref:`pub-date` to identify a month range (see Note below), and in :ref:`element-citation` and :ref:`product` to identify the season in a bibliographic reference.
+This element can occur in :ref:`element-pub-date` to identify a month range (see Note below), and in :ref:`element-citation` to identify the season in a bibliographic reference.
 
 As a pattern Érudit PS have a list of valid values for seasons. These values are not mandatory in this version of Érudit PS, but have in mind to follow these best practices to be under conformit with the next versions of Érudit PS.
 
@@ -103,7 +101,7 @@ Example of ``<season>`` as a season:
 .. _element-season-example-2:
 
 Example of ``<season>`` as a month range:
---------------------------------------
+-----------------------------------------
 
 .. code-block:: xml
 
@@ -125,7 +123,7 @@ Example of ``<season>`` as a month range:
 .. _element-season-example-3:
 
 Example of ``<season>`` as a season range:
----------------------------------------
+------------------------------------------
 
 .. code-block:: xml
 
