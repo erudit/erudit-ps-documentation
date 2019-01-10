@@ -1,7 +1,7 @@
 .. _element-issue-id:
 
 <issue-id>
-============
+==========
 
 Mandatory attributes:
 
