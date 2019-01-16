@@ -221,9 +221,6 @@ Examples:
         <copyright-statement>Tous droits réservés © Revue de l’Université de Moncton</copyright-statement>
         <copyright-year>2015</copyright-year>
         <copyright-holder>Revue de l’Université de Moncton</copyright-holder>
-        <license>
-          <license-p>Tous droits réservés © Revue de l’Université de Moncton, 2015</license-p>
-        </license>
       </permissions>
       ...
     </article-meta>
@@ -240,13 +237,10 @@ Examples:
     <article-meta>
       ...
       <permissions>
-        <copyright-holder>Revue de l’Université de Moncton</copyright-holder>
-        <license>
-          <license-p>Tous droits réservés © Revue de l’Université de Moncton, 2015</license-p>
-        </license>
+        <copyright-statement>Tous droits réservés © 2018 Revue de l’Université de Moncton</copyright-statement>
       </permissions>
       ...
     </article-meta>
     ...
 
-.. {"reviewed_on": "20180530", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20190116", "by": "fabio.batalha@erudit.org"}
