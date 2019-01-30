@@ -5,7 +5,7 @@
 
 Mandatory attributes:
 
-  1. ``@abbrev-type="erudit"``
+  1. ``@abbrev-type="publisher"``
 
 +-------------------------------------+-------------------------+
 | Appears in                          | Frequency               |
