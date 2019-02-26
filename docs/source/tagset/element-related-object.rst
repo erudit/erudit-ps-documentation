@@ -5,7 +5,8 @@
 
 Mandatory attributes:
 
-  1. ``@document-type``
+  1. ``@content-type``
+  2. ``@document-type``
 
 +------------------------------+--------------------+
 | Appears in                   | Frequency          |
@@ -29,6 +30,10 @@ The recoginized values for the attribute **@document-type** are:
     * book-chapter
     * article
 
+The recoginized values for the attribute **@content-type** are:
+
+    * reviewed-document
+
 Example:
 
 .. code-block:: xml
@@ -40,7 +45,7 @@ Example:
         <title-group>
           <sub-title xml:lang="fr">Les comptes rendus</sub-title>
         </title-group>
-        <related-object document-type="article"><italic>Emploi. Économie Sociale. Développement local. Les nouvelles filières</italic>, Yvan Comeau, Louis Favreau, Benoît Lévesque et Marguerite Mendell, Sainte-Foy, Presses de l’Université du Québec, 2001, 336 p.</related-object>
+        <related-object content-type="reviewed-document" document-type="article"><italic>Emploi. Économie Sociale. Développement local. Les nouvelles filières</italic>, Yvan Comeau, Louis Favreau, Benoît Lévesque et Marguerite Mendell, Sainte-Foy, Presses de l’Université du Québec, 2001, 336 p.</related-object>
         ...
     </article-meta>
     ...
@@ -51,7 +56,7 @@ Example:
     ...
     <article-meta>
         ...
-        <related-object document-type="book">Book Title</related-object>
+        <related-object content-type="reviewed-document" document-type="book">Book Title</related-object>
         ...
     </article-meta>
     ...
@@ -61,7 +66,7 @@ Example:
     ...
     <article-meta>
         ...
-        <related-object document-type="book-chapter">Chapter Title</related-object>
+        <related-object content-type="reviewed-document" document-type="book-chapter">Chapter Title</related-object>
         ...
     </article-meta>
     ...
@@ -71,7 +76,7 @@ Example:
     ...
     <article-meta>
         ...
-        <related-object document-type="article">Article Title</related-object>
+        <related-object content-type="reviewed-document" document-type="article">Article Title</related-object>
         ...
     </article-meta>
     ...
