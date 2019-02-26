@@ -3,6 +3,10 @@
 <related-object>
 ================
 
+Mandatory attributes:
+
+  1. ``@document-type``
+
 +------------------------------+--------------------+
 | Appears in                   | Frequency          |
 +==============================+====================+
@@ -19,6 +23,12 @@ reviewed souce, ex: book, article, thesis, etc.
     specifications. For Érudit Publishing Schema, this element will be recoginized only
     if available in the element **article-meta** only for the purpose discribed above.
 
+The recoginized values for the attribute **@document-type** are:
+
+    * book
+    * book-chapter
+    * article
+
 Example:
 
 .. code-block:: xml
@@ -26,7 +36,7 @@ Example:
     ...
     <article-meta>
         ...
-        <related-object content-type="review" document-type="book">Book Title</related-object>
+        <related-object document-type="book">Book Title</related-object>
         ...
     </article-meta>
     ...
@@ -36,7 +46,7 @@ Example:
     ...
     <article-meta>
         ...
-        <related-object content-type="review" document-type="book-chapter">Chapter Title</related-object>
+        <related-object document-type="book-chapter">Chapter Title</related-object>
         ...
     </article-meta>
     ...
@@ -46,7 +56,7 @@ Example:
     ...
     <article-meta>
         ...
-        <related-object content-type="review" document-type="article">Article Title</related-object>
+        <related-object document-type="article">Article Title</related-object>
         ...
     </article-meta>
     ...
