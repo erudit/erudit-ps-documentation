@@ -22,6 +22,8 @@ The attribute ``@contrib-id-type`` could have the following values:
 +============+=======================================================+
 | orcid      | Identifies a researcher in  *ORCID Organization*.     |
 +------------+-------------------------------------------------------+
+| ISNI       | Identifies a researcher in  *ISNI*.                   |
++------------+-------------------------------------------------------+
 | researchid | Identifies a researcher in  *Thomson Reuters*.        |
 +------------+-------------------------------------------------------+
 | scopus     | Identifies a researcher in  *Scopus*.                 |
@@ -52,4 +54,4 @@ Example:
   * ``<contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8528-2091</contrib-id>``
 
 
-.. {"reviewed_on": "20180507", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20190409", "by": "fabio.batalha@erudit.org"}
