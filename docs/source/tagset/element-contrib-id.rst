@@ -32,7 +32,7 @@ Example:
   ...
   <contrib-group>
     <contrib contrib-type="author">
-      <contrib-id contrib-id-type="orcid">0000-0001-8528-2091</contrib-id>
+      <contrib-id contrib-id-type="orcid">0000-0000-0000-0000</contrib-id>
       <name>
         <surname>Brown</surname>
         <given-names>Emmett</given-names>
@@ -48,7 +48,7 @@ Example:
   ...
   <contrib-group>
     <contrib contrib-type="author">
-      <contrib-id contrib-id-type="isns"></contrib-id>
+      <contrib-id contrib-id-type="isns">0000 0000 0000 0000</contrib-id>
       <name>
         <surname>Brown</surname>
         <given-names>Emmett</given-names>
