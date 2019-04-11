@@ -22,7 +22,7 @@ The attribute ``@contrib-id-type`` could have the following values:
 +============+=======================================================+
 | orcid      | Identifies a researcher in  *ORCID Organization*.     |
 +------------+-------------------------------------------------------+
-| isns       | Identifies a researcher in  *ISNI*.                   |
+| isni       | Identifies a researcher in  *ISNI*.                   |
 +------------+-------------------------------------------------------+
 
 Example:
@@ -48,7 +48,7 @@ Example:
   ...
   <contrib-group>
     <contrib contrib-type="author">
-      <contrib-id contrib-id-type="isns">0000 0000 0000 0000</contrib-id>
+      <contrib-id contrib-id-type="isni">0000 0000 0000 0000</contrib-id>
       <name>
         <surname>Brown</surname>
         <given-names>Emmett</given-names>
