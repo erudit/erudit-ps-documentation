@@ -17,8 +17,6 @@ Mandatory elements:
 | :ref:`element-article-meta`   | Zero or more times |
 +-------------------------------+--------------------+
 
-Used for the article contributors’ institutional affiliation or attachment at the time the article was written, stated either by their degree in process, for example, Masters, Doctorate or Postdoc, etc, or as persons directly affiliated with the institution, for example, Professor at University X, Doctor at institution Y, and Nurse at Hospital Z.
-
 Affiliation data is important for locating and measuring scientific output by country, state, and city, as well as by institution and its departments.
 
 It is recommended that the names of the institutions be used in their original form, not in their translated or abbreviated forms.
@@ -37,11 +35,10 @@ Example:
       <institution content-type="orgdiv1">Neurobiology Laboratory</institution>
       <city>Göttingen</city>
       <country>Germany</country>
-      <uri content-type="entity">organisation-1</uri>
     </aff>
     ...
   </article-meta>
   ...
 
 
-.. {"reviewed_on": "20180518", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20190411", "by": "fabio.batalha@erudit.org"}
