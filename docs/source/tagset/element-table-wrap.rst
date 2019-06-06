@@ -79,8 +79,9 @@ Example:
            <p>the annexe 2 information is meaningfull</p>
         </fn>
       </table-wrap-foot>
+      <attrib>Source: The Source</attrib>
     </table-wrap>
     ...
 
 
-.. {"reviewed_on": "20180601", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20190606", "by": "fabio.batalha@erudit.org"}
