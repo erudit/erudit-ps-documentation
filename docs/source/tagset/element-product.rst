@@ -3,11 +3,11 @@
 <product>
 =========
 
-+----------------------------------+------------------+
-| Appears in                       | Frequency        |
-+==================================+==================+
-| :ref:`element-article-meta`      | Zero or one time |
-+----------------------------------+------------------+
++----------------------------------+-------------------+
+| Appears in                       | Frequency         |
++==================================+===================+
+| :ref:`element-article-meta`      | Zero or more time |
++----------------------------------+-------------------+
 
 Used in :ref:`element-article-meta` to identify the title of a reviewed resource.
 
@@ -24,6 +24,7 @@ Examples:
 
   * :ref:`element-product-example-1`
   * :ref:`element-product-example-2`
+  * :ref:`element-product-example-3`
 
 .. _element-product-example-1:
 
@@ -43,6 +44,26 @@ Example of ``<product>`` in :ref:`element-article-meta`:
     ...
 
 .. _element-product-example-2:
+
+Example of more then one related ``<product>`` in :ref:`element-article-meta`:
+------------------------------------------------------------------------------
+
+.. code-block:: xml
+
+    ...
+    <article-meta>
+      ...
+      <product product-type="book">
+          <related-object>Rosa Bruno-Jofré &amp; James Scott Johnston (Eds.). <italic>Teacher Education in a Transnational World</italic>. Toronto, ON: University of Toronto Press. (2014). 466 pp. $75.00 (hardcover). (ISBN 978-1-4426-4934-7)</related-object>
+      </product>
+      <product product-type="book">
+          <related-object>Other related object</related-object>
+      </product>
+      ...
+    </article-meta>
+    ...
+
+.. _element-product-example-3:
 
 Example of ``<product>`` combined with article-title and subtitle :ref:`element-article-meta`:
 ----------------------------------------------------------------------------------------------
