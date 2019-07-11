@@ -20,7 +20,7 @@ This guide describes how to use the Markup Style designed by *Érudit* for the s
 
 The :term:`Érudit Publishing Schema` (:term:`Érudit PS`) is compounded by the following specifications:
 
-* :term:`NISO JATS Journal Publishing DTD` (JATS version `1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`);
+* :term:`NISO JATS Journal Archiving DTD` (JATS version `1.2 <http://jats.nlm.nih.gov/archiving/1.2/>`);
 * :term:`Érudit PS Style` containing specialized validations to address Érudit needs.
 
 The users of this guide must have mastered :term:`XML` and :term:`DTD`.
@@ -50,7 +50,7 @@ General Info
 Elements List
 -------------
 
-This list represents only the :term:`XML` elements of the :term:`Érudit PS`. The complete list of :term:`XML` elements of the JATS :term:`tag set` is available at `JATS 1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`_.
+This list represents only the :term:`XML` elements of the :term:`Érudit PS`. The complete list of :term:`XML` elements of the JATS :term:`tag set` is available at `JATS 1.2 <http://jats.nlm.nih.gov/archiving/1.2/>`_.
 
 .. toctree::
    :maxdepth: 1
@@ -79,4 +79,4 @@ Indexes and tables
 
    copyright
 
-.. {"reviewed_on": "20180422", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20190711", "by": "fabio.batalha@erudit.org"}

@@ -21,6 +21,7 @@ For the ``@content-type`` attribute the allowed values are:
 * dedication
 * epigraph
 * example
+* block-citation
 
 Examples:
 
@@ -29,6 +30,7 @@ Examples:
     * :ref:`element-disp-quote-example-3`
     * :ref:`element-disp-quote-example-4`
     * :ref:`element-disp-quote-example-5`
+    * :ref:`element-disp-quote-example-6`
 
 .. _element-disp-quote-example-1:
 
@@ -77,6 +79,17 @@ Exemple of ``<disp-quote>`` for example:
     </disp-quote>
 
 .. _element-disp-quote-example-5:
+
+Exemple of ``<disp-quote>`` for block-citation:
+-----------------------------------------------
+
+.. code-block:: xml
+
+    <disp-quote content-type="dedication">
+        <p>En souvenir de Catherine Viollet</p>
+    </disp-quote>
+
+.. _element-disp-quote-example-6:
 
 Exemple of general ``<disp-quote>``:
 ------------------------------------

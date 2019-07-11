@@ -89,8 +89,8 @@ Glossary
       Acronym for Journal Article Tag Suite. For more information, see `Journal Article Tag Suite <http://jats.nlm.nih.gov/index.html>`_. 
 
 
-   JATS Publishing
-      Model for journal articles based on :term:`JATS` optimized for the archives who wish to regularize and control their content, not to accept the sequence and arrangement presented to them by any particular publisher. For more information, see `JATS - Journal Publishing Tag Set <https://jats.nlm.nih.gov/publishing/>`_.
+   JATS Archiving
+      Model for journal articles based on :term:`JATS` optimized for the archives who wish to regularize and control their content, not to accept the sequence and arrangement presented to them by any particular publisher. For more information, see `JATS - Journal Archiving Tag Set <https://jats.nlm.nih.gov/archiving/>`_.
 
 
    Markup
@@ -109,12 +109,12 @@ Glossary
       Acronym for the National Information Standards Organization. It is a not-for-profit organization accredited by *ANSI (American National Standards Institute)* which identifies, develops, maintains and publishes technical standards for the management of information in today’s constantly changing digital environment. For more information, see `NISO site <http://www.niso.org/home/>`_.
 
 
-   NISO JATS Journal Publishing DTD
-      A set of elements and attributes defined in *XML* format according to the *NISO Z39.96-2015* standard which describe the three journal article models. For more information, see `JATS: Journal Publishing Tag Set <http://jats.nlm.nih.gov/publishing/>`_.
+   NISO JATS Journal Archiving DTD
+      A set of elements and attributes defined in *XML* format according to the *NISO Z39.96-2015* standard which describe the three journal article models. For more information, see `JATS: Journal Archiving Tag Set <http://jats.nlm.nih.gov/archiving/>`_.
 
 
    NISO JATS table model
-      Tabulated data encoding model, based on and designed to be easily converted to the *XHTML 1.1* table model. For more information, see `Element Table (NISO JATS table model) <https://jats.nlm.nih.gov/archiving/tag-library/1.1d1/n-by90.html>`_.
+      Tabulated data encoding model, based on and designed to be easily converted to the *XHTML 1.1* table model. For more information, see `Element Table (NISO JATS table model) <https://jats.nlm.nih.gov/archiving/tag-library/1.2/n-by90.html>`_.
 
 
    Open Source
@@ -146,7 +146,7 @@ Glossary
 
 
    Érudit Publishing Schema
-      A set o rules compounded by the specification: :term:`NISO JATS Journal Publishing DTD`, versões `1.1 <https://jats.nlm.nih.gov/publishing/1.1/>`_. and the :term:`Érudit PS`.
+      A set o rules compounded by the specification: :term:`NISO JATS Journal Archiving DTD`, version `1.2 <https://jats.nlm.nih.gov/archiving/1.2/>`_. and the :term:`Érudit PS`.
 
 
    Packtools
