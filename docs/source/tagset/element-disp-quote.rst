@@ -59,6 +59,8 @@ Exemple of ``<disp-quote>`` for epigraph:
 Exemple of ``<disp-quote>`` for dedication:
 -------------------------------------------
 
+.. code-block:: xml
+
     <disp-quote content-type="dedication">
         <p>En souvenir de Catherine Viollet</p>
     </disp-quote>
@@ -67,6 +69,8 @@ Exemple of ``<disp-quote>`` for dedication:
 
 Exemple of ``<disp-quote>`` for example:
 ----------------------------------------
+
+.. code-block:: xml
 
     <disp-quote content-type="dedication">
         <p>En souvenir de Catherine Viollet</p>
