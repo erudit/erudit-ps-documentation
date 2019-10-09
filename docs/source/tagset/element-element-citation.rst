@@ -3,13 +3,15 @@
 <element-citation>
 ==================
 
-+---------------------+------------+
-| Appears in          | Frequency  |
-+=====================+============+
-| :ref:`element-ref`  | Once       |
-+---------------------+------------+
++---------------------+--------------------+
+| Appears in          | Frequency          |
++=====================+====================+
+| :ref:`element-ref`  | Zero or once       |
++---------------------+--------------------+
 
 ``<element-citation>`` is used to provide a detailed identification of each bibliographic reference, and should only appear as a child of :ref:`element-ref`. In addition, it could have the attribute ``@publication-type`` which indicates the type of the publication of the reference.
+
+``<element-citation>`` is used in :ref:`element-ref` to identify the DOI of the cited article.
 
 .. note:
 
@@ -68,8 +70,8 @@ Examples:
 
 .. _element-element-citation-example-1:
 
-1. Journal
-----------
+1. Mixed-citation only
+----------------------
 
 .. code-block:: xml
 
@@ -78,12 +80,91 @@ Examples:
     ...
     <ref-list>
       <ref id="B1">
-        <element-citation publication-type="journal">
-          <styled-content specific-use="display">
+        <mixed-citation publication-type="journal">
             Arrighi, L. et Boudreau, A. (2013). La construction discursive de l'identité francophone en Acadie ou «comment être francophone à partir des marges?». Minorités linguistiques et société/Linguistic Minorities and Society. 2. 8-92.
-          </styled-content>
+        </mixed-citation>
+      </ref>
+    <ref-list>
+    ...
+
+.. _element-element-citation-example-2:
+
+2. Mixed-citation and element-citation (DOI only)
+----------------------
+
+.. code-block:: xml
+
+    <!-- Journal Sample -->
+
+    ...
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+            Arrighi, L. et Boudreau, A. (2013). La construction discursive de l'identité francophone en Acadie ou «comment être francophone à partir des marges?». Minorités linguistiques et société/Linguistic Minorities and Society. 2. 8-92.
+        </mixed-citation>
+        <element-citation publication-type="journal">
           <pub-id pub-id-type="doi">
-            https://doi.org/10.7202/1016689ar
+              https://doi.org/10.7202/1016689ar
+          </pub-id>
+        </element-citation>
+      </ref>
+    <ref-list>
+    ...
+
+.. _element-element-citation-example-3:
+
+3. Mixed-citation and  detailed element-citation
+------------------------------------------------
+
+.. code-block:: xml
+
+    <!-- Journal Sample -->
+
+    ...
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+            Arrighi, L. et Boudreau, A. (2013). La construction discursive de l'identité francophone en Acadie ou «comment être francophone à partir des marges?». Minorités linguistiques et société/Linguistic Minorities and Society. 2. 8-92.
+        </mixed-citation>
+        <element-citation publication-type="journal">
+        <person-group person-group-type="author">
+            <name>
+              <surname>
+                  Arrighi
+              </surname>
+              <given-names>
+                  L.
+              </given-names>
+            </name>
+            <name>
+              <surname>
+                  Boudreau
+              </surname>
+              <given-names>
+                  A.
+              </given-names>
+            </name>
+          </person-group>
+          <year>
+              2013
+          </year>
+          <source>
+              Minorités linguistiques et société
+          </source>
+            <article-title>
+                La construction discursive de l'identité francophone en Acadie ou «comment être francophone à partir des marges?»
+            </article-title>
+          <issue>
+              2
+          </issue>
+          <fpage>
+              8
+          </fpage>
+          <lpage>
+              92
+          </lpage>
+          <pub-id pub-id-type="doi">
+              https://doi.org/10.7202/1016689ar
           </pub-id>
         </element-citation>
       </ref>
@@ -91,47 +172,9 @@ Examples:
     ...
 
 
-.. _element-element-citation-example-2:
-
-2. Book Chapter
----------------
-
-.. code-block:: xml
-
-    <!-- Book Chapter Sample -->
-
-    ...
-    <ref-list>
-      <ref id="B1">
-        <element-citation publication-type="chapter">
-          <styled-content specific-use="display">
-            Blommaert, J. et Verschueren, J. (1998). The role of language in European nationalist ideologies. In Schieffelin, B., Woolard, K. et Kroskrity, P. (dir.). Language Ideologies : Practice and Theory. Oxford : Oxford University Press. 189-210.
-          </styled-content>
-        </element-citation>
-      </ref>
-    </ref-list>
-    ...
 
 
-.. _element-element-citation-example-3:
 
-3. Book
--------
 
-.. code-block:: xml
-
-    <!-- Book Sample -->
-
-    ...
-    <ref-list>
-      <ref id="B1">
-        <element-citation publication-type="book">
-          <styled-content specific-use="display">
-            Baugh, J. (2000). Beyond Ebonics : Linguistic Pride and RacialPrejudice. Oxford : Oxford University Press.
-          </styled-content>
-        </element-citation>
-      </ref>
-    </ref-list>
-    ...
 
 .. {"reviewed_on": "20180501", "by": "fabio.batalha@erudit.org"}
