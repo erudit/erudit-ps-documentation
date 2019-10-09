@@ -84,7 +84,7 @@ Examples:
           </styled-content>
           <pub-id pub-id-type="doi">
             https://doi.org/10.7202/1016689ar
-          </pub-id>           
+          </pub-id>
         </element-citation>
       </ref>
     <ref-list>

@@ -6,12 +6,13 @@
 Welcome to Érudit Publishing Schema Documentation
 =================================================
 
-Version 0.1 (Beta) - March 2018. 
+Version 0.3 (Beta) - October 2019.
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Contents:
+   :maxdepth: 2
+   :glob:
 
+   changes/version_*
 
 Introduction
 ------------
