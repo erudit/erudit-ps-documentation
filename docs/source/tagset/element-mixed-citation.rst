@@ -1,6 +1,6 @@
-.. _element-element-citation:
+.. _element-mixed-citation:
 
-<element-citation>
+<mixed-citation>
 ==================
 
 +---------------------+------------+
@@ -9,11 +9,11 @@
 | :ref:`element-ref`  | Once       |
 +---------------------+------------+
 
-``<element-citation>`` is used to provide a detailed identification of each bibliographic reference, and should only appear as a child of :ref:`element-ref`. In addition, it could have the attribute ``@publication-type`` which indicates the type of the publication of the reference.
+``<mixed-citation>`` is used to provide an unstructured identification of each bibliographic reference, and should only appear as a child of :ref:`element-ref`. In addition, it could have the attribute ``@publication-type`` which indicates the type of the publication of the reference.
 
 .. note:
 
-    For the current version of :term:`Érudit PS`, it is not mandatory to identify the ``@publication-type`` in ``element-citation``, but have in mind in the future this attribute should became mandatory.
+    For the current version of :term:`Érudit PS`, it is not mandatory to identify the ``@publication-type`` in ``mixed-citation``, but have in mind in the future this attribute should became mandatory.
 
 The possible values for the ``@publication-type`` attribute are:
 
@@ -62,11 +62,11 @@ The possible values for the ``@publication-type`` attribute are:
 
 Examples:
 
-  * :ref:`element-element-citation-example-1`
-  * :ref:`element-element-citation-example-2`
-  * :ref:`element-element-citation-example-3`
+  * :ref:`element-mixed-citation-example-1`
+  * :ref:`element-mixed-citation-example-2`
+  * :ref:`element-mixed-citation-example-3`
 
-.. _element-element-citation-example-1:
+.. _element-mixed-citation-example-1:
 
 1. Journal
 ----------
@@ -78,20 +78,15 @@ Examples:
     ...
     <ref-list>
       <ref id="B1">
-        <element-citation publication-type="journal">
-          <styled-content specific-use="display">
+        <mixed-citation publication-type="journal">
             Arrighi, L. et Boudreau, A. (2013). La construction discursive de l'identité francophone en Acadie ou «comment être francophone à partir des marges?». Minorités linguistiques et société/Linguistic Minorities and Society. 2. 8-92.
-          </styled-content>
-          <pub-id pub-id-type="doi">
-            https://doi.org/10.7202/1016689ar
-          </pub-id>
-        </element-citation>
+        </mixed-citation>
       </ref>
     <ref-list>
     ...
 
 
-.. _element-element-citation-example-2:
+.. _element-mixed-citation-example-2:
 
 2. Book Chapter
 ---------------
@@ -103,17 +98,15 @@ Examples:
     ...
     <ref-list>
       <ref id="B1">
-        <element-citation publication-type="chapter">
-          <styled-content specific-use="display">
+        <mixed-citation publication-type="chapter">
             Blommaert, J. et Verschueren, J. (1998). The role of language in European nationalist ideologies. In Schieffelin, B., Woolard, K. et Kroskrity, P. (dir.). Language Ideologies : Practice and Theory. Oxford : Oxford University Press. 189-210.
-          </styled-content>
-        </element-citation>
+        </mixed-citation>
       </ref>
     </ref-list>
     ...
 
 
-.. _element-element-citation-example-3:
+.. _element-mixed-citation-example-3:
 
 3. Book
 -------
@@ -125,13 +118,11 @@ Examples:
     ...
     <ref-list>
       <ref id="B1">
-        <element-citation publication-type="book">
-          <styled-content specific-use="display">
+        <mixed-citation publication-type="book">
             Baugh, J. (2000). Beyond Ebonics : Linguistic Pride and RacialPrejudice. Oxford : Oxford University Press.
-          </styled-content>
-        </element-citation>
+        </mixed-citation>
       </ref>
     </ref-list>
     ...
 
-.. {"reviewed_on": "20180501", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20190909", "by": "mathieu.pigeon@erudit.org"}
