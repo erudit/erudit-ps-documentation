@@ -44,13 +44,13 @@ Example:
 .. code-block:: xml
 
     ...
-    <element-citation publication-type="journal">
-      <styled-content specific-use="display">
+    <mixed-citation publication-type="journal">
         Blommaert, J. (1999). Language Ideological Debates. Berlin : Mouton de Gruyter.
-      </styled-content>
+    </mixed-citation>
+    <element-citation publication-type="journal">
       <pub-id pub-id-type="doi">10.1515/9783110808049</pub-id>
     </element-citation>
     ...
 
 
-.. {"reviewed_on": "20180501", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20190910", "by": "mathieu.pigeon@erudit.org"}
