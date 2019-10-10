@@ -15,6 +15,11 @@ Mandatory attributes:
 
 This element is used solely to identify references in any format, and describes books, journals, conferences, etc. This element must have one element :ref:`element-mixed-citation` and may also have one element :ref:`element-element-citation`.
 
+.. note::
+
+    * If the reference has a DOI number it must be tagged inside an :ref:`element-element-citation` with the element :ref:`element-pub-id`
+
+
 Examples:
 
 * :ref:`element-ref-example-1`
@@ -55,7 +60,7 @@ Examples:
             <mixed-citation publication-type="journal">
               ...
             </mixed-citation>
-            <element-citation publication-type="journal">
+            <element-citation>
               <pub-id pub-id-type="doi">
                   https://doi.org/10.7202/1016689ar
               </pub-id>
