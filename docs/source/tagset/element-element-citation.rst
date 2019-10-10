@@ -90,7 +90,7 @@ Examples:
 .. _element-element-citation-example-2:
 
 2. Mixed-citation and element-citation (DOI only)
-----------------------
+-------------------------------------------------
 
 .. code-block:: xml
 
