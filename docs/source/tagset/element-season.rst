@@ -3,13 +3,13 @@
 <season>
 ========
 
-+----------------------------------+-----------------+
-| Appears in                       | Frequency       |
-+==================================+=================+
-| :ref:`element-element-citation` | Zero or one time |
-+----------------------------------+-----------------+
-| :ref:`element-pub-date`         | Zero or one time |
-+----------------------------------+-----------------+
++----------------------------------+------------------+
+| Appears in                       | Frequency        |
++==================================+==================+
+| :ref:`element-element-citation`  | Zero or one time |
++----------------------------------+------------------+
+| :ref:`element-pub-date`          | Zero or one time |
++----------------------------------+------------------+
 
 This element can occur in :ref:`element-pub-date` to identify a month range (see Note below), and in :ref:`element-citation` to identify the season in a bibliographic reference.
 
@@ -65,7 +65,7 @@ List of known seasons:
 | 2nd semester  |
 +---------------+
 
-.. note::   
+.. note::
 
     An hyphen must be used to combine more than one season, ex: may-june, spring-summer, etc.
 
