@@ -7,11 +7,11 @@
 | Appears in                      | Frequency        |
 +=================================+==================+
 | :ref:`element-date`             | Zero or one time |
-+----------------------------------+-----------------+
++---------------------------------+------------------+
 | :ref:`element-element-citation` | Zero or one time |
-+----------------------------------+-----------------+
++---------------------------------+------------------+
 | :ref:`element-product`          | Zero or one time |
-+----------------------------------+-----------------+
++---------------------------------+------------------+
 | :ref:`element-pub-date`         | Zero or one time |
 +---------------------------------+------------------+
 
@@ -19,11 +19,11 @@ Identifies the month in references or in the front metadata and can represent:
 
 * the month of publication of a scientific journal;
 * the month a report is produced;
-* the publication month of an article, ver :ref:`element-pub-date` or of a product, see :ref:`element-product` when used in  :ref:`elemento-front`.
+* the publication month of an article, ver :ref:`element-pub-date` or of a product, see :ref:`element-product` when used in  :ref:`element-front`.
 
 The allowed values are whole numbers of up to two digits, between 1 and 12 inclusive.
 
-Month ranges, for example, **Jab - mar** should be identifed in season :ref:`element-season`.
+Month ranges, for example, **Jan - mar** should be identifed in season :ref:`element-season`.
 
 Examples:
 
@@ -31,7 +31,7 @@ Examples:
   * :ref:`element-month-example-2`
   * :ref:`element-month-example-3`
 
-.. _elemento-month-exemplo-1:
+.. _element-month-example-1:
 
 Example of ``<month>`` in ``<pub-date>``:
 -----------------------------------------
