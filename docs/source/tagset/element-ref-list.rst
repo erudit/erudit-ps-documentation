@@ -11,7 +11,7 @@
 
 
 Represents the group of bibliographic references in an article, and must contain the
-element :ref:`element-ref` which, in turn, contains the element :ref:`element-element-citation`.
+element :ref:`element-ref` which, in turn, must contains the element :ref:`element-mixed-citation` and may contains the element :ref:`element-element-citation`.
 
 In ``<ref-list>``, a title could be inserted using the element ``<title>``.
 
