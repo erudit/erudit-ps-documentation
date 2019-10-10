@@ -13,27 +13,62 @@ Mandatory attributes:
 | :ref:`element-ref-list`  | One or more times |
 +--------------------------+-------------------+
 
-This element is used solely to identify references in any format, and describes books, journals, conferences, etc. This element must have one element :ref:`element-element-citation`.
+This element is used solely to identify references in any format, and describes books, journals, conferences, etc. This element must have one element :ref:`element-mixed-citation` and may also have one element :ref:`element-element-citation`.
 
-Example:
+Examples:
+
+* :ref:`element-ref-example-1`
+* :ref:`element-ref-example-2`
+
+.. _element-ref-example-1:
+
+1. Ref with one :ref:`element-mixed-citation`
+---------------------------------------------
 
 .. code-block:: xml
 
     ...
         <ref-list>
           <ref id="B1">
-            <element-citation publication-type="journal">
+            <mixed-citation publication-type="journal">
               ...
+            </mixed-citation>
+          </ref>
+          <ref id="B2">
+            <mixed-citation publication-type="book">
+              ...
+            </mixed-citation>
+          </ref>
+          ...
+        </ref-list>
+    ...
+
+.. _element-ref-example-2:
+
+2. Ref with one :ref:`element-mixed-citation` and one :ref:`element-element-citation`
+-------------------------------------------------------------------------------------
+.. code-block:: xml
+
+    ...
+        <ref-list>
+          <ref id="B1">
+            <mixed-citation publication-type="journal">
+              ...
+            </mixed-citation>
+            <element-citation publication-type="journal">
+              <pub-id pub-id-type="doi">
+                  https://doi.org/10.7202/1016689ar
+              </pub-id>
             </element-citation>
           </ref>
           <ref id="B2">
-            <element-citation publication-type="book">
+            <mixed-citation publication-type="book">
               ...
-            </element-citation>
+            </mixed-citation>
           </ref>
           ...
         </ref-list>
     ...
 
 
-.. {"reviewed_on": "20180501", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20190910", "by": "mathieu.pigeon@erudit.org"}
