@@ -177,4 +177,4 @@ Examples:
 
 
 
-.. {"reviewed_on": "20180501", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20190910", "by": "mathieu.pigeon@erudit.org"}
