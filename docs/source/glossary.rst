@@ -93,6 +93,10 @@ Glossary
       Model for journal articles based on :term:`JATS` optimized for the archives who wish to regularize and control their content, not to accept the sequence and arrangement presented to them by any particular publisher. For more information, see `JATS - Journal Archiving Tag Set <https://jats.nlm.nih.gov/archiving/>`_.
 
 
+   JATS Version
+      :term:`Érudit Publishing Schema` uses :term:`JATS Archiving and Interchange Tag Set` `version 1.2 <https://jats.nlm.nih.gov/archiving/1.2/>`_.
+
+
    Markup
       Term which defines the operation of tagging a text :term:`document` according to a previously defined standard. At Érudit, markup refers to the process of adding :term:`XML` elements to identify, qualify and group information in a journal article being incorporated into the database.
 
