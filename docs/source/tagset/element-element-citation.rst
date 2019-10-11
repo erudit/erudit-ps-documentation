@@ -9,7 +9,7 @@
 | :ref:`element-ref`  | Zero or once       |
 +---------------------+--------------------+
 
-``<element-citation>`` is used in :ref:`element-ref` to identify the DOI of the cited reference when it is available. This element may also be used to provide a detailed identification of a bibliographic reference. If so, it content must comply to the `JATS 1.2 standard <https://jats.nlm.nih.gov/archiving/tag-library/1.2/element/element-citation.html>`_.
+``<element-citation>`` is used in :ref:`element-ref` to identify the DOI of the cited reference when it is available. This element may also be used to provide a detailed identification of a bibliographic reference. If so, it content must comply to the :term:`NISO JATS Journal Archiving DTD` specifications.
 
 .. note::
 
@@ -110,4 +110,4 @@ Examples:
 
 
 
-.. {"reviewed_on": "20190911", "by": "mathieu.pigeon@erudit.org"}
+.. {"reviewed_on": "20191011", "by": "mathieu.pigeon@erudit.org"}

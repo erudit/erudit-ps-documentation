@@ -8,17 +8,17 @@ Mandatory attributes:
 
   1. ``@id`` (see :ref:`id-attribution-tips`)
 
-+-------------------------------------------------------------------------------------------------------------------------------------+--------------------+
-| Appears in                                                                                                                          | Frequency          |
-+=====================================================================================================================================+====================+
-| :ref:`element-body`                                                                                                                 | Zero or more times |
-+-------------------------------------------------------------------------------------------------------------------------------------+--------------------+
-| ``<fig-group>``                                                                                                                     | Zero or more times |
-+-------------------------------------------------------------------------------------------------------------------------------------+--------------------+
-| :ref:`element-p`                                                                                                                    | Zero or more times |
-+-------------------------------------------------------------------------------------------------------------------------------------+--------------------+
-| For other elements see `JATS Specifications <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/element/fig.html>`_ for details  | Zero or more times |
-+-------------------------------------------------------------------------------------------------------------------------------------+--------------------+
++---------------------------------------------------------------------------------------------------------+--------------------+
+| Appears in                                                                                              | Frequency          |
++=========================================================================================================+====================+
+| :ref:`element-body`                                                                                     | Zero or more times |
++---------------------------------------------------------------------------------------------------------+--------------------+
+| ``<fig-group>``                                                                                         | Zero or more times |
++---------------------------------------------------------------------------------------------------------+--------------------+
+| :ref:`element-p`                                                                                        | Zero or more times |
++---------------------------------------------------------------------------------------------------------+--------------------+
+| For other elements see the definition of element ``fig`` in the :term:`NISO JATS Journal Archiving DTD` | Zero or more times |
++---------------------------------------------------------------------------------------------------------+--------------------+
 
 Identifies the figures in an article. In this element you must specify the element :ref:`element-label`, you can also specify the elements :ref:`element-caption`, ``<graphic>`` and :ref:`element-permissions`. ``<fig>`` can still have the following attributes: ``@fig-type`` and ``@xml:lang``.
 
@@ -96,7 +96,7 @@ The attribute ``@fig-type`` is used to specify the image type, the value could b
 | map          |
 +--------------+
 
-Be sure to represent the correct :ref:`elemento-label` accoding to the ``@fig-type``.
+Be sure to represent the correct :ref:`element-label` accoding to the ``@fig-type``.
 
 .. code-block:: xml
 
@@ -161,4 +161,4 @@ Figures that have translated captions (have more than one :ref:`label` and :ref:
     ...
 
 
-.. {"reviewed_on": "20180528", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "2019-10-11", "by": "mathieu.pigeon@erudit.org"}

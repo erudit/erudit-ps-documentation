@@ -15,7 +15,7 @@ Mandatory attribute:
 
 General notes usually referencing some information of the current :term:`document` and research.
 
-The element ``<fn>`` may have the attribute ``fn-type``. It is not mandatory to use it, but used, it should follow as much as possible the `JATS recomendation for @fn-type <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/attribute/fn-type.html>`_.
+The element ``<fn>`` may have the attribute ``fn-type``. It is not mandatory to use it, but used, it should follow as much as possible the :term:`NISO JATS Journal Archiving DTD` recomendation for ``@fn-type``.
 
 Example:
 
@@ -37,4 +37,4 @@ Example:
   ...
 
 
-.. {"reviewed_on": "20180501", "by": "fabio.batalha@gmail.com"}
+.. {"reviewed_on": "20191011", "by": "mathieu.pigeon@erudit.org"}

@@ -15,7 +15,7 @@
 | ``td``                  | Zero or more times |
 +-------------------------+--------------------+
 
-See the `JATS Specification <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/element/inline-formula.html>`_ for a full list of the elements that supports ``<inline-formula>``.
+See the :term:`NISO JATS Journal Archiving DTD` specifications for a full list of the elements that supports ``<inline-formula>``.
 
 Used to identify equations encoded inline with the text. In such cases, the encoding may be in the :term:`W3C MathML` encoding standard where the base element is ``<mml:math>``, or in other encoding standards such as ASCII, TeX or LaTeX.
 

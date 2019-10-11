@@ -19,7 +19,7 @@ Glossary
       Common abbreviation for a scholarly article. It refers to a :term:`document` of an academic nature which disseminates information and advances in the various areas of knowledge, and results from studies, research, experiments, and practices and theories. An article in the classic sense has various identifying elements such as title, author, affiliation, keywords, abstract, introduction, main body, conclusions regarding the research or study undertaken, bibliographic references, and appendices. Scholarly articles are generally published in academic journals under quality criteria established by the journal publisher. They can also be published as conference proceedings, lectures, seminars and technical meetings.
 
    Crossref
-      Crossref (formerly styled CrossRef) is an official Digital Object Identifier (DOI) Registration Agency of the International DOI Foundation. It is run by the Publishers International Linking Association Inc.   
+      Crossref (formerly styled CrossRef) is an official Digital Object Identifier (DOI) Registration Agency of the International DOI Foundation. It is run by the Publishers International Linking Association Inc.
 
    Creative Commons
       A US-based, not-for-profit organization with a global network of affiliates which develop cost-free, copyright licenses allowing for the legal sharing and reuse of creativity and knowledge. There are a variety of licenses, each one with differing conditions in relation to what is being licensed and its use. For more information, see `Creative Commons Corporation - About CC <https://creativecommons.org/faq/#what-is-creative-commons-and-what-do-you-do>`_.
@@ -51,10 +51,10 @@ Glossary
 
    Érudit Article
 
-      `Érudit Schema <http://retro.erudit.org/xsd/article/3.0.0/doc/>`_ used in the production chain and publication process of Érudit collection. 
+      `Érudit Schema <http://retro.erudit.org/xsd/article/3.0.0/doc/>`_ used in the production chain and publication process of Érudit collection.
 
    Érudit PS Style
-      Set of rules from the :term:`JATS Publishing` specifications with some adaptations.
+      Set of rules from the :term:`JATS Archiving and Interchange Tag Set` specifications with some adaptations.
 
 
    HTML
@@ -86,10 +86,10 @@ Glossary
 
 
    JATS
-      Acronym for Journal Article Tag Suite. For more information, see `Journal Article Tag Suite <http://jats.nlm.nih.gov/index.html>`_. 
+      Acronym for Journal Article Tag Suite. For more information, see `Journal Article Tag Suite <http://jats.nlm.nih.gov/index.html>`_.
 
 
-   JATS Archiving
+   JATS Archiving and Interchange Tag Set
       Model for journal articles based on :term:`JATS` optimized for the archives who wish to regularize and control their content, not to accept the sequence and arrangement presented to them by any particular publisher. For more information, see `JATS - Journal Archiving Tag Set <https://jats.nlm.nih.gov/archiving/>`_.
 
 
@@ -114,7 +114,7 @@ Glossary
 
 
    NISO JATS table model
-      Tabulated data encoding model, based on and designed to be easily converted to the *XHTML 1.1* table model. For more information, see `Element Table (NISO JATS table model) <https://jats.nlm.nih.gov/archiving/tag-library/1.2/n-by90.html>`_.
+      Tabulated data encoding model, based on and designed to be easily converted to the *XHTML 1.1* table model. For more information, see Element Table (NISO JATS table model) of the :term:`NISO JATS Journal Archiving DTD`.
 
 
    Open Source
@@ -130,7 +130,7 @@ Glossary
 
 
    PubMed Central
-      It is a repository of open access, full text scientific literature in the areas of biomedicine and related fields, available from the National Library of Medicine through the US National Institutes of Health. It also refers to the submission system for scientific articles based on standards set by the institution. For more information, see `PMC Overview <http://www.ncbi.nlm.nih.gov/pmc/about/intro/>`_.  
+      It is a repository of open access, full text scientific literature in the areas of biomedicine and related fields, available from the National Library of Medicine through the US National Institutes of Health. It also refers to the submission system for scientific articles based on standards set by the institution. For more information, see `PMC Overview <http://www.ncbi.nlm.nih.gov/pmc/about/intro/>`_.
 
 
    Python
@@ -146,19 +146,19 @@ Glossary
 
 
    Érudit Publishing Schema
-      A set o rules compounded by the specification: :term:`NISO JATS Journal Archiving DTD`, version `1.2 <https://jats.nlm.nih.gov/archiving/1.2/>`_. and the :term:`Érudit PS`.
+      A set of rules compounded by the specifications of :term:`NISO JATS Journal Archiving DTD` and the :term:`Érudit PS`.
 
 
    Packtools
       A :term:`Python` Library with tools to evaluate documents in XMLs format against rules specified by a Packtooks Catalog Plugin.
 
-   
+
    Packtools Catalog Plugin
-      A :term:`Python` plugin to be used compoundend with the :term:`Packtools` Library to extends the XML validations. 
+      A :term:`Python` plugin to be used compoundend with the :term:`Packtools` Library to extends the XML validations.
 
 
    Érudit Packtools Catalog
-      A :term:`Packtools Catalog Plugin` written to address Érudit requiriments while validating :term:`XML` documents. 
+      A :term:`Packtools Catalog Plugin` written to address Érudit requiriments while validating :term:`XML` documents.
 
 
    SGML
@@ -184,4 +184,5 @@ Glossary
    XML
       Acronym for eXtensible Markup Language. :term:`SGML` based set of rules developed by the :term:`W3C` (World Wide Web Consortium) for coding text documents so that they are readable by humans and machines. For more information, see `XML in Wikipedia <https://en.wikipedia.org/wiki/XML>`_.
 
-.. {"reviewed_on": "20180422", "by": "fabio.batalha@erudit.org"}
+
+.. {"reviewed_on": "2019-10-11", "by": "mathieu.pigeon@erudit.org"}

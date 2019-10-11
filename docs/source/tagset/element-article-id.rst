@@ -18,7 +18,7 @@ Unique identifier of the document in a database.
 
 The element must have the attribute ``@pub-id-type``, which is used to identify the type of the identifier.
 
-The attribute ``@pub-id-type`` allows the use of some values, see `JATS for reference <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/attribute/pub-id-type.html>`_.
+The attribute ``@pub-id-type`` allows the use of some values, see the definition of this attribute in the :term:`NISO JATS Journal Archiving DTD` for more information.
 
 As best practice :term:`Érudit PS` requests the use of at least one of the following values:
 
@@ -48,4 +48,4 @@ Example:
     :term:`Érudit PS` expects to receive the DOI numbers in its raw form. It means will not be accepted any content like http://dx.doi.org/10.7202/1031001ar, but only  10.7202/1031001ar
 
 
-
+.. {"reviewed_on": "2019-10-11", "by": "mathieu.pigeon@erudit.org"}

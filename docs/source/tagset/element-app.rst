@@ -17,7 +17,7 @@ Used to indicate an appendix to the document. The element :ref:`label` or :ref:`
 
 .. note::
 
-  According to JATS rules, one of :ref:`label` or :ref:`title` should be available in ``<app>``
+  According to :term:`NISO JATS Journal Archiving DTD` specifications, one of :ref:`label` or :ref:`title` should be available in ``<app>``
 
 Examples:
 
@@ -189,4 +189,4 @@ Example of an appendix with a video
     ...
 
 
-.. {"reviewed_on": "20180504", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20191011", "by": "mathieu.pigeon@erudit.org"}

@@ -20,7 +20,7 @@ reviewed souce, ex: book, article, thesis, etc.
 
 .. note::
 
-    Even the **related-object** element is allowed inside other elements according to JATS
+    Even the **related-object** element is allowed inside other elements according to :term:`NISO JATS Journal Archiving DTD`
     specifications. For Érudit Publishing Schema, this element will be recoginized only
     if available in the element **article-meta** only for the purpose discribed above.
 
@@ -81,4 +81,4 @@ Example:
     </article-meta>
     ...
 
-.. {"reviewed_on": "20190226", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "2019-10-11", "by": "mathieu.pigeon@erudit.org"}
