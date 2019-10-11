@@ -17,11 +17,11 @@
 | ``td``                  | Zero or more times |
 +-------------------------+--------------------+
 
-See the `JATS Specification <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/element/inline-graphic.html>`_ for a full list of the elements that supports ``<inline-graphic>``.
+See the :term:`NISO JATS Journal Archiving DTD` specifications for a full list of the elements that supports ``<inline-graphic>``.
 
 Used to identify items inserted as inline images anchored in a paragraph. It could b used to represent some special character as image or a small formula that fits in text line as image.
 
-.. note:: 
+.. note::
 
   For formulas written in mathml see the element :ref:`element-inline-formula`
 
@@ -35,4 +35,4 @@ Example:
   ...
 
 
-.. {"reviewed_on": "20180531", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "2019-10-11", "by": "mathieu.pigeon@erudit.org"}

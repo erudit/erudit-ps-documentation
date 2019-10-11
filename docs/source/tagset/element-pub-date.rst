@@ -20,7 +20,7 @@ The publication date of an article and it's issue uses the element ``<pub-date>`
 
 ``@date-type`` can be **collection** or **pub** where:
 
-    * **pub** represents the article publication date in it's print and/or electronic versions, 
+    * **pub** represents the article publication date in it's print and/or electronic versions,
 
         .. note::
             Only complete dates are accepted wich means the pub-date element must have the elements :ref:`element-day`, :ref:`element-month` and :ref:`element-year`. The element :ref:`element-season` it not accepted here.
@@ -31,11 +31,11 @@ The publication date of an article and it's issue uses the element ``<pub-date>`
 
             It is not necessary to have the attribute ``@publication-format`` when the attribute ``@date-type`` has the value **collection**. See the examples bellow.
 
-For Érudit PS will be mandatory to have at least one ``<pub-date>`` element inside :ref:`element-article-meta` with the publication date defined by the journal periodicity and expressed by the attribute ``@date-type=collection``. The article and journal publishing dates may differs for many reasons. 
+For Érudit PS will be mandatory to have at least one ``<pub-date>`` element inside :ref:`element-article-meta` with the publication date defined by the journal periodicity and expressed by the attribute ``@date-type=collection``. The article and journal publishing dates may differs for many reasons.
 
 .. note::
 
-    The use of the attribute ``@pub-type`` is deprecated in JATS 1.1, and consequently it is not accepted in :term:`Érudit PS`.
+    The use of the attribute ``@pub-type`` is deprecated in :term:`NISO JATS Journal Archiving DTD` specifications, and consequently it is not accepted in :term:`Érudit PS`.
 
 Examples:
 
@@ -43,7 +43,7 @@ Examples:
     * :ref:`pubdate-example-2`
 
 
-.. _pubdate-example-1: 
+.. _pubdate-example-1:
 
 Example of ``<pub-date>`` of a document in a print and electronic versions:
 ---------------------------------------------------------------------------
@@ -94,3 +94,5 @@ Example of ``<pub-date>`` of a document available only in electronic version:
     </article-meta>
     ...
 
+
+.. {"reviewed_on": "2019-10-11", "by": "mathieu.pigeon@erudit.org"}

@@ -18,7 +18,7 @@ Unique identifier of the issue the document belongs to.
 
 The element must have the attribute ``@pub-id-type``, which is used to identify the type of the identifier.
 
-The attribute ``@pub-id-type`` allows the use of some values, see `JATS for reference <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/attribute/pub-id-type.html>`_.
+The attribute ``@pub-id-type`` allows the use of some values, see :term:`NISO JATS Journal Archiving DTD` for these values.
 
 As best practice :term:`Érudit PS` requests the use of at least one of the following values:
 
@@ -42,4 +42,4 @@ Example:
     </article-meta>
     ...
 
-.. {"reviewed_on": "20190110", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20191011", "by": "mathieu.pigeon@erudit.org"}

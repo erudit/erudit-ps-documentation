@@ -3,13 +3,13 @@
 <!DOCTYPE>
 ==========
 
-The ``<!DOCTYPE>`` declaration indicates the :term:`DTD` to which the :term:`XML` is associated, i other words, it defines the rules for the structure of the :term:`document`. the :term:`Érudit Publishing Schema` is based on the JATS version `1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`_.
+The ``<!DOCTYPE>`` declaration indicates the :term:`DTD` to which the :term:`XML` is associated, in other words, it defines the rules for the structure of the :term:`document`. the :term:`Érudit Publishing Schema` is based on the :term:`NISO JATS Journal Archiving DTD`.
 
-Example *JATS version 1.1*:
+Example (this example may not be up to date) *JATS version 1.2*:
 
 .. code-block:: xml
 
-    <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "https://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+    <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN" "https://jats.nlm.nih.gov/archiving/1.2/JATS-archivearticle1.dtd">
 
 
 Floating Elements
@@ -20,12 +20,12 @@ Floating elements can appear anywhere in the :term:`document`, be it in :ref:`el
 
 Examples:
 
-  * :ref:`elemento-xrefflut-example-1`
-  * :ref:`elemento-xrefflut-example-2`
-  * :ref:`elemento-xrefflut-example-3`
+  * :ref:`element-xrefflut-example-1`
+  * :ref:`element-xrefflut-example-2`
+  * :ref:`element-xrefflut-example-3`
 
 
-.. _elemento-xrefflut-example-1:
+.. _element-xrefflut-example-1:
 
 Example of floating element ``<xref>`` in ``<article-meta>``:
 -------------------------------------------------------------
@@ -47,7 +47,7 @@ Example of floating element ``<xref>`` in ``<article-meta>``:
     ...
 
 
-.. _elemento-xrefflut-example-2:
+.. _element-xrefflut-example-2:
 
 Example of floating element ``<xref>`` in ``<p>``:
 --------------------------------------------------
@@ -62,7 +62,7 @@ Example of floating element ``<xref>`` in ``<p>``:
     ...
 
 
-.. _elemento-xrefflut-example-3:
+.. _element-xrefflut-example-3:
 
 Example of floaring element ``<xref>`` in elements of ``<back>``:
 -----------------------------------------------------------------
@@ -79,4 +79,4 @@ Example of floaring element ``<xref>`` in elements of ``<back>``:
 
 
 
-.. {"reviewed_on": "20180422", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "2019-10-11", "by": "mathieu.pigeon@erudit.org"}

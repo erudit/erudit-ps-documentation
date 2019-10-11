@@ -26,7 +26,7 @@ Mandatory attributes:
 
 The attribute ``@xmlns:mml="http://www.w3.org/1998/Math/MathML"`` is optional and should be used only when a formula is defined using :term:`MathML`.
 
-For the JATS ``@dtd-version`` it is necessary to define the version 1.1 of :term:`JATS` :term:`DTD`.
+For the JATS ``@dtd-version`` it is necessary to define it. To know which version is currently in use in :term:`Érudit PS`, see :term:`NISO JATS Journal Archiving DTD`.
 
 For the ``@article-type`` attribute the allowed values are:
 
@@ -34,7 +34,7 @@ For the ``@article-type`` attribute the allowed values are:
 | Value              | Description                                              |
 +====================+==========================================================+
 |                    | Commentary - A critique or explanatory article, written  |
-| article-commentary | to discuss, support or debate a previous article or other| 
+| article-commentary | to discuss, support or debate a previous article or other|
 |                    | publication. It can be an article, letter, editorial,    |
 |                    | etc. These publications can appear as a commentary,      |
 |                    | editorial comment, point of view, etc.                   |
@@ -51,7 +51,7 @@ For the ``@article-type`` attribute the allowed values are:
 | case-report        | issue.                                                   |
 |                    |                                                          |
 +--------------------+----------------------------------------------------------+
-|                    | Errata - Corrects errors in articles after they have been| 
+|                    | Errata - Corrects errors in articles after they have been|
 | correction         | published online and/or in print.                        |
 |                    |                                                          |
 +--------------------+----------------------------------------------------------+
@@ -86,7 +86,7 @@ For the ``@article-type`` attribute the allowed values are:
 +--------------------+----------------------------------------------------------+
 |                    | Original article - It covers research, clinical and      |
 | research-article   | surgical experiments and/or other original works.        |
-|                    |                                                          | 
+|                    |                                                          |
 +--------------------+----------------------------------------------------------+
 |                    | Retraction (of a scientific article) - A vehicle for     |
 | retraction         | correcting an academic work erroneously published, for   |
@@ -104,14 +104,14 @@ The text language in ``@xml:lang`` is described by the standard :term:`ISO 639-1
 The attribute ``@specific-use`` identifies the :term:`Érudit Publishing Schema` version.
 
 
-Example `JATS versão 1.1 <http://jats.nlm.nih.gov/publishing/1.1/>`_:
+Example `JATS version 1.2 <http://jats.nlm.nih.gov/archiving/1.2/>`_:
 
 .. code-block:: xml
 
-     <article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1" specific-use="eps-0.1" article-type="research-article" xml:lang="pt">
+     <article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.2" specific-use="eps-0.1" article-type="research-article" xml:lang="en">
 
            ...
 
     </article>
 
-.. {"reviewed_on": "20180430", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20191011", "by": "mathieu.pigeon@erudit.org"}

@@ -15,7 +15,7 @@ Madatory attributes:
 
 .. note::
 
-    See `JATS Specifications <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/element/attrib.html>`_ to see all the elements the ``<self-uri>`` could be inserted.
+    See :term:`NISO JATS Journal Archiving DTD` specifications to see all the elements the ``<self-uri>`` could be inserted.
 
 Specifies references to web resources on the Internet. The only restrictions on the use of this element are:
 
@@ -40,4 +40,4 @@ Example URL:
     </article>
     ...
 
-.. {"reviewed_on": "20181029", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "2019-10-11", "by": "mathieu.pigeon@erudit.org"}

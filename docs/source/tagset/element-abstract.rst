@@ -13,7 +13,7 @@ Mandatory attributes:
 | :ref:`element-article-meta`  | Zero or more times |
 +------------------------------+--------------------+
 
-Element that identifies the abstract of an article. It must contain the attribute ``@xml:lang`` and one of the elements :ref:`element-p` or :ref:`element-sec`. It is allowed to specify the ``@abstract-type``. The list of allowed values for ``@abstract-type`` follows the `JATS Specification <https://jats.nlm.nih.gov/publishing/tag-library/1.2d1/attribute/abstract-type.html>`_.
+Element that identifies the abstract of an article. It must contain the attribute ``@xml:lang`` and one of the elements :ref:`element-p` or :ref:`element-sec`. It is allowed to specify the ``@abstract-type``. The list of allowed values for ``@abstract-type`` follows the :term:`NISO JATS Journal Archiving DTD` specifications.
 
 List of allowed values for ``@abstract-type``:
 
@@ -136,4 +136,4 @@ Example:
     </article-meta>
     ...
 
-.. {"reviewed_on": "20180530", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "2019-10-11", "by": "mathieu.pigeon@erudit.org"}

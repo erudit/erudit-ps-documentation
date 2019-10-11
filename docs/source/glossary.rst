@@ -93,10 +93,6 @@ Glossary
       Model for journal articles based on :term:`JATS` optimized for the archives who wish to regularize and control their content, not to accept the sequence and arrangement presented to them by any particular publisher. For more information, see `JATS - Journal Archiving Tag Set <https://jats.nlm.nih.gov/archiving/>`_.
 
 
-   JATS Version 1.2
-      :term:`Érudit Publishing Schema` uses :term:`JATS Archiving and Interchange Tag Set` `version 1.2 <https://jats.nlm.nih.gov/archiving/1.2/>`_.
-
-
    Markup
       Term which defines the operation of tagging a text :term:`document` according to a previously defined standard. At Érudit, markup refers to the process of adding :term:`XML` elements to identify, qualify and group information in a journal article being incorporated into the database.
 
@@ -118,7 +114,7 @@ Glossary
 
 
    NISO JATS table model
-      Tabulated data encoding model, based on and designed to be easily converted to the *XHTML 1.1* table model. For more information, see `Element Table (NISO JATS table model) <https://jats.nlm.nih.gov/archiving/tag-library/1.2/n-by90.html>`_.
+      Tabulated data encoding model, based on and designed to be easily converted to the *XHTML 1.1* table model. For more information, see Element Table (NISO JATS table model) of the :term:`NISO JATS Journal Archiving DTD`.
 
 
    Open Source
@@ -150,7 +146,7 @@ Glossary
 
 
    Érudit Publishing Schema
-      A set o rules compounded by the specification: :term:`NISO JATS Journal Archiving DTD`, version `1.2 <https://jats.nlm.nih.gov/archiving/1.2/>`_. and the :term:`Érudit PS`.
+      A set of rules compounded by the specifications of :term:`NISO JATS Journal Archiving DTD` and the :term:`Érudit PS`.
 
 
    Packtools
@@ -188,4 +184,5 @@ Glossary
    XML
       Acronym for eXtensible Markup Language. :term:`SGML` based set of rules developed by the :term:`W3C` (World Wide Web Consortium) for coding text documents so that they are readable by humans and machines. For more information, see `XML in Wikipedia <https://en.wikipedia.org/wiki/XML>`_.
 
-.. {"reviewed_on": "20180422", "by": "fabio.batalha@erudit.org"}
+
+.. {"reviewed_on": "2019-10-11", "by": "mathieu.pigeon@erudit.org"}
