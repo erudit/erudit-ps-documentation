@@ -93,7 +93,7 @@ Glossary
       Model for journal articles based on :term:`JATS` optimized for the archives who wish to regularize and control their content, not to accept the sequence and arrangement presented to them by any particular publisher. For more information, see `JATS - Journal Archiving Tag Set <https://jats.nlm.nih.gov/archiving/>`_.
 
 
-   JATS Version
+   JATS Version 1.2
       :term:`Érudit Publishing Schema` uses :term:`JATS Archiving and Interchange Tag Set` `version 1.2 <https://jats.nlm.nih.gov/archiving/1.2/>`_.
 
 
