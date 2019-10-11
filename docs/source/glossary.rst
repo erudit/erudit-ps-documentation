@@ -19,7 +19,7 @@ Glossary
       Common abbreviation for a scholarly article. It refers to a :term:`document` of an academic nature which disseminates information and advances in the various areas of knowledge, and results from studies, research, experiments, and practices and theories. An article in the classic sense has various identifying elements such as title, author, affiliation, keywords, abstract, introduction, main body, conclusions regarding the research or study undertaken, bibliographic references, and appendices. Scholarly articles are generally published in academic journals under quality criteria established by the journal publisher. They can also be published as conference proceedings, lectures, seminars and technical meetings.
 
    Crossref
-      Crossref (formerly styled CrossRef) is an official Digital Object Identifier (DOI) Registration Agency of the International DOI Foundation. It is run by the Publishers International Linking Association Inc.   
+      Crossref (formerly styled CrossRef) is an official Digital Object Identifier (DOI) Registration Agency of the International DOI Foundation. It is run by the Publishers International Linking Association Inc.
 
    Creative Commons
       A US-based, not-for-profit organization with a global network of affiliates which develop cost-free, copyright licenses allowing for the legal sharing and reuse of creativity and knowledge. There are a variety of licenses, each one with differing conditions in relation to what is being licensed and its use. For more information, see `Creative Commons Corporation - About CC <https://creativecommons.org/faq/#what-is-creative-commons-and-what-do-you-do>`_.
@@ -51,10 +51,10 @@ Glossary
 
    Érudit Article
 
-      `Érudit Schema <http://retro.erudit.org/xsd/article/3.0.0/doc/>`_ used in the production chain and publication process of Érudit collection. 
+      `Érudit Schema <http://retro.erudit.org/xsd/article/3.0.0/doc/>`_ used in the production chain and publication process of Érudit collection.
 
    Érudit PS Style
-      Set of rules from the :term:`JATS Publishing` specifications with some adaptations.
+      Set of rules from the :term:`JATS Archiving` specifications with some adaptations.
 
 
    HTML
@@ -86,7 +86,7 @@ Glossary
 
 
    JATS
-      Acronym for Journal Article Tag Suite. For more information, see `Journal Article Tag Suite <http://jats.nlm.nih.gov/index.html>`_. 
+      Acronym for Journal Article Tag Suite. For more information, see `Journal Article Tag Suite <http://jats.nlm.nih.gov/index.html>`_.
 
 
    JATS Archiving
@@ -130,7 +130,7 @@ Glossary
 
 
    PubMed Central
-      It is a repository of open access, full text scientific literature in the areas of biomedicine and related fields, available from the National Library of Medicine through the US National Institutes of Health. It also refers to the submission system for scientific articles based on standards set by the institution. For more information, see `PMC Overview <http://www.ncbi.nlm.nih.gov/pmc/about/intro/>`_.  
+      It is a repository of open access, full text scientific literature in the areas of biomedicine and related fields, available from the National Library of Medicine through the US National Institutes of Health. It also refers to the submission system for scientific articles based on standards set by the institution. For more information, see `PMC Overview <http://www.ncbi.nlm.nih.gov/pmc/about/intro/>`_.
 
 
    Python
@@ -152,13 +152,13 @@ Glossary
    Packtools
       A :term:`Python` Library with tools to evaluate documents in XMLs format against rules specified by a Packtooks Catalog Plugin.
 
-   
+
    Packtools Catalog Plugin
-      A :term:`Python` plugin to be used compoundend with the :term:`Packtools` Library to extends the XML validations. 
+      A :term:`Python` plugin to be used compoundend with the :term:`Packtools` Library to extends the XML validations.
 
 
    Érudit Packtools Catalog
-      A :term:`Packtools Catalog Plugin` written to address Érudit requiriments while validating :term:`XML` documents. 
+      A :term:`Packtools Catalog Plugin` written to address Érudit requiriments while validating :term:`XML` documents.
 
 
    SGML
