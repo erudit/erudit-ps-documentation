@@ -42,13 +42,13 @@ Example:
       ...
       <ref-list>
         <ref id="R1">
+        <mixed-citation publication-type="journal">
+            Arrighi, L. et Boudreau, A. (2013). La construction discursive de l'identité francophone en Acadie ou «comment être francophone à partir des marges?». Minorités linguistiques et société/Linguistic Minorities and Society. 2. 8-92.
+        </mixed-citation>
           <element-citation publication-type="journal">
-            <styled-content specific-use="display">
-              Arrighi, L. et Boudreau, A. (2013). La construction discursive de l'identité francophone en Acadie ou «comment être francophone à partir des marges?». Minorités linguistiques et société/Linguistic Minorities and Society. 2. 8-92.
-            </styled-content>
             <pub-id pub-id-type="doi">
-              https://doi.org/10.7202/1016689ar
-            </pub-id>           
+                https://doi.org/10.7202/1016689ar
+            </pub-id>
           </element-citation>
         </ref>
       ...
@@ -57,4 +57,4 @@ Example:
    </back>
    ...
 
-.. {"reviewed_on": "20180530", "by": "fabio.batalha@erudit.org"}
+.. {"reviewed_on": "20190910", "by": "mathieu.pigeon@erudit.org"}
