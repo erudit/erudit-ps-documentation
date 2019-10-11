@@ -54,7 +54,7 @@ Glossary
       `Érudit Schema <http://retro.erudit.org/xsd/article/3.0.0/doc/>`_ used in the production chain and publication process of Érudit collection.
 
    Érudit PS Style
-      Set of rules from the :term:`JATS Archiving` specifications with some adaptations.
+      Set of rules from the :term:`JATS Archiving and Interchange Tag Set` specifications with some adaptations.
 
 
    HTML
@@ -89,7 +89,7 @@ Glossary
       Acronym for Journal Article Tag Suite. For more information, see `Journal Article Tag Suite <http://jats.nlm.nih.gov/index.html>`_.
 
 
-   JATS Archiving
+   JATS Archiving and Interchange Tag Set
       Model for journal articles based on :term:`JATS` optimized for the archives who wish to regularize and control their content, not to accept the sequence and arrangement presented to them by any particular publisher. For more information, see `JATS - Journal Archiving Tag Set <https://jats.nlm.nih.gov/archiving/>`_.
 
 
